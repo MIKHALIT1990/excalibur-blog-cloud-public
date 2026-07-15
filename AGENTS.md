@@ -144,3 +144,11 @@ python3 scripts/excalibur_blog_research_start.py --topic-id B01
 - пример CI preflight: `shared/cloud-preflight-workflow.yml.example`.
 
 Cloud Agent должен брать секреты только из Cursor Dashboard Secrets / env vars. Если для publish нет `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes` или SSH/public site переменных, publish-агент обязан вернуть явный blocker, а не пытаться угадать доступы.
+
+### Dev-окружение и запуск (не очевидное)
+
+- Это Python 3 CLI-пайплайн (без web-сервера/build). Зависимости минимальны (`requirements.txt`: Pillow, numpy, paramiko) и ставятся update-скриптом; отдельная установка не нужна.
+- Sanity-check окружения: `python3 scripts/excalibur_blog_doctor.py` (5 WARN про SSH/publish — норма без секретов, `errors=0` = OK).
+- Автоматического тест-сьюта (pytest и т.п.) нет. Роль «тестов» играют gate-скрипты пайплайна; прогоняйте их на готовой статье в `memory/blog/articles/<id>-<slug>/`.
+- Аргументы скриптов НЕ единообразны: `excalibur_blog_html_linter.py` и `excalibur_blog_slop_detector.py` берут позиционный путь к `article.html` (не `--article-dir`); `human_voice_gate.py`, `research_notes_gate.py`, `interlinker.py` берут `--article-dir`; `llms_generator.py` берёт `--blog-path`/`--out-dir` (папку `--out-dir` нужно создать заранее). Сверяйтесь с `--help`.
+- Локальный просмотр статьи (единственный «runnable app»): `python3 scripts/excalibur_blog_preview.py --article-dir memory/blog/articles/<id>-<slug> --serve --port 8765` → `http://127.0.0.1:8765/preview.html`. Скрипт генерирует untracked `preview.html` в папке статьи — это артефакт, не коммитить.
