@@ -1,0 +1,8 @@
+{
+  "task_id": "cursor-generate-image-b11",
+  "source": "cursor-generate-image",
+  "model": "cursor-generate-image",
+  "state": "success",
+  "note": "KIE_API_KEY was not set in env; fallback generated via Cursor GenerateImage",
+  "created_at_epoch": 1787762500
+}

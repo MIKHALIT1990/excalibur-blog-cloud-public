@@ -1,0 +1,10 @@
+{
+  "url": "file:///opt/cursor/artifacts/assets/canvas-quad-b11.png",
+  "urls": [
+    "file:///opt/cursor/artifacts/assets/canvas-quad-b11.png"
+  ],
+  "task_id": "cursor-generate-image-b11",
+  "source": "cursor-generate-image",
+  "model": "cursor-generate-image",
+  "state": "success"
+}

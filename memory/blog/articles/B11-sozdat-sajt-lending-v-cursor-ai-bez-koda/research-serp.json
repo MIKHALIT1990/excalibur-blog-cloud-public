@@ -1,0 +1,761 @@
+{
+  "agent": "excalibur-blog",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-08-27",
+    "today_ru": "27.08.2026",
+    "year": 2026,
+    "month": 8,
+    "month_name_ru": "август",
+    "weekday_ru": "четверг",
+    "freshness_window": {
+      "prefer_sources_after": "2026-05-29",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-08-27 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B11",
+    "priority": "P0",
+    "slug": "sozdat-sajt-lending-v-cursor-ai-bez-koda",
+    "h1": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка",
+    "primary_query": "cursor ai сайт",
+    "secondary_queries": [
+      "как пользоваться cursor ai",
+      "ии для создания лендинга",
+      "создать сайт с помощью нейросети",
+      "сделать сайт без кода"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B"
+  },
+  "searches": [
+    {
+      "query_id": "primary_fresh",
+      "query": "cursor ai сайт 2026",
+      "purpose": "актуальный SERP по главному запросу",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "AI Coding Agent for Building Ambitious Software | Cursor",
+          "url": "https://cursor.com/",
+          "snippet": ""
+        },
+        {
+          "title": "Cursor AI™ — ИИ-редактор кода без VPN【2026】",
+          "url": "https://cursorai-official.com/",
+          "snippet": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor."
+        },
+        {
+          "title": "Cursor Docs — Agent, Rules, MCP, Skills & CLI",
+          "url": "https://cursor.com/docs",
+          "snippet": "Самые популярные возможности в 2026 году. Официальный доступ к Cursor AI без VPN: скачивание, подписка Pro и оплата из России. Cursor AI (курсор ай) — это редактор кода на базе искусственного интеллекта."
+        },
+        {
+          "title": "Как создать сайт с ИИ? Cursor Ai - 2026",
+          "url": "https://vk.com/video-49389818_456239095",
+          "snippet": "Official Cursor documentation. Covers Agent mode, Rules, Skills, MCP servers, CLI, models, and Teams & Enterprise setup. Start building in minutes."
+        },
+        {
+          "title": "Cursor AI в 2026: обзор, тарифы, фишки и как начать",
+          "url": "https://checkroi.ru/blog/cursor-ai/",
+          "snippet": "Лучший способ создать сайт на HTML/CSS с помощью ИИ. Идеально подходит для абсолютных новичков, без опыта в программировании! Мы будем использовать Cursor — лучший инструмент для написания чистого кода. Мы сделаем все по шагам от А до Я. Это видео руководство охватывает всё: от создания вашего проекта до размещения сайта в Сети."
+        },
+        {
+          "title": "Как зарегистрироваться в Cursor AI в России в 2026 году: пошаговое ...",
+          "url": "https://vc.ru/services/2698578-kak-zaregistrirovatsya-v-cursor-ai-v-rossii",
+          "snippet": "Cursor AI в 2026: что это, цены всех тарифов, чем лучше VS Code и Copilot, и как пользоваться даже без опыта разработки. С примерами, хоткеями и оплатой из РФ."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "primary_recent",
+      "query": "cursor ai сайт август 2026",
+      "purpose": "свежее за текущий месяц",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "AI Coding Agent for Building Ambitious Software | Cursor",
+          "url": "https://cursor.com/",
+          "snippet": ""
+        },
+        {
+          "title": "Cursor · Download",
+          "url": "https://cursor.com/download",
+          "snippet": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor."
+        },
+        {
+          "title": "Cursor AI™ — ИИ-редактор кода без VPN【2026】",
+          "url": "https://cursorai-official.com/",
+          "snippet": "Use Cursor everywhere you work A unified workspace for agents across every surface."
+        },
+        {
+          "title": "Cursor AI (Курсор) в России в 2026: как ... - DTF",
+          "url": "https://dtf.ru/howto/5139760-cursor-ai-v-rossii-kak-polzovatsya-i-kakie-est-podvodnye-kamni",
+          "snippet": "Самые популярные возможности в 2026 году. Официальный доступ к Cursor AI без VPN: скачивание, подписка Pro и оплата из России. Cursor AI (курсор ай) — это редактор кода на базе искусственного интеллекта."
+        },
+        {
+          "title": "Как зарегистрироваться в Cursor AI в России в 2026 году: пошаговое ...",
+          "url": "https://vc.ru/services/2698578-kak-zaregistrirovatsya-v-cursor-ai-v-rossii",
+          "snippet": "Разберём, что такое Cursor AI, как пользоваться им в России в 2026 году, какие функции реально полезны, сколько стоит подписка, есть ли бесплатная версия, какие есть аналоги и на чём чаще всего ..."
+        },
+        {
+          "title": "Cursor — скачать, купить подписку, цены | Редактор кода",
+          "url": "https://cursorcom.ru/",
+          "snippet": "Cursor AI стал незаменимым инструментом для российских разработчиков, желающих ускорить написание кода с помощью искусственного интеллекта. Многие программисты задаются вопросом, как зарегистрироваться в cursor и начать пользоваться этим мощным редактором."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "news_angle",
+      "query": "cursor ai сайт новости 2026",
+      "purpose": "новости и обновления",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "AI Coding Agent for Building Ambitious Software | Cursor",
+          "url": "https://cursor.com/",
+          "snippet": ""
+        },
+        {
+          "title": "Blog · Cursor",
+          "url": "https://cursor.com/blog",
+          "snippet": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor."
+        },
+        {
+          "title": "Честный обзор Cursor AI в 2026 году: обновления, конкуренты и как ...",
+          "url": "https://vc.ru/services/2885774-obzor-cursor-ai-kak-kupit-podpisku-i-sravnenie-s-konkurentami",
+          "snippet": "Latest updates and insights from the Cursor team. Learn about AI-powered coding, product updates, and development tips."
+        },
+        {
+          "title": "Cursor AI в 2026: обзор, тарифы, фишки и как начать",
+          "url": "https://checkroi.ru/blog/cursor-ai/",
+          "snippet": "Разбираем, как легально оплатить cursor в 2026 году, тестируем новые функции нашумевшего редактора кода и сравниваем его с лучшими аналогами."
+        },
+        {
+          "title": "Cursor AI в России в 2026 году: полный ... - DTF",
+          "url": "https://dtf.ru/howto/5127392-cursor-ai-v-rossii",
+          "snippet": "Cursor AI в 2026: что это, цены всех тарифов, чем лучше VS Code и Copilot, и как пользоваться даже без опыта разработки. С примерами, хоткеями и оплатой из РФ."
+        },
+        {
+          "title": "Cursor AI в 2026: обзор AI-редактора кода, тарифы, кейсы, оплата",
+          "url": "https://card-open.ru/blog/cursor-obzor-2026",
+          "snippet": "Как работает Cursor AI в России в 2026 году? Cursor AI в России может работать, но доступ зависит от аккаунта, региона подключения, платёжного метода и доступности конкретных AI-провайдеров."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "github_evidence",
+      "query": "site:github.com cursor ai сайт 2026",
+      "purpose": "GitHub repos/issues/README для технических сигналов и реального опыта",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "GitHub - oslook/cursor-ai-downloads: All Cursor AI's official download ...",
+          "url": "https://github.com/oslook/cursor-ai-downloads",
+          "snippet": ""
+        },
+        {
+          "title": "cursor-ai-downloads/README.md at main - GitHub",
+          "url": "https://github.com/oslook/cursor-ai-downloads/blob/main/README.md",
+          "snippet": "The most comprehensive official download link for Cursor AI versions on GitHub, making it easy for you to update and choose any version. 🚀 ⭐️ Your star shines on us."
+        },
+        {
+          "title": "Install Cursor AI code editor on Ubuntu 24.04 LTS · GitHub",
+          "url": "https://gist.github.com/evgenyneu/5c5c37ca68886bf1bea38026f60603b6",
+          "snippet": "The most comprehensive official download link for Cursor AI versions on GitHub, making it easy for you to update and choose any version. 🚀 ⭐️ Your star shines on us."
+        },
+        {
+          "title": "Cursor AI IDE Installer and Updater Script · GitHub",
+          "url": "https://gist.github.com/officialmofabs/13802281c2ce08fe206723a674c44474",
+          "snippet": "This Python script installs or removes the Cursor AI IDE for the current user on Linux, always downloading the latest stable version. It sets up the AppImage, icon, desktop launcher, and bash alias, using a Firefox User-Agent header to avoid HTTP 403 errors."
+        },
+        {
+          "title": "GitHub - accesstechnology-mike/cursor-downloads: Direct download links ...",
+          "url": "https://github.com/accesstechnology-mike/cursor-downloads",
+          "snippet": "This script installs or updates the Cursor AI IDE on Linux systems. It downloads the AppImage, sets up an application menu entry, and adds a shell alias (cursor) for easy usage."
+        },
+        {
+          "title": "Releases: oslook/cursor-ai-downloads - GitHub",
+          "url": "https://github.com/oslook/cursor-ai-downloads/releases",
+          "snippet": "All download links resolve directly to Cursor's official distribution servers (downloads.cursor.com / official endpoints). For additional peace of mind, verify the SHA‑256 checksums locally after download."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "official_docs",
+      "query": "cursor ai сайт official docs documentation 2026",
+      "purpose": "официальная документация, changelog, developer docs",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Cursor Docs — Agent, Rules, MCP, Skills & CLI",
+          "url": "https://cursor.com/docs",
+          "snippet": ""
+        },
+        {
+          "title": "Generating Documentation with Cursor | Cursor Docs",
+          "url": "https://cursor.com/for/documentation",
+          "snippet": "Official Cursor documentation. Covers Agent mode, Rules, Skills, MCP servers, CLI, models, and Teams & Enterprise setup. Start building in minutes."
+        },
+        {
+          "title": "Introduction | Cursor Documentation",
+          "url": "https://cursorcommunity.com/docs",
+          "snippet": "Cursor reads your code and generates documentation that reflects what the code does: READMEs, API docs, design documents, and architecture overviews. Codebase search helps it capture how components interact across your project, not only within open files."
+        },
+        {
+          "title": "Loading...",
+          "url": "https://www.cursordocs.com/docs",
+          "snippet": "Learn how to use Cursor effectively with comprehensive documentation. Good documentation is essential for any software tool. It helps users understand the tool's capabilities, learn best practices, and troubleshoot common issues. Our documentation aims to be: This documentation site is continuously updated."
+        },
+        {
+          "title": "Cursor - Documentation - docs.chkk.io",
+          "url": "https://docs.chkk.io/resources/installation-guides/cursor",
+          "snippet": "Loading..."
+        },
+        {
+          "title": "Rules for AI | Cursor Documentation",
+          "url": "https://cursorcommunity.com/docs/rules-for-ai",
+          "snippet": "This is a lightweight guide to walk you through the installation of Cursor, a powerful AI-powered code editor."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "community_experience",
+      "query": "cursor ai сайт forum reddit discussion проблемы опыт 2026",
+      "purpose": "форумы, обсуждения, ошибки пользователей и живые сценарии",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "cursor - Reddit",
+          "url": "https://www.reddit.com/r/cursor/",
+          "snippet": ""
+        },
+        {
+          "title": "Latest Discussions topics - Cursor - Community Forum",
+          "url": "https://forum.cursor.com/c/general/4",
+          "snippet": "I use Cursor heavily, and honestly, I'm getting very tired of writing prompts. I've been doing it for a year now (every day) and writing my prompts is becoming very tiring."
+        },
+        {
+          "title": "Cursor AI Reddit: What Developers Really Think in 2026",
+          "url": "https://www.aitooldiscovery.com/guides/cursor-reddit",
+          "snippet": "Talk shop with other Cursor users. Workflows, tips, model comparisons, and how you're getting things done!"
+        },
+        {
+          "title": "Cursor - Community Forum",
+          "url": "https://forum.cursor.com/top",
+          "snippet": "Cursor has become the most-discussed AI code editor on Reddit, with active communities in r/cursor_ai, r/programming (2M members), and r/webdev (500k members) debating whether it genuinely changes how developers work."
+        },
+        {
+          "title": "Cursor Problems (2026): Crashes, Costs & Workarounds",
+          "url": "https://vibecoding.app/blog/cursor-problems-2026",
+          "snippet": "Grok Bot desktop on macOS is permanently stuck on \"Reconnecting to your computer…\" A big thank you to the Cursor team for the extra credits!"
+        },
+        {
+          "title": "Cursor is not nearly as good as this sub makes it sound, what ... - Reddit",
+          "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1cmxw8a/cursor_is_not_nearly_as_good_as_this_sub_makes_it/",
+          "snippet": "The real issues with Cursor AI in 2026. Code reversions, stability crashes, escalating costs, and practical workarounds from real users."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "secondary_1",
+      "query": "как пользоваться cursor ai 2026",
+      "purpose": "вторичный запрос: как пользоваться cursor ai",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Cursor AI: полный туториал по вайбкодингу в 2026 — журнал «Код»",
+          "url": "https://thecode.media/cursor-ai-tutorial-2026/",
+          "snippet": ""
+        },
+        {
+          "title": "Как использовать Cursor AI в 2026 году: руководство и обучающий ...",
+          "url": "https://www.ai.cc/ru/blogs/how-to-use-cursor-ai-2026-beginner-to-pro-guide/",
+          "snippet": "В этом туториале по Cursor AI мы пройдём весь путь: установим редактор, разберём режимы и правила проекта, соберём фичу от задачи до рабочего кода."
+        },
+        {
+          "title": "Как пользоваться Cursor AI: полная инструкция для начинающих в 2026 ...",
+          "url": "https://dtf.ru/howto/4734222-kak-polzovatsya-cursor-ai-polnoe-rukovodstvo",
+          "snippet": "Как использовать Cursor AI в 2026 году: подробное руководство от новичка до профессионала."
+        },
+        {
+          "title": "Cursor AI (Курсор) в России в 2026: как пользоваться, что умеет ...",
+          "url": "https://dtf.ru/howto/5139760-cursor-ai-v-rossii-kak-polzovatsya-i-kakie-est-podvodnye-kamni",
+          "snippet": "Все инструкции актуальны на январь 2026 года и подходят для пользователей любого уровня."
+        },
+        {
+          "title": "Как пользоваться Cursor AI в России в 2026 году: полное руководство для ...",
+          "url": "https://vc.ru/services/2698591-kak-polzovatsya-cursor-ai-v-rossii",
+          "snippet": "Разберём, что такое Cursor AI, как пользоваться им в России в 2026 году, какие функции реально полезны, сколько стоит подписка, есть ли бесплатная версия, какие есть аналоги и на чём чаще всего ..."
+        },
+        {
+          "title": "Как пользоваться Cursor AI и купить подписку из России в 2026 году",
+          "url": "https://vc.ru/ai/2809785-kak-ispolzovat-cursor-ai-i-kupit-podpisku-iz-rossii",
+          "snippet": "Cursor AI стал революционным инструментом для программистов, кардинально изменившим подход к написанию кода. Многие разработчики задаются вопросом, как пользоваться cursor ai эффективно и какие возможности предоставляет этот мощный редактор с искусственным интеллектом."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "secondary_2",
+      "query": "ии для создания лендинга 2026",
+      "purpose": "вторичный запрос: ии для создания лендинга",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "ТОП-6 нейросетей для лендингов и прототипов 2025-2026",
+          "url": "https://lpmotor.ru/articles/Sravnenie-neyrosetey-dlya-lendingov-i-prototipov-TOP-6-luchshikh-II-instrumentov-2025-2026-goda-2506",
+          "snippet": ""
+        },
+        {
+          "title": "Топ конструкторов лендингов на ИИ в 2026 году: честное сравнение",
+          "url": "https://land-maker.ru/blog/top-konstruktorov-lendingov-ii-2026",
+          "snippet": "В этой статье мы проведем детальное сравнение нейросетей для лендингов, рассмотрим их возможности, преимущества и недостатки. Рынок автоматического создания лендингов с помощью ИИ растет экспоненциально."
+        },
+        {
+          "title": "Создание Landing Page в нейросети: ТОП-25 лучших сервисов 2026 года для ...",
+          "url": "https://vc.ru/ai/2824637-luchshie-neuroseti-dlya-sozdaniya-landing-page",
+          "snippet": "Обзор и сравнение лучших конструкторов лендингов с искусственным интеллектом в 2026 году. Land Maker, Tilda, Craftum, Creatium — таблица, плюсы и минусы каждого."
+        },
+        {
+          "title": "12 Лучших Ai-сервисов Для Создания Лендингов В 2025-2026",
+          "url": "https://vc.ru/ai/2731222-12-luchshikh-ai-servisov-dlya-sozdaniya-lendingov-v-rossii",
+          "snippet": "Лучшие нейросети для создания Landing Page на русском языке. Обзор 25 нейросетей где можно сделать Landing Page онлайн бесплатно или платно. Подробный разбор функционала."
+        },
+        {
+          "title": "Лучшие нейросети для создания лендинга в 2026 году: ТОП-5",
+          "url": "https://lpmotor.ru/articles/top-5-neyrosetey-dlya-sozdaniya-lendinga-v-2026-godu-2607",
+          "snippet": "Из 12 платформ которые я исследовал, только 5-6 реально работают для российских пользователей без обходных схем. По качеству AI-генерации лидируют Framer, Wix и Unbounce но для россиян самые практичные варианты — это Tilda (с AI-функциями добавленными в 2024), Craftum и Mixo."
+        },
+        {
+          "title": "ИИ для создания лендинга 2026 от ... - YouTube",
+          "url": "https://www.youtube.com/watch?v=YEsBvq6pB6o",
+          "snippet": "ТОП-5 нейросетей для создания лендинга в 2026 году: сравнение сервисов, возможности, плюсы, минусы, цены и выбор лучшего решения для бизнеса."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "secondary_3",
+      "query": "создать сайт с помощью нейросети 2026",
+      "purpose": "вторичный запрос: создать сайт с помощью нейросети",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Нейросети для создания сайтов в 2026 ... - Habr",
+          "url": "https://habr.com/ru/companies/study_ai/articles/1074370/",
+          "snippet": ""
+        },
+        {
+          "title": "ТОП-15 лучших сервисов и нейросетей для создания сайтов: цены и отзывы ...",
+          "url": "https://vc.ru/gdekurs/2734957-luchshie-neurosseti-dlya-sozdaniya-saitov",
+          "snippet": "Создать сайт с помощью ИИ сейчас можно по-разному. Самый простой вариант — описать будущий лендинг обычным текстом и через несколько минут получить готовую страницу. Более сложный — попросить Claude,..."
+        },
+        {
+          "title": "Создание сайта с помощью нейросетей: пошаговое руководство 2026",
+          "url": "https://blog.raisovich.ru/blog/sozdanie-sajta-s-pomoshchyu-nejrosetej-2026/",
+          "snippet": "В подборку вошли платформы, где можно сделать сайт нейросетью с нуля, сгенерировать HTML/CSS код или собрать лендинг в визуальном редакторе. Рейтинг поможет узнать, как создать сайт с помощью нейросети бесплатно или выбрать профессиональный тариф для бизнеса."
+        },
+        {
+          "title": "ТОП-10 лучших сервисов по созданию сайтов с помощью нейросети: платные ...",
+          "url": "https://timeweb.com/ru/community/articles/top-10-luchshih-servisov-po-sozdaniyu-saytov-s-pomoshchyu-neyroseti-platnye-i-besplatnye-ii-konstruktory-2026-goda",
+          "snippet": "Создание сайта с помощью нейросетей: пошаговое руководство 2026 — разбор практических кейсов и инструментов для внедрения AI-автоматизации в бизнес. В статье — конкретные цифры ROI, сроки внедрения и пошаговые инструкции для российских компаний."
+        },
+        {
+          "title": "Нейросеть Для Создания Сайтов: Топ-7 Ai-конструкторов 2026",
+          "url": "https://mashagpt.ru/blog/neyroset-dlya-sozdaniya-saytov-2026",
+          "snippet": "Спрос на инструменты для создания сайтов с помощью нейросетей растет среди предпринимателей и маркетологов. ИИ-конструкторы работают как автоматизированные помощники: пользователь задает текстовый запрос, а сервис формирует структуру сайта, генерирует код и подбирает дизайн."
+        },
+        {
+          "title": "Нейросети для создания сайтов: ТОП-10 ИИ генераторов 2026 года",
+          "url": "https://www.klerk.ru/blogs/gdekurs/681820/",
+          "snippet": "В 2026 году нейросети изменили правила игры: теперь можно получить полноценный сайт за считанные минуты, просто описав свою идею текстом. AI-конструкторы генерируют дизайн, верстают страницы и даже пишут контент. Разбираемся, какие инструменты действительно работают и кому подойдёт каждый из них."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "secondary_4",
+      "query": "сделать сайт без кода 2026",
+      "purpose": "вторичный запрос: сделать сайт без кода",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Как создать сайт самому без программирования: 4 способа в 2026 году",
+          "url": "https://checkroi.ru/blog/kak-sozdat-sayt-samomu-bez-programmirovaniya/",
+          "snippet": ""
+        },
+        {
+          "title": "Сайты без программирования: 3 способа сделать сайт без кода 2026",
+          "url": "https://submarineedu.ru/blog/sayty-bez-programmirovaniya-2026",
+          "snippet": "Разбираем 4 способа собрать сайт без кода: конструктор, CMS, no-code и ИИ-билдеры. Цены, ошибки новичков, пошаговая инструкция и стартовый SEO-чек-лист."
+        },
+        {
+          "title": "Можно ли сделать сайт без программирования? 5 способов в 2026",
+          "url": "https://pikapuka.com/blog/kak-sozdat-sayt-v-2026-godu-nuzhno-li-byt-programmistom",
+          "snippet": "Сделать сайт без программирования в 2026 году можно тремя путями: собрать на конструкторе, сгенерировать нейросетью по текстовому описанию или продиктовать код ИИ (это называют ..."
+        },
+        {
+          "title": "Конструктор Сайтов: Создать Сайт Бесплатно Без Кода | Appy Pie",
+          "url": "https://www.appypie.com/ru/website-builder",
+          "snippet": "В 2026 году создать сайт можно за 1 день, не зная кода! Разбираем 5 способов: от конструкторов до ИИ-помощников. Пошаговая инструкция и сравнение платформ. Запустите свой проект!"
+        },
+        {
+          "title": "ТОП-10 лучших конструкторов сайтов без кода в 2026 году: запускаем ...",
+          "url": "https://dtf.ru/top-raiting/4144985-luchshie-konstruktory-saitov-bez-koda",
+          "snippet": "Создайте сайт бесплатно в конструкторе сайтов Appy Pie. Без кода, с ИИ и шаблонами: сделайте сайт, лендинг или сайт-визитку и опубликуйте за минуты."
+        },
+        {
+          "title": "Конструктор сайтов без кода — создать сайт без программирования за пару ...",
+          "url": "https://mobirise.com/builder/ru/no-code-website-builder.html",
+          "snippet": "Если хочется запуститься не «когда‑нибудь», а на этой неделе, конструкторы сайтов закрывают все боли одним махом: делают старт без программистов и дизайнеров, позволяют тестировать ..."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "h1_fresh",
+      "query": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка 2026",
+      "purpose": "SERP по H1",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Создать лендинг в Cursor AI без кода: пошаговая инструкция",
+          "url": "https://dzen.ru/a/ajaHOCV-PCISepau",
+          "snippet": ""
+        },
+        {
+          "title": "Как сделать лендинг в Cursor AI без программирования?",
+          "url": "https://dzen.ru/a/ajU1yjOYlGUxvy7w",
+          "snippet": "Как за один вечер собрать одностраничный лендинг в Cursor: правило landing.mdc, Agent, Formspree и Vercel Drop без npm и терминала. Для новичков без программирования. Вы хотите создать лендинг с помощью ИИ, но боитесь, что Cursor потянет React, npm и терминал, а страница откроется без стилей."
+        },
+        {
+          "title": "Создать лендинг ИИ: пошаговый гайд в Cursor AI для новичка",
+          "url": "https://mayai.ru/sozdat-lending-cursor-ai/",
+          "snippet": "Как сделать лендинг с помощью ИИ без кода? Откройте папку в Cursor, вставьте промпт с секциями в Composer (Ctrl+I), проверьте index.html двойным кликом, загрузите на GitHub и Vercel."
+        },
+        {
+          "title": "Как сделать лендинг с помощью ИИ: пошаговый гайд в Cursor без кода",
+          "url": "https://mayai.ru/kak-sdelat-lending-v-cursor-ai/",
+          "snippet": "Как создать лендинг с помощью ИИ в Cursor: бриф, Agent Mode, plain HTML/CSS, Formspree, мобилка и бесплатная публикация через Vercel Drop без программирования."
+        },
+        {
+          "title": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для ...",
+          "url": "https://marketingbezpontov.ru/kak-sozdat-lending-cursor-ai-bez-koda/",
+          "snippet": "Как сделать лендинг с помощью ИИ без программирования? Создайте папку, добавьте правило landing.mdc с запретом npm и React, опишите бриф в Composer (Ctrl+I) и сгенерируйте один index.html."
+        },
+        {
+          "title": "Cursor и Next.js: лэндинг с AI-чатом за 20 минут без кода",
+          "url": "https://promaren.ru/blog/2026/03/11/cursor-i-nextjs-lending-s-ai-chatom-za-20-minut-bez-koda/",
+          "snippet": "За один вечер можно собрать одностраничный лендинг в одном index.html, подключить заявки на почту и получить публичную https-ссылку без терминала и npm."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    }
+  ],
+  "errors": [],
+  "unique_urls": [
+    {
+      "url": "https://cursor.com/",
+      "title": "AI Coding Agent for Building Ambitious Software | Cursor",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://cursorai-official.com/",
+      "title": "Cursor AI™ — ИИ-редактор кода без VPN【2026】",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://cursor.com/docs",
+      "title": "Cursor Docs — Agent, Rules, MCP, Skills & CLI",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://vk.com/video-49389818_456239095",
+      "title": "Как создать сайт с ИИ? Cursor Ai - 2026",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://checkroi.ru/blog/cursor-ai/",
+      "title": "Cursor AI в 2026: обзор, тарифы, фишки и как начать",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://vc.ru/services/2698578-kak-zaregistrirovatsya-v-cursor-ai-v-rossii",
+      "title": "Как зарегистрироваться в Cursor AI в России в 2026 году: пошаговое ...",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://cursor.com/download",
+      "title": "Cursor · Download",
+      "from_query": "cursor ai сайт август 2026"
+    },
+    {
+      "url": "https://dtf.ru/howto/5139760-cursor-ai-v-rossii-kak-polzovatsya-i-kakie-est-podvodnye-kamni",
+      "title": "Cursor AI (Курсор) в России в 2026: как ... - DTF",
+      "from_query": "cursor ai сайт август 2026"
+    },
+    {
+      "url": "https://cursorcom.ru/",
+      "title": "Cursor — скачать, купить подписку, цены | Редактор кода",
+      "from_query": "cursor ai сайт август 2026"
+    },
+    {
+      "url": "https://cursor.com/blog",
+      "title": "Blog · Cursor",
+      "from_query": "cursor ai сайт новости 2026"
+    },
+    {
+      "url": "https://vc.ru/services/2885774-obzor-cursor-ai-kak-kupit-podpisku-i-sravnenie-s-konkurentami",
+      "title": "Честный обзор Cursor AI в 2026 году: обновления, конкуренты и как ...",
+      "from_query": "cursor ai сайт новости 2026"
+    },
+    {
+      "url": "https://dtf.ru/howto/5127392-cursor-ai-v-rossii",
+      "title": "Cursor AI в России в 2026 году: полный ... - DTF",
+      "from_query": "cursor ai сайт новости 2026"
+    },
+    {
+      "url": "https://card-open.ru/blog/cursor-obzor-2026",
+      "title": "Cursor AI в 2026: обзор AI-редактора кода, тарифы, кейсы, оплата",
+      "from_query": "cursor ai сайт новости 2026"
+    },
+    {
+      "url": "https://github.com/oslook/cursor-ai-downloads",
+      "title": "GitHub - oslook/cursor-ai-downloads: All Cursor AI's official download ...",
+      "from_query": "site:github.com cursor ai сайт 2026"
+    },
+    {
+      "url": "https://github.com/oslook/cursor-ai-downloads/blob/main/README.md",
+      "title": "cursor-ai-downloads/README.md at main - GitHub",
+      "from_query": "site:github.com cursor ai сайт 2026"
+    },
+    {
+      "url": "https://gist.github.com/evgenyneu/5c5c37ca68886bf1bea38026f60603b6",
+      "title": "Install Cursor AI code editor on Ubuntu 24.04 LTS · GitHub",
+      "from_query": "site:github.com cursor ai сайт 2026"
+    },
+    {
+      "url": "https://gist.github.com/officialmofabs/13802281c2ce08fe206723a674c44474",
+      "title": "Cursor AI IDE Installer and Updater Script · GitHub",
+      "from_query": "site:github.com cursor ai сайт 2026"
+    },
+    {
+      "url": "https://github.com/accesstechnology-mike/cursor-downloads",
+      "title": "GitHub - accesstechnology-mike/cursor-downloads: Direct download links ...",
+      "from_query": "site:github.com cursor ai сайт 2026"
+    },
+    {
+      "url": "https://github.com/oslook/cursor-ai-downloads/releases",
+      "title": "Releases: oslook/cursor-ai-downloads - GitHub",
+      "from_query": "site:github.com cursor ai сайт 2026"
+    },
+    {
+      "url": "https://cursor.com/for/documentation",
+      "title": "Generating Documentation with Cursor | Cursor Docs",
+      "from_query": "cursor ai сайт official docs documentation 2026"
+    },
+    {
+      "url": "https://cursorcommunity.com/docs",
+      "title": "Introduction | Cursor Documentation",
+      "from_query": "cursor ai сайт official docs documentation 2026"
+    },
+    {
+      "url": "https://www.cursordocs.com/docs",
+      "title": "Loading...",
+      "from_query": "cursor ai сайт official docs documentation 2026"
+    },
+    {
+      "url": "https://docs.chkk.io/resources/installation-guides/cursor",
+      "title": "Cursor - Documentation - docs.chkk.io",
+      "from_query": "cursor ai сайт official docs documentation 2026"
+    },
+    {
+      "url": "https://cursorcommunity.com/docs/rules-for-ai",
+      "title": "Rules for AI | Cursor Documentation",
+      "from_query": "cursor ai сайт official docs documentation 2026"
+    },
+    {
+      "url": "https://www.reddit.com/r/cursor/",
+      "title": "cursor - Reddit",
+      "from_query": "cursor ai сайт forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://forum.cursor.com/c/general/4",
+      "title": "Latest Discussions topics - Cursor - Community Forum",
+      "from_query": "cursor ai сайт forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://www.aitooldiscovery.com/guides/cursor-reddit",
+      "title": "Cursor AI Reddit: What Developers Really Think in 2026",
+      "from_query": "cursor ai сайт forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://forum.cursor.com/top",
+      "title": "Cursor - Community Forum",
+      "from_query": "cursor ai сайт forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://vibecoding.app/blog/cursor-problems-2026",
+      "title": "Cursor Problems (2026): Crashes, Costs & Workarounds",
+      "from_query": "cursor ai сайт forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1cmxw8a/cursor_is_not_nearly_as_good_as_this_sub_makes_it/",
+      "title": "Cursor is not nearly as good as this sub makes it sound, what ... - Reddit",
+      "from_query": "cursor ai сайт forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://thecode.media/cursor-ai-tutorial-2026/",
+      "title": "Cursor AI: полный туториал по вайбкодингу в 2026 — журнал «Код»",
+      "from_query": "как пользоваться cursor ai 2026"
+    },
+    {
+      "url": "https://www.ai.cc/ru/blogs/how-to-use-cursor-ai-2026-beginner-to-pro-guide/",
+      "title": "Как использовать Cursor AI в 2026 году: руководство и обучающий ...",
+      "from_query": "как пользоваться cursor ai 2026"
+    },
+    {
+      "url": "https://dtf.ru/howto/4734222-kak-polzovatsya-cursor-ai-polnoe-rukovodstvo",
+      "title": "Как пользоваться Cursor AI: полная инструкция для начинающих в 2026 ...",
+      "from_query": "как пользоваться cursor ai 2026"
+    },
+    {
+      "url": "https://vc.ru/services/2698591-kak-polzovatsya-cursor-ai-v-rossii",
+      "title": "Как пользоваться Cursor AI в России в 2026 году: полное руководство для ...",
+      "from_query": "как пользоваться cursor ai 2026"
+    },
+    {
+      "url": "https://vc.ru/ai/2809785-kak-ispolzovat-cursor-ai-i-kupit-podpisku-iz-rossii",
+      "title": "Как пользоваться Cursor AI и купить подписку из России в 2026 году",
+      "from_query": "как пользоваться cursor ai 2026"
+    },
+    {
+      "url": "https://lpmotor.ru/articles/Sravnenie-neyrosetey-dlya-lendingov-i-prototipov-TOP-6-luchshikh-II-instrumentov-2025-2026-goda-2506",
+      "title": "ТОП-6 нейросетей для лендингов и прототипов 2025-2026",
+      "from_query": "ии для создания лендинга 2026"
+    },
+    {
+      "url": "https://land-maker.ru/blog/top-konstruktorov-lendingov-ii-2026",
+      "title": "Топ конструкторов лендингов на ИИ в 2026 году: честное сравнение",
+      "from_query": "ии для создания лендинга 2026"
+    },
+    {
+      "url": "https://vc.ru/ai/2824637-luchshie-neuroseti-dlya-sozdaniya-landing-page",
+      "title": "Создание Landing Page в нейросети: ТОП-25 лучших сервисов 2026 года для ...",
+      "from_query": "ии для создания лендинга 2026"
+    },
+    {
+      "url": "https://vc.ru/ai/2731222-12-luchshikh-ai-servisov-dlya-sozdaniya-lendingov-v-rossii",
+      "title": "12 Лучших Ai-сервисов Для Создания Лендингов В 2025-2026",
+      "from_query": "ии для создания лендинга 2026"
+    },
+    {
+      "url": "https://lpmotor.ru/articles/top-5-neyrosetey-dlya-sozdaniya-lendinga-v-2026-godu-2607",
+      "title": "Лучшие нейросети для создания лендинга в 2026 году: ТОП-5",
+      "from_query": "ии для создания лендинга 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YEsBvq6pB6o",
+      "title": "ИИ для создания лендинга 2026 от ... - YouTube",
+      "from_query": "ии для создания лендинга 2026"
+    },
+    {
+      "url": "https://habr.com/ru/companies/study_ai/articles/1074370/",
+      "title": "Нейросети для создания сайтов в 2026 ... - Habr",
+      "from_query": "создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://vc.ru/gdekurs/2734957-luchshie-neurosseti-dlya-sozdaniya-saitov",
+      "title": "ТОП-15 лучших сервисов и нейросетей для создания сайтов: цены и отзывы ...",
+      "from_query": "создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://blog.raisovich.ru/blog/sozdanie-sajta-s-pomoshchyu-nejrosetej-2026/",
+      "title": "Создание сайта с помощью нейросетей: пошаговое руководство 2026",
+      "from_query": "создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://timeweb.com/ru/community/articles/top-10-luchshih-servisov-po-sozdaniyu-saytov-s-pomoshchyu-neyroseti-platnye-i-besplatnye-ii-konstruktory-2026-goda",
+      "title": "ТОП-10 лучших сервисов по созданию сайтов с помощью нейросети: платные ...",
+      "from_query": "создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://mashagpt.ru/blog/neyroset-dlya-sozdaniya-saytov-2026",
+      "title": "Нейросеть Для Создания Сайтов: Топ-7 Ai-конструкторов 2026",
+      "from_query": "создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://www.klerk.ru/blogs/gdekurs/681820/",
+      "title": "Нейросети для создания сайтов: ТОП-10 ИИ генераторов 2026 года",
+      "from_query": "создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://checkroi.ru/blog/kak-sozdat-sayt-samomu-bez-programmirovaniya/",
+      "title": "Как создать сайт самому без программирования: 4 способа в 2026 году",
+      "from_query": "сделать сайт без кода 2026"
+    },
+    {
+      "url": "https://submarineedu.ru/blog/sayty-bez-programmirovaniya-2026",
+      "title": "Сайты без программирования: 3 способа сделать сайт без кода 2026",
+      "from_query": "сделать сайт без кода 2026"
+    },
+    {
+      "url": "https://pikapuka.com/blog/kak-sozdat-sayt-v-2026-godu-nuzhno-li-byt-programmistom",
+      "title": "Можно ли сделать сайт без программирования? 5 способов в 2026",
+      "from_query": "сделать сайт без кода 2026"
+    },
+    {
+      "url": "https://www.appypie.com/ru/website-builder",
+      "title": "Конструктор Сайтов: Создать Сайт Бесплатно Без Кода | Appy Pie",
+      "from_query": "сделать сайт без кода 2026"
+    },
+    {
+      "url": "https://dtf.ru/top-raiting/4144985-luchshie-konstruktory-saitov-bez-koda",
+      "title": "ТОП-10 лучших конструкторов сайтов без кода в 2026 году: запускаем ...",
+      "from_query": "сделать сайт без кода 2026"
+    },
+    {
+      "url": "https://mobirise.com/builder/ru/no-code-website-builder.html",
+      "title": "Конструктор сайтов без кода — создать сайт без программирования за пару ...",
+      "from_query": "сделать сайт без кода 2026"
+    },
+    {
+      "url": "https://dzen.ru/a/ajaHOCV-PCISepau",
+      "title": "Создать лендинг в Cursor AI без кода: пошаговая инструкция",
+      "from_query": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    },
+    {
+      "url": "https://dzen.ru/a/ajU1yjOYlGUxvy7w",
+      "title": "Как сделать лендинг в Cursor AI без программирования?",
+      "from_query": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    },
+    {
+      "url": "https://mayai.ru/sozdat-lending-cursor-ai/",
+      "title": "Создать лендинг ИИ: пошаговый гайд в Cursor AI для новичка",
+      "from_query": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    },
+    {
+      "url": "https://mayai.ru/kak-sdelat-lending-v-cursor-ai/",
+      "title": "Как сделать лендинг с помощью ИИ: пошаговый гайд в Cursor без кода",
+      "from_query": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    },
+    {
+      "url": "https://marketingbezpontov.ru/kak-sozdat-lending-cursor-ai-bez-koda/",
+      "title": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для ...",
+      "from_query": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    },
+    {
+      "url": "https://promaren.ru/blog/2026/03/11/cursor-i-nextjs-lending-s-ai-chatom-za-20-minut-bez-koda/",
+      "title": "Cursor и Next.js: лэндинг с AI-чатом за 20 минут без кода",
+      "from_query": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    }
+  ]
+}

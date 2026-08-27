@@ -1,0 +1,22 @@
+{
+  "verdict": "pass",
+  "total_slop_hits": 0,
+  "slop_hits": [],
+  "total_over_long_sentences": 2,
+  "over_long_sentences": [
+    {
+      "sentence": "Сравниваем подходы: Cursor против Tilda и классической вёрстки Перед началом сборки сопоставим работу в Cursor с популярными альтернативами, чтобы выбрать оптимальный вариант для своих задач: Критерий Cursor AI + чистый HTML Конструктор Tilda Классическая разработка Стоимость в месяц 0 рублей (бесплатно) От 1 000 до 2 500 рублей Хостинг и программист Порог входа Низкий (чат) Средний (блоки) Высокий (код) Скорость запуска 30–60 минут 2–5 часов От 3 дней Контроль над кодом 100% владение Привязка к платформе Полный контроль Работа без терминала Да (чат и файл) Да (визуальный редактор) Нет (сборщики) Экспертный вердикт: Для быстрой проверки гипотезы связка Cursor и чистого HTML дает максимальный результат: автономный файл без абонентской платы, открывающийся моментально на любом устройстве",
+      "word_count": 104
+    },
+    {
+      "sentence": "io/f/ваш_код\" method=\"POST\" class=\"space-y-4\"&gt; &nbsp;&nbsp;&lt;input type=\"text\" name=\"name\" placeholder=\"Ваше имя\" required /&gt; &nbsp;&nbsp;&lt;input type=\"tel\" name=\"phone\" placeholder=\"Номер телефона\" required /&gt; &nbsp;&nbsp;&lt;input type=\"email\" name=\"email\" placeholder=\"Электронная почта\" required /&gt; &nbsp;&nbsp;&lt;button type=\"submit\"&gt;Отправить заявку&lt;/button&gt; &lt;/form&gt; В реальном проекте важно проверить атрибуты name у полей ввода (name=\"name\", name=\"phone\", name=\"email\")",
+      "word_count": 77
+    }
+  ],
+  "readability": {
+    "score": 72.3,
+    "level": "Easy (Standard modern readable web content)",
+    "avg_sentence_len": 9.6,
+    "avg_syllables_per_word": 2.0
+  }
+}

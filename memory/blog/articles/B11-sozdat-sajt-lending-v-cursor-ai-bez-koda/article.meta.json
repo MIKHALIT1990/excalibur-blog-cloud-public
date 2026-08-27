@@ -1,0 +1,39 @@
+{
+  "topic_id": "B11",
+  "slug": "sozdat-sajt-lending-v-cursor-ai-bez-koda",
+  "primary_query": "cursor ai сайт",
+  "secondary_queries": [
+    "создать сайт нейросеть",
+    "создание лендинга",
+    "ии для создания лендинга",
+    "создать сайт с помощью нейросети бесплатно"
+  ],
+  "char_count": 9175,
+  "article_mode": "B",
+  "author_id": "mikhail-litvinov",
+  "anchor_variants": [
+    "создание лендинга в Cursor AI без кода",
+    "как сделать сайт в Cursor без терминала",
+    "сборка одностраничного сайта через ИИ"
+  ],
+  "meta_ab": {
+    "title_seo": "Cursor AI сайт: как создать лендинг без кода за 1 час",
+    "title_ctr": "Как создать продающий лендинг в Cursor AI без кода и терминала за 1 час?",
+    "title_aeo": "Как создать сайт и лендинг в Cursor AI без навыков программирования?",
+    "description_seo": "Пошаговое руководство по созданию лендинга в Cursor AI без кода. Сборка в одном файле index.html с Tailwind CDN, настройка Formspree и публикация на Vercel Drop.",
+    "description_ctr": "Забудьте про сложный код и платные конструкторы! Соберите продающий лендинг в Cursor AI за 30 минут: один файл HTML, прием заявок и бесплатный хостинг.",
+    "description_aeo": "Создать сайт в Cursor AI без кода можно в одном файле index.html со стилями Tailwind CDN, приемом заявок через Formspree и публикацией на Vercel Drop."
+  },
+  "geo_qa": {
+    "score": 93,
+    "core_eeat": "19/20",
+    "verdict": "PASS",
+    "date": "2026-08-27",
+    "html_linter": "PASS",
+    "slop_score": "PASS",
+    "cannibalization": "PASS",
+    "utility_gate": "PASS",
+    "human_voice_gate": "PASS",
+    "beginner_fit": "PASS"
+  }
+}

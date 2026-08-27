@@ -1,0 +1,101 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-08-27",
+    "today_ru": "27.08.2026",
+    "year": 2026,
+    "month": 8,
+    "month_name_ru": "август",
+    "weekday_ru": "четверг",
+    "freshness_window": {
+      "prefer_sources_after": "2026-05-29",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-08-27 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B11",
+    "priority": "P0",
+    "slug": "sozdat-sajt-lending-v-cursor-ai-bez-koda",
+    "h1": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка",
+    "primary_query": "cursor ai сайт",
+    "secondary_queries": [
+      "как пользоваться cursor ai",
+      "ии для создания лендинга",
+      "создать сайт с помощью нейросети",
+      "сделать сайт без кода"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B"
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B11",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "cursor ai сайт 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "cursor ai сайт август 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "cursor ai сайт новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "github_evidence",
+      "query": "site:github.com cursor ai сайт 2026",
+      "purpose": "GitHub repos/issues/README для технических сигналов и реального опыта"
+    },
+    {
+      "id": "official_docs",
+      "query": "cursor ai сайт official docs documentation 2026",
+      "purpose": "официальная документация, changelog, developer docs"
+    },
+    {
+      "id": "community_experience",
+      "query": "cursor ai сайт forum reddit discussion проблемы опыт 2026",
+      "purpose": "форумы, обсуждения, ошибки пользователей и живые сценарии"
+    },
+    {
+      "id": "secondary_1",
+      "query": "как пользоваться cursor ai 2026",
+      "purpose": "вторичный запрос: как пользоваться cursor ai"
+    },
+    {
+      "id": "secondary_2",
+      "query": "ии для создания лендинга 2026",
+      "purpose": "вторичный запрос: ии для создания лендинга"
+    },
+    {
+      "id": "secondary_3",
+      "query": "создать сайт с помощью нейросети 2026",
+      "purpose": "вторичный запрос: создать сайт с помощью нейросети"
+    },
+    {
+      "id": "secondary_4",
+      "query": "сделать сайт без кода 2026",
+      "purpose": "вторичный запрос: сделать сайт без кода"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B11-sozdat-sajt-lending-v-cursor-ai-bez-koda",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}
