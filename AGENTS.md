@@ -100,8 +100,8 @@ python3 scripts/excalibur_blog_research_start.py --topic-id B01
 
 Только Cloud Secrets / env vars. Не печатать SSH/API ключи в handoff, PR, ответах.
 
-- `SSH_*`, `PUBLIC_SITE_URL`, `EXCALIBUR_BLOG_ALLOW_PUBLISH`
-- Publish transport: только SSH; legacy upload-алиасы не использовать.
+- `AB_API_KEY`, `SSH_*`, `PUBLIC_SITE_URL`, `AB_QUEUE_ROOT`, `EXCALIBUR_BLOG_ALLOW_PUBLISH`
+- Publish transport: очередь статей ai-brother.ru (SSH upload JSON/WebP + trigger POST /api/publish-next.php).
 - MCP через `${env:...}` в mcp.json
 
 ## Git hygiene
@@ -143,4 +143,4 @@ python3 scripts/excalibur_blog_research_start.py --topic-id B01
 - краткая выжимка документации Cursor Cloud: `CURSOR-CLOUD-RUNBOOK.md`;
 - пример CI preflight: `shared/cloud-preflight-workflow.yml.example`.
 
-Cloud Agent должен брать секреты только из Cursor Dashboard Secrets / env vars. Если для publish нет `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes` или SSH/public site переменных, publish-агент обязан вернуть явный blocker, а не пытаться угадать доступы.
+Cloud Agent должен брать секреты только из Cursor Dashboard Secrets / env vars. Если для publish нет `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes` или `AB_API_KEY`/SSH/public site переменных, publish-агент обязан вернуть явный blocker, а не пытаться угадать доступы.

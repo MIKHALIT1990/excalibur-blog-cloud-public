@@ -38,12 +38,12 @@ EXCALIBUR_BLOG_ALLOW_PUBLISH=no
 
 ```text
 PUBLIC_SITE_URL=https://ai-brother.ru
-WP_SITE_URL=https://ai-brother.ru
+AB_API_KEY=<api-key>
 SSH_HOST=<host>
 SSH_USER=<user>
 SSH_PASS=<password>
-SSH_ROOT=.
 SSH_PORT=22
+AB_QUEUE_ROOT=/home/l/litvinie/ai-brother/queue
 EXCALIBUR_BLOG_ALLOW_PUBLISH=yes
 ```
 
@@ -91,7 +91,7 @@ python3 scripts/excalibur_blog_research_start.py --topic-id B01
 
 ```bash
 python3 scripts/excalibur_blog_doctor.py --publish
-python3 scripts/excalibur_blog_wp_publish.py --env-check
+python3 scripts/excalibur_blog_ab_queue_publish.py --env-check
 ```
 
 Если `--publish` падает из-за секретов, это нормально для dry-run окружения и блокер для боевой публикации.

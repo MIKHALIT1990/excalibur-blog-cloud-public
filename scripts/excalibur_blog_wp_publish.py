@@ -1,5 +1,11 @@
 ﻿#!/usr/bin/env python3
-"""Publish one Excalibur blog article to WordPress (SSH bootstrap)."""
+"""DEPRECATED: Publish one Excalibur blog article to WordPress (SSH bootstrap).
+
+DEPRECATED NOTICE:
+ai-brother.ru is NOT WordPress. The live publication path uses the article queue API via
+scripts/excalibur_blog_ab_queue_publish.py.
+This script is preserved only for backwards compatibility and should not be invoked by orchestrators.
+"""
 from __future__ import annotations
 
 import argparse

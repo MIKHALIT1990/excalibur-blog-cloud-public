@@ -1,6 +1,10 @@
-﻿# Excalibur BLOG — WordPress publish contract
+﻿# Excalibur BLOG — ai-brother.ru Article Queue Publish Contract
 
-Excalibur BLOG готовит артефакты локально; публикация — через `scripts/excalibur_blog_wp_publish.py` и SSH bootstrap.
+Excalibur BLOG готовит артефакты локально; боевая публикация на `https://ai-brother.ru` (сайт не на WordPress) выполняется через очередь статей и API: `scripts/excalibur_blog_ab_queue_publish.py`.
+
+## Почему не WordPress
+Сайт `https://ai-brother.ru` работает на собственной архитектуре (PHP/Python генерация RSS, IndexNow, Schema).
+Загрузка WP PHP-бутстрапа через SSH не поддерживается и приводит к ошибкам.
 
 ## Prerequisites
 
@@ -8,67 +12,54 @@ Excalibur BLOG готовит артефакты локально; публик�
 - `schema.jsonld`
 - `cover/cover.png` + `cover-registry.json` (alt)
 - `link-verify.json` (verdict pass)
-- Cloud Secrets / env vars или `memory/site.env.local` — SSH доступ + `SSH_ROOT` (корень WP, где `wp-load.php`) + `PUBLIC_SITE_URL` + `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes`
-- Env precedence: переменные окружения перекрывают `memory/site.env.local`; поддерживаются только `SSH_HOST`, `SSH_USER`, `SSH_PASS`/`SSH_PASSWORD`, `SSH_ROOT`; transport всегда SSH.
+- Cloud Secrets / env vars или `memory/site.env.local`:
+  - `AB_API_KEY` (ключ для upload-image.php и publish-next.php)
+  - `PUBLIC_SITE_URL` (по умолчанию `https://ai-brother.ru`)
+  - `SSH_HOST`, `SSH_PORT`, `SSH_USER`, `SSH_PASS` / `SSH_PASSWORD`
+  - `AB_QUEUE_ROOT` / `SSH_ROOT` (по умолчанию `/home/l/litvinie/ai-brother/queue`)
+  - `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes`
 
-## Скрипт
+## Скрипт публикации
 
 ```bash
-python scripts/excalibur_blog_link_verify.py \
-  memory/blog/articles/B01-slug/article.html \
-  -o memory/blog/articles/B01-slug/link-verify.json \
-  --site-base https://example.com
+# Проверка окружения (без вывода секретов)
+python3 scripts/excalibur_blog_ab_queue_publish.py --env-check
 
-python scripts/excalibur_blog_wp_publish.py \
-  --article-dir memory/blog/articles/B01-slug
+# Dry-run публикации (проверка JSON, путей, картинок без загрузки)
+python3 scripts/excalibur_blog_ab_queue_publish.py \
+  --article-dir memory/blog/articles/<topic_id>-<slug> \
+  --dry-run
+
+# Боевая публикация
+python3 scripts/excalibur_blog_ab_queue_publish.py \
+  --article-dir memory/blog/articles/<topic_id>-<slug>
 ```
 
-`--dry-run` — проверка payload без SSH upload.
+## Алгоритм публикации (Path B)
 
-## Что делает publish
-
-1. `wp_insert_post` / `wp_update_post` — title, slug, content, excerpt
-2. Featured image из `cover/cover.png` + alt
-3. **Inline images** — все локальные `<img src="cover/...">` загружаются в Media Library, `src` заменяется на WP URL
-4. Post meta `_excalibur_blog_schema_jsonld` — JSON-LD для `single.php`
-5. Post meta `_excalibur_blog_skip_theme_faq` = `1` — сигнал теме **не** добавлять глобальный FAQ-блок
-
-## Дубли FAQ на live-странице (важно)
-
-Excalibur кладёт в `post_content` **один** FAQ по теме (`<h2>Частые вопросы</h2>`).
-
-Тема сайта может **дописывать** после контента второй блок «Часто задаваемые вопросы по теме (FAQ)» с универсальными вопросами — это **не** часть `article.html`.
-
-**Исправление в теме WordPress** (`single.php` или фильтр `the_content`):
-
-```php
-$skip_theme_faq = get_post_meta(get_the_ID(), '_excalibur_blog_skip_theme_faq', true);
-if ($skip_theme_faq === '1') {
-    // не выводить глобальный FAQ-блок темы для постов Excalibur BLOG
-}
-```
-
-Publish-скрипт выставляет meta `_excalibur_blog_skip_theme_faq` автоматически при каждой публикации.
-
-## Артефакты после publish
-
-```text
-memory/blog/articles/<topic_id>-<slug>/wp-publish-result.json
-memory/blog/wp-publish-log.md
-```
-
-## Schema в теме WP
-
-```php
-$schema = get_post_meta(get_the_ID(), '_excalibur_blog_schema_jsonld', true);
-if ($schema) {
-    echo '<script type="application/ld+json">' . wp_kses_post($schema) . '</script>';
-}
-```
+1. **Проверка коллизии slug:** GET `https://ai-brother.ru/api/articles.php?limit=50` (проверка на 409 Conflict).
+2. **Валидация HTML:** строго по whitelist тегов (`p`, `br`, `strong`, `b`, `em`, `i`, `h2`, `h3`, `h4`, `ul`, `ol`, `li`, `blockquote`, `a`, `code`, `pre`, `table`, `thead`, `tbody`, `tr`, `th`, `td`, `caption`, `details`, `summary`, `img`, `figure`, `figcaption`). Без `<h1>` (шаблон рисует title сам). Без `div`, `span`, `script`, `style`, `iframe`.
+3. **Загрузка и подмена изображений:**
+   - Все локальные inline-изображения (например `cover/inline-01.png`) загружаются через `POST https://ai-brother.ru/api/upload-image.php` (multipart поле `file`, `X-API-Key`).
+   - `src` в HTML подменяется на полученный `https://` URL.
+   - Hero-изображение также загружается через API для получения полного `https://` URL.
+4. **Сборка JSON статьи:**
+   - `title` (<= 200 символов)
+   - `slug` (`^[a-z0-9]+(-[a-z0-9]+)*$`, <= 80 символов)
+   - `content_html` (очищенный HTML с абсолютными URL картинок)
+   - `image` (полный https URL hero-изображения)
+   - `excerpt` / `meta_description` (<= 600 символов)
+   - `read_minutes`
+5. **Загрузка в очередь по SSH:**
+   - JSON статьи загружается в `/home/l/litvinie/ai-brother/queue/pending/50-<slug>.json`.
+   - Hero WebP загружается в `/home/l/litvinie/ai-brother/queue/images/article-<slug>.webp`.
+6. **Триггер публикации:**
+   - POST `https://ai-brother.ru/api/publish-next.php` с заголовком `X-API-Key`.
+   - Сервер запускает `articles.php`, генерацию RSS (`gen_rss.py`), фидов (`render_feeds.py`), Schema/OG (`render_schema.py`), отправляет IndexNow (`indexnow.py`) и переносит JSON в `queue/published/`.
+7. **Артефакты и Ledger:**
+   - Создается `ab-publish-result.json` (и `wp-publish-result.json` для обратной совместимости).
+   - При успехе обновляется `shared/published-articles.md` со статусом `published`.
 
 ## Blockers
 
-- `❌ PUBLISH BLOCKER` — QA не PASS, link-verify fail, нет credentials
-- Production HTML не должен содержать MCP URLs — только WP media для featured image
-
-Skill: `skills/publish-excalibur-blog/SKILL.md` (alias: `skills/excalibur-wp-publish/SKILL.md`)
+- `❌ PUBLISH BLOCKER` — QA не PASS, link-verify fail, нет credentials (`AB_API_KEY`, `SSH_*`), `EXCALIBUR_BLOG_ALLOW_PUBLISH != yes`.

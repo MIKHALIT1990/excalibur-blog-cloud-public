@@ -48,6 +48,7 @@ def read_env_file(path: Path) -> dict[str, str]:
 
 def merged_publish_env(root: Path) -> dict[str, str]:
     keys = {
+        "AB_API_KEY",
         "PUBLIC_SITE_URL",
         "WP_HOME",
         "WP_SITE_URL",
@@ -57,6 +58,7 @@ def merged_publish_env(root: Path) -> dict[str, str]:
         "SSH_PASS",
         "SSH_PASSWORD",
         "SSH_ROOT",
+        "AB_QUEUE_ROOT",
         "EXCALIBUR_BLOG_ALLOW_PUBLISH",
     }
     env = read_env_file(root / "memory/site.env.local")
@@ -136,7 +138,8 @@ def main() -> int:
 
     env = merged_publish_env(root)
     has_public = bool(env.get("PUBLIC_SITE_URL") or env.get("WP_HOME") or env.get("WP_SITE_URL"))
-    check(has_public, "PUBLIC_SITE_URL/WP_SITE_URL configured", errors, warnings, warn=not args.publish)
+    check(has_public, "PUBLIC_SITE_URL configured", errors, warnings, warn=not args.publish)
+    check(bool(env.get("AB_API_KEY")), "AB_API_KEY configured", errors, warnings, warn=not args.publish)
     check(bool(env.get("SSH_HOST")), "SSH host configured", errors, warnings, warn=not args.publish)
     check(bool(env.get("SSH_USER")), "SSH user configured", errors, warnings, warn=not args.publish)
     check(

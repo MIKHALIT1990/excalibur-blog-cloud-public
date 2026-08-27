@@ -18,10 +18,11 @@
 
 ## Publish
 
-- `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes` только в Cloud Secrets, не в git.
+- `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes` и `AB_API_KEY` только в Cloud Secrets, не в git.
 - Publish без обновления `shared/published-articles.md` → следующий прогон может дублировать slug.
-- Для publish-preflight используй `python3 scripts/excalibur_blog_wp_publish.py --env-check`, не ad-hoc import без `scripts/` в `sys.path`.
-- SSH root может быть login cwd: если bootstrap upload получает ENOENT на настроенном root, publish-скрипт пробует `.` и пишет warning; после warning обнови `SSH_ROOT` в Cloud Secrets на `.`.
+- Для publish-preflight используй `python3 scripts/excalibur_blog_ab_queue_publish.py --env-check`.
+- Боевая публикация идёт в очередь статей `https://ai-brother.ru` (не WordPress): загрузка в `/home/l/litvinie/ai-brother/queue/pending/` и `images/` по SSH, затем триггер POST `/api/publish-next.php`.
+- Все локальные inline-изображения и hero загружаются через `POST https://ai-brother.ru/api/upload-image.php` перед постановкой в очередь.
 
 ## Writer / Fact Check Box
 

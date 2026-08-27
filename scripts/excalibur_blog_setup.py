@@ -62,17 +62,18 @@ def main() -> int:
     )
     
     # -------------------------------------------------------------------------
-    # ШАГ 2: Доступы к серверу и WordPress (SSH)
+    # ШАГ 2: Доступы к серверу и API очереди статей (ai-brother.ru)
     # -------------------------------------------------------------------------
-    print("\n--- ШАГ 2: НАСТРОЙКА ИНТЕГРАЦИИ И ИМПОРТА В WORDPRESS (SSH) ---")
-    print("Для публикации статей напрямую в вашу WP-тему, укажите данные SSH-сервера.")
-    ssh_host = get_input("SSH хост (например: example.com)", "example.com")
+    print("\n--- ШАГ 2: НАСТРОЙКА ИНТЕГРАЦИИ И ПУБЛИКАЦИИ В ОЧЕРЕДЬ СТАТЕЙ (ai-brother.ru) ---")
+    print("Для публикации статей укажите API-ключ и данные SSH-сервера очереди.")
+    ab_api_key = get_input("AB_API_KEY (ключ для upload-image.php и publish-next.php)", "")
+    ssh_host = get_input("SSH хост (например: ai-brother.ru)", "ai-brother.ru")
     ssh_port = get_input("SSH порт", "22")
     ssh_user = get_input("SSH пользователь", "")
     ssh_pass = get_input("SSH пароль", "")
-    ssh_root = get_input(
-        "SSH путь к корню WordPress (где wp-load.php)",
-        "/public_html/",
+    ab_queue_root = get_input(
+        "SSH путь к корню очереди (где pending/ и images/)",
+        "/home/l/litvinie/ai-brother/queue",
     )
     
     allow_publish_input = get_input("Разрешить автоматическую публикацию на боевой сайт? (yes/no)", "no")
@@ -104,11 +105,12 @@ def main() -> int:
     env_content = f"""# Excalibur BLOG — credentials (автоматически сгенерировано setup.py)
 
 PUBLIC_SITE_URL={site_url}
+AB_API_KEY={ab_api_key}
 SSH_HOST={ssh_host}
 SSH_PORT={ssh_port}
 SSH_USER={ssh_user}
 SSH_PASS={ssh_pass}
-SSH_ROOT={ssh_root}
+AB_QUEUE_ROOT={ab_queue_root}
 EXCALIBUR_BLOG_ALLOW_PUBLISH={allow_publish}
 """
     env_path.write_text(env_content, encoding="utf-8")
@@ -118,12 +120,13 @@ EXCALIBUR_BLOG_ALLOW_PUBLISH={allow_publish}
     if not env_example_path.is_file():
         example_content = """# Excalibur BLOG — credentials (copy to site.env.local)
 
-PUBLIC_SITE_URL=https://example.com
-SSH_HOST=example.com
+PUBLIC_SITE_URL=https://ai-brother.ru
+AB_API_KEY=
+SSH_HOST=ai-brother.ru
 SSH_PORT=22
 SSH_USER=
 SSH_PASS=
-SSH_ROOT=/public_html/
+AB_QUEUE_ROOT=/home/l/litvinie/ai-brother/queue
 EXCALIBUR_BLOG_ALLOW_PUBLISH=no
 """
         env_example_path.write_text(example_content, encoding="utf-8")
