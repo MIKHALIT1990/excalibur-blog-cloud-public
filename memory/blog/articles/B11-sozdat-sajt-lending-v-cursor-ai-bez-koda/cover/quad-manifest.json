@@ -1,0 +1,42 @@
+{
+  "topic_id": "B11",
+  "canvas_file": "cover/canvas-quad.png",
+  "layout": "2x2",
+  "pipeline": "quad_canvas_1x_mcp",
+  "style_preset": "digital_meme_collage_ru",
+  "style_file": "memory/cover/quad-style-digital-meme-collage-ru.json",
+  "blog_hero": "memory/cover/blog-hero.json",
+  "inline_types_catalog": "memory/cover/inline-visual-types.json",
+  "cover_hook": "Лендинг в Cursor за 1 час без кода: миф или рабочий метод?",
+  "mcp_note": "ONE gpt-image-2 call with input_urls=[reference_url_hosted], then split",
+  "slots": {
+    "cover": {
+      "quadrant": "top_left",
+      "role": "cover_meme_hero",
+      "alt": "Создание лендинга в Cursor AI без кода: пошаговое руководство от AI Brother",
+      "scene_hint": "Чистый белый фон #FFFFFF, reference-лицо в белом плотном худи heavyweight fabric (эмоция ироничного озарения, живой жест рукой на экран), фейковые интерфейсы редактора Cursor AI (окно Composer Ctrl+I) и шлюза Formspree, рваная бумага с пометкой Tailwind CDN, яркие розовые стикеры, скотч, крупный русский заголовок, без наушников/headset/earbuds",
+      "meme_caption_ru": "40 файлов React вместо визитки?"
+    },
+    "inline_1": {
+      "quadrant": "top_right",
+      "h2_anchor": "2. Сравниваем подходы: Cursor против Tilda и классической вёрстки",
+      "visual_type": "comparison_table_ui",
+      "scene_hint": "Чистый белый фон #FFFFFF, полезная сравнительная UI-таблица «Cursor vs Tilda vs Код», карточка с акцентом #2563EB, розовый стикер «0 ₽ против абонплаты», скотч по углам, зеленая плашка 30 минут, без лица героя",
+      "alt": "Сравнение Cursor AI и Tilda: стоимость 0 рублей, скорость запуска и владение кодом"
+    },
+    "inline_2": {
+      "quadrant": "bottom_left",
+      "h2_anchor": "3. Пошаговый сценарий сборки адаптивного лендинга через Cursor Agent",
+      "visual_type": "workflow_diagram",
+      "scene_hint": "Чистый белый фон #FFFFFF, наглядная инфографика workflow из 6 шагов от Composer Ctrl+I к чистому index.html, Tailwind CDN и Vercel Drop, маркерные стрелки, рваная бумажная плашка, без лица героя",
+      "alt": "Схема пошаговой сборки лендинга в Cursor AI: от Composer Ctrl+I до Tailwind CDN"
+    },
+    "inline_3": {
+      "quadrant": "bottom_right",
+      "h2_anchor": "1. Почему нейросеть усложняет код и как зафиксировать правила проекта",
+      "visual_type": "tool_screenshot",
+      "scene_hint": "Чистый белый фон #FFFFFF, стилизованный UI-скриншот окна Cursor с файлом правил landing.mdc и шлюзом Formspree, яркий розовый стикер «Запретить npm и React», маркерная пометка, скотч, без лица героя",
+      "alt": "Интерфейс правил landing.mdc в Cursor и настройка чистого одностраничника"
+    }
+  }
+}

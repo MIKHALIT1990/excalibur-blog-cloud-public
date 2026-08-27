@@ -1,0 +1,50 @@
+{
+  "topic_id": "B11",
+  "slug": "sozdat-sajt-lending-v-cursor-ai-bez-koda",
+  "cover_family": "brand_collage",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Создание лендинга в Cursor AI без кода: пошаговое руководство от AI Brother",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-08-27T16:46:06+00:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Создание лендинга в Cursor AI без кода: пошаговое руководство от AI Brother",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнение Cursor AI и Tilda: стоимость 0 рублей, скорость запуска и владение кодом",
+      "h2_anchor": "2. Сравниваем подходы: Cursor против Tilda и классической вёрстки",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема пошаговой сборки лендинга в Cursor AI: от Composer Ctrl+I до Tailwind CDN",
+      "h2_anchor": "3. Пошаговый сценарий сборки адаптивного лендинга через Cursor Agent",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Интерфейс правил landing.mdc в Cursor и настройка чистого одностраничника",
+      "h2_anchor": "1. Почему нейросеть усложняет код и как зафиксировать правила проекта",
+      "visual_type": "tool_screenshot",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

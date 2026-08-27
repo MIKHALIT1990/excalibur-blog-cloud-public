@@ -1,0 +1,26 @@
+{
+  "source": "memory/blog/articles/B11-sozdat-sajt-lending-v-cursor-ai-bez-koda/article.html",
+  "total_links": 2,
+  "failed_count": 0,
+  "verdict": "pass",
+  "links": [
+    {
+      "url": "https://ai-brother.ru",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_absolute",
+      "skipped": false
+    },
+    {
+      "url": "https://t.me/ai_brother_ru",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "external",
+      "skipped": false
+    }
+  ]
+}

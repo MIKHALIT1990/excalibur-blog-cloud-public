@@ -1,0 +1,185 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ai-brother.ru/#organization",
+      "name": "AI Brother",
+      "url": "https://ai-brother.ru",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://ai-brother.ru/#logo",
+        "url": "https://ai-brother.ru/logo.png",
+        "caption": "AI Brother"
+      },
+      "sameAs": [
+        "https://t.me/ai_brother_ru"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ai-brother.ru/#author-mikhail-litvinov",
+      "name": "Михаил Литвинов",
+      "jobTitle": "Основатель AI Brother, практик внедрения ИИ-систем и CRM-автоматизации",
+      "description": "Основатель AI Brother. Специализируется на внедрении ИИ-агентов, голосовых роботов и CRM-интеграций (amoCRM, Битрикс24) для исключения потери заявок в бизнесе.",
+      "image": "https://ai-brother.ru",
+      "worksFor": {
+        "@id": "https://ai-brother.ru/#organization"
+      },
+      "sameAs": [
+        "https://ai-brother.ru",
+        "https://t.me/ai_brother_ru"
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda/#article",
+      "headline": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка",
+      "description": "Пошаговое руководство по созданию лендинга в Cursor AI без кода. Сборка в одном файле index.html с Tailwind CDN, настройка Formspree и публикация на Vercel Drop.",
+      "datePublished": "2026-08-27",
+      "dateModified": "2026-08-27",
+      "inLanguage": "ru",
+      "url": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://ai-brother.ru/wp-content/uploads/blog/sozdat-sajt-lending-v-cursor-ai-bez-koda-cover.png",
+        "width": 1200,
+        "height": 675
+      },
+      "author": {
+        "@id": "https://ai-brother.ru/#author-mikhail-litvinov"
+      },
+      "publisher": {
+        "@id": "https://ai-brother.ru/#organization"
+      },
+      "keywords": "cursor ai сайт, создать сайт нейросеть, создание лендинга, ии для создания лендинга, создать сайт с помощью нейросети бесплатно",
+      "wordCount": 9175,
+      "articleSection": "Инструкции и no-code",
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "AI Brother — блог",
+        "url": "https://ai-brother.ru/articles"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Нужно ли уметь программировать для создания лендинга в Cursor AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Нет, базовых навыков программирования не требуется. Вы ставите задачу на русском языке в окне Composer, а редактор самостоятельно создает разметку и подключает стили."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Сколько стоит запуск сайта по этой инструкции?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Все инструменты в руководстве полностью бесплатны: базовый режим Cursor, стили Tailwind CDN, 50 заявок в месяц в Formspree и публикация на Vercel Drop не требуют оплаты."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Зачем обязательно использовать файл правил landing.mdc?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Без правил нейросеть создает тяжелые проекты на React или Next.js с десятками служебных файлов, требующие работы в терминале."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Что делать, если заявка из формы не приходит на почту?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Проверьте наличие атрибута name у полей ввода, правильность ссылки на форму Formspree в параметре action и метод отправки POST."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Можно ли прикрепить собственный домен к созданному сайту?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, сервис Vercel Drop позволяет бесплатно подключить собственный домен: добавьте домен в настройках проекта и укажите DNS-записи у регистратора."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda/#howto",
+      "name": "Как создать лендинг в Cursor AI без кода: пошаговая инструкция для новичка",
+      "description": "Пошаговое руководство по созданию лендинга в Cursor AI без кода. Сборка в одном файле index.html с Tailwind CDN, настройка Formspree и публикация на Vercel Drop.",
+      "inLanguage": "ru",
+      "totalTime": "PT1H",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Cursor AI (режим Composer / Agent)"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Tailwind Play CDN"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Formspree (бесплатный тариф)"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Vercel Drop"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Зафиксируйте правила проекта в файле landing.mdc",
+          "text": "Создайте папку .cursor/rules и добавьте файл landing.mdc с директивой alwaysApply: true, запрещающий использование npm, React, Next.js и терминальных команд, чтобы ограничить сборку одним файлом index.html со стилями Tailwind CDN.",
+          "url": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda#rules"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Сравните подходы и выберите формат одного HTML-файла",
+          "text": "Оцените преимущества чистого HTML перед Tilda и классической разработкой: нулевая абонентская плата, отсутствие привязки к платформе и мгновенный запуск без терминала.",
+          "url": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda#comparison"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Соберите адаптивный лендинг через Cursor Agent",
+          "text": "Откройте режим Composer (Ctrl+I) в Cursor, опишите структуру страницы на русском языке (hero-экран, преимущества, тарифы и форма), сгенерируйте чистый index.html и проверьте подключение Tailwind Play CDN.",
+          "url": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda#generation"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Подключите приём заявок через Formspree",
+          "text": "Зарегистрируйтесь на formspree.io, создайте новую форму, скопируйте endpoint и подключите его к HTML-форме в index.html методом POST, обязательно указав атрибуты name для всех полей ввода.",
+          "url": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda#formspree"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Опубликуйте сайт бесплатно через Vercel Drop",
+          "text": "Откройте vercel.com/drop, перетащите папку с index.html в окно браузера и получите готовую публичную ссылку с бесплатным HTTPS-сертификатом без использования Git и консоли.",
+          "url": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda#vercel-drop"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Пройдите чеклист готовности перед запуском трафика",
+          "text": "Откройте сайт со смартфона, проверьте корректность адаптивной вёрстки, отправьте тестовую заявку и убедитесь в получении письма на почту перед масштабированием лидогенерации.",
+          "url": "https://ai-brother.ru/article-sozdat-sajt-lending-v-cursor-ai-bez-koda#checklist"
+        }
+      ]
+    }
+  ]
+}
