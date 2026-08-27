@@ -13,7 +13,7 @@
 - **Hero:** reference = лицо; одежда = белое плотное худи heavyweight fabric; поза/жест/ракурс/выражение/реквизит/композиция каждый раз заметно разные; headphones/headset/earbuds запрещены
 - **Design code:** `memory/cover/cover-design-code.json`
 - **Background:** чистый белый `#FFFFFF` для cover и всех inline; без бежевого/серого/grunge-фона
-- **Typography:** обложка в духе DESIGN.md-референса — жирный condensed Cyrillic, ротация hot-акцентов (hot pink, hot purple, hot blue, hot orange и другие), sticker labels, brush bubbles, handwritten notes; без price badges
+- **Typography:** обложка в духе DESIGN.md-референса — жирный condensed Cyrillic, фирменные акценты AI Brother (#2563EB primary blue, #1D4ED8 deep blue), sticker labels, brush bubbles, handwritten notes; без price badges
 
 ## Скрипты
 

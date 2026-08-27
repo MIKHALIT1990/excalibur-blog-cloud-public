@@ -69,7 +69,7 @@ Split-скрипт **не режет механически 50/50**: ищет б
 ## Visual locks
 
 - Background: cover и все inline-панели на чистом белом `#FFFFFF`; запрещены beige/cream/off-white, gray, gradient и grunge full-panel backgrounds.
-- Cover typography: как на DESIGN.md-референсе — жирный condensed Cyrillic, крупный uppercase hook, ротация hot-акцентов (hot pink, hot purple, hot blue, hot orange и другие), sticker labels, brush bubbles, handwritten speech notes; без price badges.
+- Cover typography: как на DESIGN.md-референсе — жирный condensed Cyrillic, крупный uppercase hook, фирменные акценты AI Brother (#2563EB primary blue, #1D4ED8 deep blue), sticker labels, brush bubbles, handwritten speech notes; без price badges.
 - Hero: сохранить старый meme-person vibe и reference face; одежда = белое плотное худи heavyweight fabric. Позу, жест, ракурс, выражение, реквизит и композицию менять от обложки к обложке. Headphones/headset/earbuds запрещены.
 
 ## Файлы
@@ -92,8 +92,8 @@ Split-скрипт **не режет механически 50/50**: ищет б
 
 - fake скрины (Wordstat, отзывы, Telegram, analytics)
 - чистый белый фон `#FFFFFF` для cover и inline
-- типографика как DESIGN.md-референс: жирный condensed Cyrillic, hot-акценты чередуются (hot pink / hot purple / другие), sticker labels, brush bubbles, handwritten notes; без price badges
-- рваная бумага, скотч, розовые стикеры, маркер
+- типографика как DESIGN.md-референс: жирный condensed Cyrillic, фирменные акценты AI Brother (#2563EB primary blue, #1D4ED8 deep blue), sticker labels, brush bubbles, handwritten notes; без price badges
+- рваная бумага, скотч, стикеры, маркер
 - визуальные meme reaction cutouts (не один Drake на весь холст): facepalm, кот-реакция, rough-edge visual cutout; без принудительных сленговых надписей
 - 16:9 widescreen, **не** vertical carousel
 

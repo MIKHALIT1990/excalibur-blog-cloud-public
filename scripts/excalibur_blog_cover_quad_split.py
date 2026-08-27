@@ -384,7 +384,7 @@ def create_demo_canvas(path: Path, style_label: str) -> None:
     panel_h = height // 2
     img = Image.new("RGB", (width, height), "#FAFAF7")
     draw = ImageDraw.Draw(img)
-    colors = ["#E85D4C", "#1A1A2E", "#FFD93D", "#6C5CE7"]
+    colors = ["#2563EB", "#0A0A0A", "#FFD93D", "#1D4ED8"]
     labels = ["COVER 16:9", "INLINE 1 16:9", "INLINE 2 16:9", "INLINE 3 16:9"]
     boxes = [
         (0, 0, panel_w, panel_h),

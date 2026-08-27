@@ -4,7 +4,7 @@
   "cover_family": "brand_collage",
   "design_code": "memory/cover/cover-design-code.json",
   "blog_hero": "memory/cover/blog-hero.json",
-  "global_prompt_prefix": "Russian human-made hook collage on pure white #FFFFFF background, zine/trash-design DIY aesthetic adapted to 16:9 widescreen, torn paper strips, scotch tape, pink sticky notes, marker handwriting, highlighter brush on key Cyrillic words with rotating hot accent colors (hot pink, hot purple, hot blue, hot orange, etc.), fake phone screenshots (Wordstat, reviews, Telegram chat, analytics), meme reaction cutouts with rough edges, DESIGN.md-reference typography: bold condensed uppercase Cyrillic, sticker labels, layered scraps, no price badges, NOT corporate banner,",
+  "global_prompt_prefix": "Russian human-made hook collage on pure white #FFFFFF background, zine/trash-design DIY aesthetic adapted to 16:9 widescreen, torn paper strips, scotch tape, sticky notes, marker handwriting, highlighter brush on key Cyrillic words with brand primary blue #2563EB accent, fake phone screenshots (Wordstat, reviews, Telegram chat, analytics), meme reaction cutouts with rough edges, DESIGN.md-reference typography: bold condensed uppercase Cyrillic, sticker labels, layered scraps, no price badges, NOT corporate banner,",
   "global_prompt_suffix": "single canvas 2048x1152 pixels, exact 2x2 grid, four equal 16:9 panels (1024x576 each), thin pure white gutters, high detail collage illustration, every panel has a clean white base and feels like a human editor pasted screenshots and memes",
   "global_negative_prompt": "beige background, cream background, off-white background, gray background, gradient background, grunge paper background, English text, Latin UI, watermark, logo, generic stock photo, boring corporate infographic, vertical carousel 9:16, instagram story, polished ad, same meme 4 times, unreadable gibberish text, extra fingers, toxic sticker text, insults, humiliating labels, Russian words лох, лохов, для лохов",
   "meme_formats_ru": [
@@ -17,9 +17,15 @@
   ],
   "color_lock": {
     "background": "#FFFFFF",
-    "accent_primary": "#E85D4C",
-    "accent_secondary": "#1A1A2E",
-    "highlight_pink": "#FF1493",
+    "site_background": "#FAFAFA",
+    "ink_black": "#0A0A0A",
+    "muted": "#52525B",
+    "accent_primary": "#2563EB",
+    "accent_deep_bitrix": "#1D4ED8",
+    "card": "#F4F4F5",
+    "success": "#16A34A",
+    "danger": "#DC2626",
+    "highlight_hook": "#2563EB",
     "meme_accent": "#FFD93D"
   },
   "composition_lock": {

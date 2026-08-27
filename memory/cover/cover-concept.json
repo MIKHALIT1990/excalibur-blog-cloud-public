@@ -17,8 +17,15 @@
     "thumbnail_safe_zone": "center-right"
   },
   "color_lock": {
-    "background": "#FAFAF7",
-    "accent_primary": "#E85D4C",
-    "accent_secondary": "#1A1A2E"
+    "background": "#FFFFFF",
+    "site_background": "#FAFAFA",
+    "ink_black": "#0A0A0A",
+    "muted": "#52525B",
+    "accent_primary": "#2563EB",
+    "accent_deep_bitrix": "#1D4ED8",
+    "card": "#F4F4F5",
+    "success": "#16A34A",
+    "danger": "#DC2626",
+    "highlight_hook": "#2563EB"
   }
 }
