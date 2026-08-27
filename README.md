@@ -21,7 +21,7 @@
 - Генерирует обложку и inline-визуалы через image pipeline + кодовые quad/split-скрипты.
 - Создаёт JSON-LD: `BlogPosting`, `FAQPage`, `HowTo`, `Organization`, `Person`.
 - Обновляет внутреннюю перелинковку и `llms.txt`.
-- Публикует в WordPress через SSH bootstrap, без FTP.
+- Публикует в очередь статей ai-brother.ru (Path B: JSON + WebP по SSH, upload-image + trigger publish-next API).
 
 ## Архитектура
 
@@ -51,7 +51,7 @@ flowchart LR
 | 4a | `excalibur-blog-cover` | обложка + 3 inline-визуала |
 | 4b | `excalibur-blog-schema` | schema.org JSON-LD |
 | 5 | `excalibur-blog-indexer` | interlink + `llms.txt` |
-| 6 | `excalibur-blog-publish` | WordPress publish через SSH |
+| 6 | `excalibur-blog-publish` | ai-brother.ru article queue API + SSH upload |
 | fix | `excalibur-blog-fixer` | закрепление исправлений после инцидентов |
 
 Cover и Schema запускаются параллельно только после `GEO QA PASS`.
@@ -97,20 +97,21 @@ python scripts/excalibur_blog_setup.py
 
 ## Secrets
 
-Секреты не хранятся в репозитории. Для публикации нужны только SSH-переменные:
+Секреты не хранятся в репозитории. Для публикации нужны API-ключ ai-brother.ru и SSH-доступы к очереди:
 
 ```env
-PUBLIC_SITE_URL=https://example.com
+PUBLIC_SITE_URL=https://ai-brother.ru
 EXCALIBUR_BLOG_ALLOW_PUBLISH=yes
 
-SSH_HOST=example.com
+AB_API_KEY=
+SSH_HOST=
 SSH_PORT=22
 SSH_USER=
 SSH_PASS=
-SSH_ROOT=/
+AB_QUEUE_ROOT=/home/l/litvinie/ai-brother/queue
 ```
 
-`FTP_*` больше не используются. Публикация идёт только через SSH.
+WordPress/FTP не используются. Публикация идёт через очередь статей ai-brother.ru (SSH upload JSON/WebP + POST /api/publish-next.php).
 
 ## Основные Команды
 
@@ -125,10 +126,10 @@ python scripts/excalibur_blog_research_start.py --topic-id B01
 python scripts/excalibur_blog_link_verify.py memory/blog/articles/B01-slug/article.html
 
 # dry-run публикации
-python scripts/excalibur_blog_wp_publish.py --article-dir memory/blog/articles/B01-slug --dry-run
+python scripts/excalibur_blog_ab_queue_publish.py --article-dir memory/blog/articles/B01-slug --dry-run
 
 # publish
-python scripts/excalibur_blog_wp_publish.py --article-dir memory/blog/articles/B01-slug
+python scripts/excalibur_blog_ab_queue_publish.py --article-dir memory/blog/articles/B01-slug
 ```
 
 ## Артефакты Статьи
@@ -148,7 +149,7 @@ memory/blog/articles/<topic_id>-<slug>/
     inline-02.png
     inline-03.png
     cover-registry.json
-  wp-publish-result.json
+  ab-publish-result.json
 ```
 
 ## Безопасность

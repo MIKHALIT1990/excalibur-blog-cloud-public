@@ -61,7 +61,7 @@ Cursor Cloud должен использовать `.cursor/environment.json`:
 Нужен, если в облаке Cursor нет:
 
 - MCP KV (`gpt-image-2` для обложек);
-- SSH к WordPress;
+- SSH к серверу очереди статей ai-brother.ru;
 - стабильного web search для research.
 
 ```powershell
@@ -77,8 +77,10 @@ agent worker start --pool --pool-name excalibur-blog --idle-release-timeout 600
 
 | Variable | Зачем |
 |----------|-------|
-| `PUBLIC_SITE_URL` | link verify, recent WP posts |
-| `SSH_*` | `excalibur_blog_wp_publish.py`; transport сразу SSH, только `SSH_*` secrets |
+| `PUBLIC_SITE_URL` | Базовый URL сайта (`https://ai-brother.ru`) |
+| `AB_API_KEY` | Ключ для API ai-brother.ru (upload-image.php, publish-next.php) |
+| `SSH_*` | `excalibur_blog_ab_queue_publish.py`; загрузка JSON и WebP в очередь (`SSH_HOST`, `SSH_USER`, `SSH_PASS`, `SSH_PORT`) |
+| `AB_QUEUE_ROOT` / `SSH_ROOT` | Путь к очереди на сервере (по умолчанию `/home/l/litvinie/ai-brother/queue`) |
 | `EXCALIBUR_BLOG_ALLOW_PUBLISH` | `yes` только когда готовы публиковать |
 | `EXCALIBUR_TOPIC_ID` | опционально фиксировать тему (иначе today.py предложит P0) |
 | `EXCALIBUR_PROJECT_ROOT` | корень репо на worker |

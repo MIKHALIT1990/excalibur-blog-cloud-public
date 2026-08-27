@@ -1,6 +1,6 @@
 ---
 name: excalibur-blog-publish
-description: "⑥ Publish: WP post + featured + inline images + schema meta. Субагент Task. Запускается автоматически после Indexer."
+description: "⑥ Publish: ai-brother.ru article queue API + hero/inline image upload + publish-next trigger. Субагент Task. Запускается автоматически после Indexer."
 model: inherit
 readonly: false
 is_background: false
@@ -39,14 +39,14 @@ incident_report: none | memory/pipeline-fix-queue.md#INC-...
 - `article.html`, `article.meta.json`, `article-qa.md` (PASS)
 - `schema.jsonld`, `cover/cover.png`, `cover-registry.json`
 - Cloud Secrets / env vars или `memory/site.env.local`
-- Upload transport: **SSH сразу**, без дополнительных upload-попыток. используются только `SSH_*` secrets.
+- Credentials: `AB_API_KEY`, `SSH_HOST`, `SSH_USER`, `SSH_PASS`/`SSH_PASSWORD`, `SSH_PORT`, `AB_QUEUE_ROOT`/`SSH_ROOT`, `PUBLIC_SITE_URL`
 
 ## Твои задачи (строго по порядку)
 
 1. **Preflight:** link-verify с `--site-base` из `PUBLIC_SITE_URL`.
-2. **Dry-run:** `excalibur_blog_wp_publish.py --dry-run`.
-3. **Publish:** `excalibur_blog_wp_publish.py` без dry-run — bootstrap грузится сразу через SSH.
-4. **Fallback:** при timeout HTTP-триггера — WebFetch URL из `FALLBACK_TRIGGER_URL` → `memory/webfetch-response.txt`.
+2. **Env-check:** `python3 scripts/excalibur_blog_ab_queue_publish.py --env-check`.
+3. **Dry-run:** `python3 scripts/excalibur_blog_ab_queue_publish.py --article-dir <article_dir> --dry-run`.
+4. **Publish:** `python3 scripts/excalibur_blog_ab_queue_publish.py --article-dir <article_dir>` без dry-run — скрипт загружает инлайны и обложку через API, льет JSON + WebP в очередь SSH и триггерит `/api/publish-next.php`.
 5. **Ledger:** обновить `shared/published-articles.md`: если topic_id уже есть со status=`in_progress`, заменить строку на `published`; не добавлять дубль.
 6. **Logs:** дописать `memory/blog/wp-publish-log.md`.
 7. **Promotion:** Live URL в `promotion-checklist.md`.
@@ -65,14 +65,13 @@ incident_report: none | memory/pipeline-fix-queue.md#INC-...
 В stdout скрипта:
 
 ```text
-OK post=...
-OK featured_image=...
-OK schema_meta=1
-OK inline_image_upload=...
-permalink=https://ai-brother.ru/...
+SSH queue JSON uploaded: ...
+SSH queue hero image uploaded: ...
+publish-next.php HTTP 200/201: ...
+OK published post: https://ai-brother.ru/article-...
 ```
 
-`wp-publish-result.json` → `"verdict": "pass"`.
+`ab-publish-result.json` → `"verdict": "pass"`.
 
 ## Не твоя зона
 

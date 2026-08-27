@@ -1,6 +1,6 @@
 ---
 name: publish-excalibur-blog
-description: Excalibur BLOG Publish — WP post, featured image, inline images, schema meta, ledger и post-publish.
+description: Excalibur BLOG Publish — публикация в очередь статей ai-brother.ru (Path B), загрузка hero/inline изображений, триггер publish-next, ledger.
 ---
 
 # Excalibur BLOG — Publish (субагент ⑥)
@@ -10,7 +10,7 @@ description: Excalibur BLOG Publish — WP post, featured image, inline images, 
 
 ## Контракт
 
-`shared/excalibur-wp-publish-contract.md`
+`shared/excalibur-wp-publish-contract.md` (ai-brother.ru article queue API)
 
 ## Preconditions (все обязательны)
 
@@ -20,7 +20,7 @@ description: Excalibur BLOG Publish — WP post, featured image, inline images, 
 | Links | `link-verify.json` → pass |
 | Cover | `cover/cover.png` + alt в `cover-registry.json` |
 | Schema | `schema.jsonld` |
-| Credentials | Cloud Secrets/env или `memory/site.env.local`: `SSH_*`, `SSH_ROOT`, `PUBLIC_SITE_URL` |
+| Credentials | Cloud Secrets/env или `memory/site.env.local`: `AB_API_KEY`, `SSH_*`, `PUBLIC_SITE_URL` |
 | Allow flag | `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes` |
 
 Если allow flag ≠ yes → **`❌ PUBLISH BLOCKER`** (не silent skip).
@@ -30,7 +30,7 @@ description: Excalibur BLOG Publish — WP post, featured image, inline images, 
 ### 1. Preflight publish
 
 ```bash
-python scripts/excalibur_blog_link_verify.py \
+python3 scripts/excalibur_blog_link_verify.py \
   memory/blog/articles/<topic_id>-<slug>/article.html \
   -o memory/blog/articles/<topic_id>-<slug>/link-verify.json \
   --site-base https://ai-brother.ru
@@ -41,57 +41,50 @@ Gate: `link-verify.json` → pass. Иначе FIX (writer/QA) или BLOCKER.
 ### 2. Env-check
 
 ```bash
-python3 scripts/excalibur_blog_wp_publish.py --env-check
+python3 scripts/excalibur_blog_ab_queue_publish.py --env-check
 ```
 
-Проверяет allow flag, public URL и SSH-переменные без вывода секретов. Для ad-hoc Python-проверок не импортируй `excalibur_blog_wp_publish.py` из корня без `scripts/` в `sys.path`; безопаснее использовать этот CLI.
+Проверяет allow flag, `AB_API_KEY`, public URL и SSH-переменные без вывода секретов.
 
 ### 3. Dry-run
 
 ```bash
-python3 scripts/excalibur_blog_wp_publish.py \
+python3 scripts/excalibur_blog_ab_queue_publish.py \
   --article-dir memory/blog/articles/<topic_id>-<slug> \
   --dry-run
 ```
 
-Проверь: slug, title, размер PHP payload без ошибок.
+Проверь: slug, title, image URL, размер HTML payload и пути в очереди.
 
 ### 4. Publish
 
 ```bash
-python3 scripts/excalibur_blog_wp_publish.py \
+python3 scripts/excalibur_blog_ab_queue_publish.py \
   --article-dir memory/blog/articles/<topic_id>-<slug>
 ```
 
 Скрипт:
-- грузит bootstrap сразу через **SSH** (порт 22 по умолчанию), без дополнительных upload-попыток;
-- если настроенный `SSH_ROOT` возвращает SSH ENOENT до upload, один раз пробует `.` и пишет warning без раскрытия секретов; после такого warning лучше обновить Cloud Secret root на `.`;
-- создаёт/обновляет WP post;
-- загружает featured image + alt;
-- загружает **все локальные inline `<img>`** и подменяет `src` на WP media URL;
-- пишет post meta `_excalibur_blog_schema_jsonld`.
+- проверяет отсутствие коллизий по slug на live сайте (`GET /api/articles.php?limit=50`);
+- проверяет HTML whitelist тегов (без `<h1>`, `<div>`, `<script>` и т.д.);
+- загружает все локальные inline `<img>` через `POST /api/upload-image.php` и подменяет `src` на https URL;
+- загружает hero-изображение через API;
+- собирает JSON статьи и загружает его по SSH в `/home/l/litvinie/ai-brother/queue/pending/50-<slug>.json`;
+- загружает WebP обложки в `/home/l/litvinie/ai-brother/queue/images/article-<slug>.webp`;
+- отправляет POST-запрос на `https://ai-brother.ru/api/publish-next.php` с `X-API-Key`;
+- создает артефакт `ab-publish-result.json`;
+- обновляет `shared/published-articles.md`.
 
-### 5. Cloud WebFetch Fallback
-
-Если локальный HTTP-триггер bootstrap упал (timeout / WinError 10060):
-
-1. Скрипт печатает `=== FALLBACK_TRIGGER_URL ===` с URL `excalibur-blog-publish-once.php`.
-2. Cloud-агент открывает URL через WebFetch и пишет ответ в `memory/webfetch-response.txt`.
-3. Скрипт продолжает и читает ответ из файла.
-
-**Не останавливайся** на первом timeout — используй fallback.
-
-### 6. Post-publish артефакты
+### 5. Post-publish артефакты
 
 | Файл | Действие |
 |------|----------|
-| `wp-publish-result.json` | создаёт скрипт (verdict pass/fail) |
-| `memory/blog/wp-publish-log.md` | допиши секцию с post_id, permalink, inline ids |
+| `ab-publish-result.json` | создаёт скрипт (verdict pass/fail) |
+| `memory/blog/wp-publish-log.md` | допиши секцию с permalink, status |
 | `shared/published-articles.md` | если есть строка topic_id со status=in_progress — обнови date/url/status=published; иначе добавь строку |
 | `promotion-checklist.md` | Live URL = permalink |
 | handoff | блок `=== EXCALIBUR BLOG PUBLISH ===` + permalink в `PIPELINE DONE` |
 
-### 7. Post-publish (рекомендуется)
+### 6. Post-publish (рекомендуется)
 
 ```bash
 python3 scripts/excalibur_blog_interlinker.py --apply \
@@ -111,17 +104,16 @@ article_dir:
 publish_date:
 verdict: PASS|FAIL
 permalink:
-post_id:
-featured_image:
+hero_image:
 inline_images:
-schema_meta: ok|fail
+api_status: ok|fail
 blockers:
 ```
 
 ## Blockers
 
-- `❌ PUBLISH BLOCKER` — QA не PASS, link-verify fail, нет cover/schema, credentials, allow flag
-- `❌ PUBLISH FAIL` — скрипт вернул fail (смотри `raw_output` в wp-publish-result.json)
+- `❌ PUBLISH BLOCKER` — QA не PASS, link-verify fail, нет cover/schema, credentials (`AB_API_KEY`, `SSH_*`), allow flag
+- `❌ PUBLISH FAIL` — скрипт вернул fail (смотри `ab-publish-result.json`)
 
 ## Запрещено
 
