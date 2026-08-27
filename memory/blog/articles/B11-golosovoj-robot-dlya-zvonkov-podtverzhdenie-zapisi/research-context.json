@@ -1,0 +1,107 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-08-27",
+    "today_ru": "27.08.2026",
+    "year": 2026,
+    "month": 8,
+    "month_name_ru": "август",
+    "weekday_ru": "четверг",
+    "freshness_window": {
+      "prefer_sources_after": "2026-05-29",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-08-27 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B11",
+    "priority": "P0",
+    "slug": "golosovoj-robot-dlya-zvonkov-podtverzhdenie-zapisi",
+    "h1": "Как настроить голосового робота для подтверждения записей и квалификации: пошаговый гайд для бизнеса",
+    "primary_query": "робот для звонков",
+    "secondary_queries": [
+      "голосовой робот для звонков",
+      "голосовой робот для обзвона",
+      "голосовой бот для записи",
+      "робот для входящих звонков",
+      "звонобот для бизнеса"
+    ],
+    "search_intent": "workflow",
+    "article_mode": "B"
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B11",
+    "status": "PASS",
+    "search_intent": "workflow",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "робот для звонков 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "робот для звонков август 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "робот для звонков новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "github_evidence",
+      "query": "site:github.com робот для звонков 2026",
+      "purpose": "GitHub repos/issues/README для технических сигналов и реального опыта"
+    },
+    {
+      "id": "official_docs",
+      "query": "робот для звонков official docs documentation 2026",
+      "purpose": "официальная документация, changelog, developer docs"
+    },
+    {
+      "id": "community_experience",
+      "query": "робот для звонков forum reddit discussion проблемы опыт 2026",
+      "purpose": "форумы, обсуждения, ошибки пользователей и живые сценарии"
+    },
+    {
+      "id": "secondary_1",
+      "query": "голосовой робот для звонков 2026",
+      "purpose": "вторичный запрос: голосовой робот для звонков"
+    },
+    {
+      "id": "secondary_2",
+      "query": "голосовой робот для обзвона 2026",
+      "purpose": "вторичный запрос: голосовой робот для обзвона"
+    },
+    {
+      "id": "secondary_3",
+      "query": "голосовой бот для записи 2026",
+      "purpose": "вторичный запрос: голосовой бот для записи"
+    },
+    {
+      "id": "secondary_4",
+      "query": "робот для входящих звонков 2026",
+      "purpose": "вторичный запрос: робот для входящих звонков"
+    },
+    {
+      "id": "secondary_5",
+      "query": "звонобот для бизнеса 2026",
+      "purpose": "вторичный запрос: звонобот для бизнеса"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Как настроить голосового робота для подтверждения записей и квалификации: пошаговый гайд для бизнеса 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B11-golosovoj-robot-dlya-zvonkov-podtverzhdenie-zapisi",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}

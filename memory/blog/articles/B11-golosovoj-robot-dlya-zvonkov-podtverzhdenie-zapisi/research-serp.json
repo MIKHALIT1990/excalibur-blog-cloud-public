@@ -1,0 +1,741 @@
+{
+  "agent": "excalibur-blog",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-08-27",
+    "today_ru": "27.08.2026",
+    "year": 2026,
+    "month": 8,
+    "month_name_ru": "август",
+    "weekday_ru": "четверг",
+    "freshness_window": {
+      "prefer_sources_after": "2026-05-29",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-08-27 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B11",
+    "priority": "P0",
+    "slug": "golosovoj-robot-dlya-zvonkov-podtverzhdenie-zapisi",
+    "h1": "Как настроить голосового робота для подтверждения записей и квалификации: пошаговый гайд для бизнеса",
+    "primary_query": "робот для звонков",
+    "secondary_queries": [
+      "голосовой робот для звонков",
+      "голосовой робот для обзвона",
+      "голосовой бот для записи",
+      "робот для входящих звонков",
+      "звонобот для бизнеса"
+    ],
+    "search_intent": "workflow",
+    "article_mode": "B"
+  },
+  "searches": [
+    {
+      "query_id": "primary_fresh",
+      "query": "робот для звонков 2026",
+      "purpose": "актуальный SERP по главному запросу",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Голосовые роботы: ТОП-32 сервиса для звонков 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon",
+          "snippet": ""
+        },
+        {
+          "title": "8 лучших голосовых роботов для обзвона клиентов в 2026 году",
+          "url": "https://www.kp.ru/money/biznes/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+          "snippet": "Голосовые роботы: 32 сервиса для звонков и обзвона клиентов, распознавание речи, сценарии диалогов, интеграция с CRM. Сравниваем цены и выбираем."
+        },
+        {
+          "title": "Голосовой робот для входящих звонков: ТОП-12 сервисов 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon/golosovye-roboty-vhodyashchie",
+          "snippet": "Рейтинг топ-8 голосовых роботов для обзвона клиентов в 2026 году с отзывами, ценами."
+        },
+        {
+          "title": "10 лучших голосовых роботов для обзвона клиентов в 2026 году",
+          "url": "https://adlook.me/blog/articles/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+          "snippet": "Голосовой робот для входящих звонков: 12 сервисов принимают звонки без оператора, отвечают на вопросы и фиксируют заявки. Сравниваем тарифы и сценарии."
+        },
+        {
+          "title": "Голосовой Робот Для Звонков В 2026: Практический… | Aiva24",
+          "url": "https://aiva24.io/blog/guides/golosovoy-robot-dlya-zvonkov-v-2026-prakticheskiy-gayd",
+          "snippet": "Рейтинг топ-10 лучших голосовых роботов для обзвона клиентов в 2026 году с ценами, отзывами."
+        },
+        {
+          "title": "15 лучших голосовых ИИ-роботов для бизнеса в 2026/2027 году: рейтинг ...",
+          "url": "https://vc.ru/ai/3063540-golosovye-ii-roboty-dlya-biznesa",
+          "snippet": "Мы поможем вам выбрать сценарий, настроить интеграции и запустить голосовой робот для звонков, который будет отвечать на звонки в 2:00 ночи и в новогодние праздники, пока ваши ..."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "primary_recent",
+      "query": "робот для звонков август 2026",
+      "purpose": "свежее за текущий месяц",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Голосовые роботы: ТОП-32 сервиса для звонков 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon",
+          "snippet": ""
+        },
+        {
+          "title": "8 лучших голосовых роботов для обзвона клиентов в 2026 году",
+          "url": "https://www.kp.ru/money/biznes/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+          "snippet": "Голосовые роботы: 32 сервиса для звонков и обзвона клиентов, распознавание речи, сценарии диалогов, интеграция с CRM. Сравниваем цены и выбираем."
+        },
+        {
+          "title": "Голосовые роботы для бизнеса 2026: платформы, цены, закон",
+          "url": "https://agenthere.ru/blog/golosovye-roboty-dlya-biznesa-2026-platformy-zakon",
+          "snippet": "В этом обзоре мы рассмотрим лучшие голосовые роботы для обзвона клиентов, сравним их опции и объясним, на что обращать внимание при выборе сервиса. Голосовой робот — это программное решение для автоматизации телефонных коммуникаций с клиентами."
+        },
+        {
+          "title": "10 лучших голосовых роботов для обзвона клиентов в 2026 году",
+          "url": "https://adlook.me/blog/articles/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+          "snippet": "По состоянию на август 2026 года голосовые роботы для бизнеса — зрелый рынок в России: облачные контакт-центры выросли до 2,7 млрд ₽ в 2024 году (+33%), с прогнозом ~3,5 млрд ₽ в 2025-м (TAdviser, 2025)."
+        },
+        {
+          "title": "Голосовой Робот Для Звонков В 2026: Практический… | Aiva24",
+          "url": "https://aiva24.io/blog/guides/golosovoy-robot-dlya-zvonkov-v-2026-prakticheskiy-gayd",
+          "snippet": "Рейтинг топ-10 лучших голосовых роботов для обзвона клиентов в 2026 году с ценами, отзывами."
+        },
+        {
+          "title": "Голосовой робот для входящих звонков: ТОП-12 сервисов 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon/golosovye-roboty-vhodyashchie",
+          "snippet": "Мы поможем вам выбрать сценарий, настроить интеграции и запустить голосовой робот для звонков, который будет отвечать на звонки в 2:00 ночи и в новогодние праздники, пока ваши операторы на ..."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "news_angle",
+      "query": "робот для звонков новости 2026",
+      "purpose": "новости и обновления",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "В Госдуму внесли законопроект об обязательном предупреждении о звонках ...",
+          "url": "https://cntd.ru/news/read/v-gosdumu-vnesli-zakonoproekt-ob-obiazatelnom-preduprezdenii-o-zvonkax-golosovyx-robotov",
+          "snippet": ""
+        },
+        {
+          "title": "Голосовой Робот Для Звонков В 2026: Практический… | Aiva24",
+          "url": "https://aiva24.io/blog/guides/golosovoy-robot-dlya-zvonkov-v-2026-prakticheskiy-gayd",
+          "snippet": "Согласно проекту поправок в закон \"О связи\", предупреждение о роботизированном характере звонка должно звучать в первые пять секунд соединения. Это требование распространяется на звонки с использованием голосовых ботов, синтезированной речи или заранее записанных сообщений."
+        },
+        {
+          "title": "Робот для звонков: экономия 80% времени 2026 | Блог aimens",
+          "url": "https://aimens.ru/blog/robot-dlya-zvonkov/",
+          "snippet": "Мы поможем вам выбрать сценарий, настроить интеграции и запустить голосовой робот для звонков, который будет отвечать на звонки в 2:00 ночи и в новогодние праздники, пока ваши ..."
+        },
+        {
+          "title": "8 лучших голосовых роботов для обзвона клиентов в 2026 году",
+          "url": "https://www.kp.ru/money/biznes/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+          "snippet": "Робот для звонков экономит 80% времени операторов и снижает затраты на телемаркетинг в 5 раз. Голосовые технологии 2026 года обрабатывают до 500 звонков в час с конверсией как у лучших менеджеров. Современный голосовой робот работает 24/7 без больничных и отпусков."
+        },
+        {
+          "title": "Голосовые роботы для бизнеса: топ-5 российских решений — Информация в ...",
+          "url": "https://li8.ru/2026/07/02/virtualnaya-ats-i-golosovye-roboty-kak-bi-w3k6h/",
+          "snippet": "В этом обзоре мы рассмотрим лучшие голосовые роботы для обзвона клиентов, сравним их опции и объясним, на что обращать внимание при выборе сервиса. Голосовой робот — это программное решение для автоматизации телефонных коммуникаций с клиентами."
+        },
+        {
+          "title": "Голосовые роботы: ТОП-32 сервиса для звонков 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon",
+          "snippet": "Рынок виртуальных АТС в 2026 году: от облачных станций до голосовых роботов. Читайте о 5 инноваторах, меняющих бизнес-коммуникации."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "github_evidence",
+      "query": "site:github.com робот для звонков 2026",
+      "purpose": "GitHub repos/issues/README для технических сигналов и реального опыта",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "GitHub - bulksmswrl/ai-sales-call-bot: AI-робот для звонков ...",
+          "url": "https://github.com/bulksmswrl/ai-sales-call-bot",
+          "snippet": ""
+        },
+        {
+          "title": "ai-sales-call-bot/ai-calls.md at main · bulksmswrl/ai-sales ... - GitHub",
+          "url": "https://github.com/bulksmswrl/ai-sales-call-bot/blob/main/ai-calls.md",
+          "snippet": "Что такое AI-робот Zvonobot? Zvonobot AI — это голосовой AI-бот для автоматизации телефонных звонков, обработки лидов, поддержки клиентов и повышения эффективности продаж."
+        },
+        {
+          "title": "GSM-модуль SIM800L: самый полный мануал (на примерах с Arduino Uno ...",
+          "url": "https://gist.github.com/khusamov/4c0b945a9f5156c8539276ee29d1205f",
+          "snippet": "Голосовой AI-бот снижает нагрузку на операторов и помогает автоматизировать рутинные задачи. AI-робот может одновременно совершать сотни звонков без участия операторов. Чем быстрее клиент получает звонок после заявки, тем выше вероятность продажи. AI-система работает без выходных и перерывов."
+        },
+        {
+          "title": "Топ‑10 ИИ‑агентов для продаж в 2026 - GitHub",
+          "url": "https://github.com/bulksmswrl/top-ai-sales-agents-2026",
+          "snippet": "GSM-модуль SIM800L: самый полный мануал (на примерах с Arduino Uno) https://bit.ly/2PEIB3H - Sketch1.ino"
+        },
+        {
+          "title": "GitHub - Samsushkacvc/Grobovsheke-SmsBomber: Мощный, кроссплатформенный ...",
+          "url": "https://github.com/Samsushkacvc/Grobovsheke-SmsBomber",
+          "snippet": "В 2026 году ИИ‑агенты становятся неотъемлемой частью процесса продаж. Они помогают автоматизировать массовые звонки, SMS‑рассылки, квалификацию лидов и управлять многоканальными кампаниями, освобождая команды от рутинной работы и повышая эффективность."
+        },
+        {
+          "title": "Замедление звонков Telegram · bol-van zapret - GitHub",
+          "url": "https://github.com/bol-van/zapret/discussions/1668",
+          "snippet": "На данный момент, бомбер отлично спамит на номера таких стран как Россия и Узбекистан, также есть сервисы и для других стран! В будущем планируется добавить сервисы всех стран СНГ!"
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "official_docs",
+      "query": "робот для звонков official docs documentation 2026",
+      "purpose": "официальная документация, changelog, developer docs",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Запуск голосового робота в 2025-2026 году: ключевые требования, риски и ...",
+          "url": "https://neuro.net/ru/zapusk-golosovogo-robota-v-2025-2026-godu-kljuchevye-trebovaniya-riski-i-zakony/",
+          "snippet": ""
+        },
+        {
+          "title": "Документация — ВойсЛайнс",
+          "url": "https://voicelabs.ru/docs/",
+          "snippet": "Запускаете голосового робота в 2025 году? Узнайте, как соответствовать новым требованиям: хранение записей, база номеров, согласие клиентов, качество аудио и юридические риски."
+        },
+        {
+          "title": "Автоматический обзвон клиентов голосовым роботом: как запустить и не ...",
+          "url": "https://oparinseo.ru/blog/article/avtomaticheskiy-obzvon-klientov-golosovym-robotom-polnoe-rukovodstvo-po-zapusku-ot-a-do-ya-v-2026-go/",
+          "snippet": "ВойсЛайнс — SaaS-платформа для автоматизации исходящих телефонных звонков. Робот самостоятельно совершает звонки по загруженной базе контактов и фиксирует итоги разговора."
+        },
+        {
+          "title": "Голосовой робот - бизнес помощник для автоматизации обработки звонков",
+          "url": "https://www.mango-office.ru/products/contact-center/ai/voice-robot/",
+          "snippet": "Узнайте, как внедрить автообзвон голосовым роботом в 2026 году. Пошаговое руководство: выбор сервиса, написание скриптов, юридические аспекты и ТОП-5 платформ для бизнеса."
+        },
+        {
+          "title": "n8n Docs",
+          "url": "https://docs.n8n.io/",
+          "snippet": "Подключайте Голосового робота — виртуального помощника, который автоматизирует простые диалоги, обработает все входящие звонки и решит до 97% рутинных задач операторов в любое время суток."
+        },
+        {
+          "title": "Сервис звонков с ИИ для бизнеса — Zvonobot™",
+          "url": "https://zvonobot.ru/",
+          "snippet": "Get set up on n8n, build your first workflow, and find inspiration for what to automate."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "community_experience",
+      "query": "робот для звонков forum reddit discussion проблемы опыт 2026",
+      "purpose": "форумы, обсуждения, ошибки пользователей и живые сценарии",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Zvonobot: обзор автообзвона, тарифы 2026 · Vakas",
+          "url": "https://vakas.ru/articles/zvonobot-obzor/",
+          "snippet": ""
+        },
+        {
+          "title": "Салют! За годы работы Звонка у нас накопилось много вопросов от ...",
+          "url": "https://vk.com/wall-231837799_8",
+          "snippet": "Zvonobot — сервис голосового автообзвона и роботов на нейросетях: массовый обзвон, IVR, распознавание речи, интеграции с CRM. Разбираем функции, тарифы 2026 года, юридическую рамку автодозвона (38-ФЗ, 126-ФЗ, КоАП) и реальные минусы из отзывов."
+        },
+        {
+          "title": "Голосовой Робот Для Звонков В 2026: Практический… | Aiva24",
+          "url": "https://aiva24.io/blog/guides/golosovoy-robot-dlya-zvonkov-v-2026-prakticheskiy-gayd",
+          "snippet": "24-06-2026 Салют! За годы работы Звонка у нас накопилось много вопросов от пользователей: про настройки, сценарии, роботов, отчёты и всякие «а почему оно работает вот так?»."
+        },
+        {
+          "title": "Голосовые ИИ-агенты для звонков: обзор Grok Voice 2026",
+          "url": "https://rechka.ai/blog/golosovye-ii-agenty-zvonki-prodazhi/",
+          "snippet": "Голосовой робот для звонков — это AI-агент, который автоматически обрабатывает входящие и исходящие звонки, ведёт диалоги с клиентами, собирает данные и интегрируется с CRM. Для бизнеса с 200+ звонков в день это мощный инструмент для снижения нагрузки на колл-центр."
+        },
+        {
+          "title": "Голосовые роботы: ТОП-32 сервиса для звонков 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon",
+          "snippet": "Голосовой робот, который сам звонит клиентам, квалифицирует лиды и записывает на встречи, перестал быть привилегией корпораций с бюджетом на интеграторов. Теперь его попробуют даже отделы из пяти человек — просто потому что это дёшево и быстро. Но есть подвох, о котором молчат зарубежные анонсы."
+        },
+        {
+          "title": "Все отзывы о Голосовой робот - Реальный опыт. Плюсы, минусы.",
+          "url": "https://a2is.ru/catalog/avtomaticheskie-zvonki/golosovoj-robot/reviews-golosovoj-robot",
+          "snippet": "Голосовые роботы: 32 сервиса для звонков и обзвона клиентов, распознавание речи, сценарии диалогов, интеграция с CRM. Сравниваем цены и выбираем."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "secondary_1",
+      "query": "голосовой робот для звонков 2026",
+      "purpose": "вторичный запрос: голосовой робот для звонков",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Умный голосовой робот на AI: ТОП-18 сервисов 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon/umnye-ai-golosovye-roboty",
+          "snippet": ""
+        },
+        {
+          "title": "Голосовые роботы: ТОП-32 сервиса для звонков 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon",
+          "snippet": "Умный голосовой робот на AI: платформы с распознаванием речи и логикой GPT для звонков и обзвона клиентов. Сравниваем цены, языки и интеграции с CRM."
+        },
+        {
+          "title": "8 лучших голосовых роботов для обзвона клиентов в 2026 году",
+          "url": "https://www.kp.ru/money/biznes/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+          "snippet": "Голосовые роботы: 32 сервиса для звонков и обзвона клиентов, распознавание речи, сценарии диалогов, интеграция с CRM. Сравниваем цены и выбираем."
+        },
+        {
+          "title": "Голосовой Робот Для Звонков В 2026: Практический… | Aiva24",
+          "url": "https://aiva24.io/blog/guides/golosovoy-robot-dlya-zvonkov-v-2026-prakticheskiy-gayd",
+          "snippet": "Рейтинг топ-8 голосовых роботов для обзвона клиентов в 2026 году с отзывами, ценами."
+        },
+        {
+          "title": "Голосовые роботы для бизнеса 2026: платформы, цены, закон",
+          "url": "https://agenthere.ru/blog/golosovye-roboty-dlya-biznesa-2026-platformy-zakon",
+          "snippet": "Мы поможем вам выбрать сценарий, настроить интеграции и запустить голосовой робот для звонков, который будет отвечать на звонки в 2:00 ночи и в новогодние праздники, пока ваши операторы на ..."
+        },
+        {
+          "title": "15 лучших голосовых ИИ-роботов для бизнеса в 2026/2027 году: рейтинг ...",
+          "url": "https://vc.ru/ai/3063540-golosovye-ii-roboty-dlya-biznesa",
+          "snippet": "Голосовой ИИ-агент (голосовой робот) — это система, которая ведёт телефонный диалог с клиентом вместо оператора: принимает входящие, совершает обзвоны, записывает на услуги, отвечает на ..."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "secondary_2",
+      "query": "голосовой робот для обзвона 2026",
+      "purpose": "вторичный запрос: голосовой робот для обзвона",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "8 лучших голосовых роботов для обзвона клиентов в 2026 году",
+          "url": "https://www.kp.ru/money/biznes/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+          "snippet": ""
+        },
+        {
+          "title": "10 лучших голосовых роботов для обзвона клиентов в 2026 году",
+          "url": "https://adlook.me/blog/articles/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+          "snippet": "Рассказываем о лучших голосовых роботах для обзвона, их стоимости и правильном внедрении в работу."
+        },
+        {
+          "title": "Голосовой робот для обзвона: ТОП-11 сервисов 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon/golosovye-roboty-obzvon",
+          "snippet": "Рейтинг топ-10 лучших голосовых роботов для обзвона клиентов в 2026 году с ценами, отзывами."
+        },
+        {
+          "title": "Голосовые роботы: ТОП-32 сервиса для звонков 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon",
+          "snippet": "Голосовой робот для обзвона: 11 платформ автообзвона холодной базы, подтверждения заказов и напоминаний. Сравниваем цены, распознавание речи, интеграции с CRM."
+        },
+        {
+          "title": "15 лучших голосовых ИИ-роботов для бизнеса в 2026/2027 году: рейтинг ...",
+          "url": "https://vc.ru/ai/3063540-golosovye-ii-roboty-dlya-biznesa",
+          "snippet": "Голосовые роботы: 32 сервиса для звонков и обзвона клиентов, распознавание речи, сценарии диалогов, интеграция с CRM. Сравниваем цены и выбираем."
+        },
+        {
+          "title": "15 лучших голосовых ИИ-роботов для бизнеса в 2026/2027 году: рейтинг ...",
+          "url": "https://www.sostav.ru/blogs/292670/99749",
+          "snippet": "Компании внедряют голосовых роботов для обзвона клиентов и автоматизации рутины, экономя время сотрудников для действительно важных задач."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "secondary_3",
+      "query": "голосовой бот для записи 2026",
+      "purpose": "вторичный запрос: голосовой бот для записи",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Голосовые боты для бизнеса 2026: технологии, платформы, цены - честный ...",
+          "url": "https://bot-craft.ru/blog/voice-bot-2026/",
+          "snippet": ""
+        },
+        {
+          "title": "20 лучших ИИ-сервисов для записи голоса в 2026 году",
+          "url": "https://dtf.ru/top-smm/3022936-20-luchshih-ii-servisov-dlya-zapisi-golosa-v-2026-godu",
+          "snippet": "Обзор голосовых ботов 2026: 3 поколения технологий (IVR, ASR+TTS+NLU, GPT-4o realtime), 5 платформ для РФ (Yandex SpeechKit, Tinkoff Voice, SaluteSpeech, VoxImplant), сценарии и цены."
+        },
+        {
+          "title": "Ии-звонки И Голосовые Боты Для Бизнеса В 2026: Технологии, Кейсы, Roi",
+          "url": "https://flow-masters.ru/blog/ai-voice-calls-business-2026/",
+          "snippet": "Как настроить нейросеть для записи голоса в Телеграм? Чтобы настроить нейросеть для записи голоса в Телеграм, можно использовать боты, основанные на API для распознавания речи."
+        },
+        {
+          "title": "Голосовой бот для бизнеса — как выбрать, сколько стоит, обзор 2026",
+          "url": "https://ai-spark.ru/blog/golosovoy-bot-dlya-biznesa-kak-vybrat",
+          "snippet": "ИИ-звонки в 2026 году — это не эксперимент, а рабочее решение для бизнеса. Голосовые боты экономят 50-70% расходов на поддержку, работают 24/7 и масштабируются без найма людей."
+        },
+        {
+          "title": "Голосовой бот для бизнеса в 2026: что это, как работает и стоит ли ...",
+          "url": "https://deplox.ru/blog/golosovoy-bot-dlya-biznesa-2025",
+          "snippet": "Обработка входящих звонков, обзвон клиентов, квалификация лидов, запись на услугу — всё это берёт на себя голосовой AI-бот, работающий 24/7 без выходных. В этой статье разберём:"
+        },
+        {
+          "title": "Бесплатный генератор голоса ИИ для озвучки текста онлайн",
+          "url": "https://audiocleaner.ai/ru/ai-text-to-speech",
+          "snippet": "В 2026 году голосовой бот — это рабочий инструмент среднего и малого бизнеса, который отвечает на звонки, записывает клиентов, обрабатывает заявки и не уходит в отпуск."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "secondary_4",
+      "query": "робот для входящих звонков 2026",
+      "purpose": "вторичный запрос: робот для входящих звонков",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Голосовой робот для входящих звонков: ТОП-12 сервисов 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon/golosovye-roboty-vhodyashchie",
+          "snippet": ""
+        },
+        {
+          "title": "Голосовые роботы: ТОП-32 сервиса для звонков 2026 | ToolFox",
+          "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon",
+          "snippet": "Голосовой робот для входящих звонков: 12 сервисов принимают звонки без оператора, отвечают на вопросы и фиксируют заявки. Сравниваем тарифы и сценарии."
+        },
+        {
+          "title": "Голосовой Робот Для Звонков В 2026: Практический… | Aiva24",
+          "url": "https://aiva24.io/blog/guides/golosovoy-robot-dlya-zvonkov-v-2026-prakticheskiy-gayd",
+          "snippet": "Голосовые роботы: 32 сервиса для звонков и обзвона клиентов, распознавание речи, сценарии диалогов, интеграция с CRM. Сравниваем цены и выбираем."
+        },
+        {
+          "title": "8 лучших голосовых роботов для обзвона клиентов в 2026 году",
+          "url": "https://www.kp.ru/money/biznes/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+          "snippet": "Мы поможем вам выбрать сценарий, настроить интеграции и запустить голосовой робот для звонков, который будет отвечать на звонки в 2:00 ночи и в новогодние праздники, пока ваши ..."
+        },
+        {
+          "title": "Ai-роботы Для Бизнеса 2026: Топ-10 Голосовых Ассистентов Для Обзвонов",
+          "url": "https://envybox.io/blog/top-10-ai-robotov-dlja-biznesa/",
+          "snippet": "В этом обзоре мы рассмотрим лучшие голосовые роботы для обзвона клиентов, сравним их опции и объясним, на что обращать внимание при выборе сервиса. Голосовой робот — это программное решение для автоматизации телефонных коммуникаций с клиентами."
+        },
+        {
+          "title": "Облачный сервис для автоматизации исходящих и входящих звонков",
+          "url": "https://skorozvon.ru/",
+          "snippet": "Сравнение голосовых AI-роботов для автоматизации звонков: решения для массового обзвона, обработки входящих обращений и автоматизации рутинных задач бизнеса."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "secondary_5",
+      "query": "звонобот для бизнеса 2026",
+      "purpose": "вторичный запрос: звонобот для бизнеса",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Сервис звонков с ИИ для бизнеса — Zvonobot™",
+          "url": "https://zvonobot.ru/",
+          "snippet": ""
+        },
+        {
+          "title": "Звонобот: Описание, Функции и Интерфейс - 2026",
+          "url": "https://soware.ru/products/zvonobot",
+          "snippet": "Робот полностью самостоятельно ответит на звонок клиента, задаст правильные вопросы, сохранит все ответы и передаст нужную информацию прямо в CRM систему."
+        },
+        {
+          "title": "Голосовые продукты и решения для бизнеса — Звонобот",
+          "url": "https://zvonobot.ru/service/",
+          "snippet": "Программный продукт Звонобот предназначен для автоматизации взаимодействия с клиентами, включая обзвон по базе данных и обработку ответов. Он позволяет оптимизировать процесс коммуникации с клиентами и повысить эффективность работы службы поддержки и продаж."
+        },
+        {
+          "title": "Zvonobot: обзор автообзвона, тарифы 2026 · Vakas",
+          "url": "https://vakas.ru/articles/zvonobot-obzor/",
+          "snippet": "Телефония для вашего бизнеса с прозрачными низкими ценами и отличным сервисом. Международный провайдер SIP-транков и VoIP-телефонии для вашего бизнеса. Удобный конструктор красивых и готовых шаблоны для идеальных рассылок по почте."
+        },
+        {
+          "title": "Звонобот — автообзвон и голосовой ИИ-робот | Обзор, цены",
+          "url": "https://toolfox.ru/services/s/zvonobot",
+          "snippet": "Zvonobot — сервис голосового автообзвона и роботов на нейросетях: массовый обзвон, IVR, распознавание речи, интеграции с CRM. Разбираем функции, тарифы 2026 года, юридическую рамку автодозвона (38-ФЗ, 126-ФЗ, КоАП) и реальные минусы из отзывов."
+        },
+        {
+          "title": "Звонобот (Zvonobot): обзор ИИ-сервиса автоматического обзвона клиентов ...",
+          "url": "https://aimarketcap.ru/ai-tools/zvonobot/",
+          "snippet": "Звонобот — автоматизация звонков с ИИ для бизнеса: автообзвон и голосовые рассылки от 2 ₽/мин, ИИ-робот с распознаванием речи, входящие звонки и виртуальная АТС."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    },
+    {
+      "query_id": "h1_fresh",
+      "query": "Как настроить голосового робота для подтверждения записей и квалификации: пошаговый гайд для бизнеса 2026",
+      "purpose": "SERP по H1",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Пошаговый чек-лист для настройки голосового робота под бизнес‑задачу с ...",
+          "url": "https://sevinfo24.ru/poshagovyy-chek-list-dlya-nastroyki-golosovogo-robota-pod-biznes-zadachu-s-gotovymi-skriptami-i-fayl/",
+          "snippet": ""
+        },
+        {
+          "title": "Этапы внедрения голосового робота - как создать и настроить голосового ...",
+          "url": "https://www.mtt.ru/support/blog/etapy-vnedrenija-golosovogo-bota/",
+          "snippet": "Настроить голосового робота для конкретной бизнес-задачи можно быстро и без лишней головной боли, если идти по шагам и иметь под рукой готовые шаблоны."
+        },
+        {
+          "title": "Настройка Голосового Ai-агента: Ключевые Этапы И Выгоды Для Бизнеса",
+          "url": "https://neuromate.ru/nastrojka-golosovogo-ai-agenta-guide/",
+          "snippet": "Как устроен и работает голосовой бот? Голосовой бот работает по технологии, в основе которой лежит искусственная нейронная сеть. Все действия выполняются по определенным алгоритмам в результате получаемых сигналов и команд."
+        },
+        {
+          "title": "GPT-Live-1: пошаговое руководство по настройке голосового AI-агента для ...",
+          "url": "https://blog.raisovich.ru/blog/gpt-live-1-golosovoj-ai-agent-nastrojka-2026/",
+          "snippet": "Настройка голосового AI-агента для бизнеса: пошаговое руководство, интеграция с CRM, создание колл-центра, обучение на данных компании и лучшие практики для повышения сервиса и ..."
+        },
+        {
+          "title": "Пошаговый практикум по настройке голосового робота для обработки ...",
+          "url": "https://legno-board.ru/poshagovyy-praktikum-po-nastroyke-golosovogo-robota-dlya-obrabotki-telefonnyh-zayavok-s-gotovymi-sts/",
+          "snippet": "Пошаговая инструкция по настройке голосового AI-агента для бизнеса: от API-интеграции до продакшена."
+        },
+        {
+          "title": "Как настроить голосового бота для колл центра",
+          "url": "https://www.1cbit.ru/blog/kak-nastroit-golosovogo-bota-dlya-koll-tsentra/",
+          "snippet": "Этот практикум проводит шаг за шагом через настройку голосового робота, который принимает и обрабатывает телефонные обращения."
+        }
+      ],
+      "searched_at": "2026-08-27"
+    }
+  ],
+  "errors": [],
+  "unique_urls": [
+    {
+      "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon",
+      "title": "Голосовые роботы: ТОП-32 сервиса для звонков 2026 | ToolFox",
+      "from_query": "робот для звонков 2026"
+    },
+    {
+      "url": "https://www.kp.ru/money/biznes/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+      "title": "8 лучших голосовых роботов для обзвона клиентов в 2026 году",
+      "from_query": "робот для звонков 2026"
+    },
+    {
+      "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon/golosovye-roboty-vhodyashchie",
+      "title": "Голосовой робот для входящих звонков: ТОП-12 сервисов 2026 | ToolFox",
+      "from_query": "робот для звонков 2026"
+    },
+    {
+      "url": "https://adlook.me/blog/articles/luchshie-golosovye-roboty-dlya-obzvona-klientov/",
+      "title": "10 лучших голосовых роботов для обзвона клиентов в 2026 году",
+      "from_query": "робот для звонков 2026"
+    },
+    {
+      "url": "https://aiva24.io/blog/guides/golosovoy-robot-dlya-zvonkov-v-2026-prakticheskiy-gayd",
+      "title": "Голосовой Робот Для Звонков В 2026: Практический… | Aiva24",
+      "from_query": "робот для звонков 2026"
+    },
+    {
+      "url": "https://vc.ru/ai/3063540-golosovye-ii-roboty-dlya-biznesa",
+      "title": "15 лучших голосовых ИИ-роботов для бизнеса в 2026/2027 году: рейтинг ...",
+      "from_query": "робот для звонков 2026"
+    },
+    {
+      "url": "https://agenthere.ru/blog/golosovye-roboty-dlya-biznesa-2026-platformy-zakon",
+      "title": "Голосовые роботы для бизнеса 2026: платформы, цены, закон",
+      "from_query": "робот для звонков август 2026"
+    },
+    {
+      "url": "https://cntd.ru/news/read/v-gosdumu-vnesli-zakonoproekt-ob-obiazatelnom-preduprezdenii-o-zvonkax-golosovyx-robotov",
+      "title": "В Госдуму внесли законопроект об обязательном предупреждении о звонках ...",
+      "from_query": "робот для звонков новости 2026"
+    },
+    {
+      "url": "https://aimens.ru/blog/robot-dlya-zvonkov/",
+      "title": "Робот для звонков: экономия 80% времени 2026 | Блог aimens",
+      "from_query": "робот для звонков новости 2026"
+    },
+    {
+      "url": "https://li8.ru/2026/07/02/virtualnaya-ats-i-golosovye-roboty-kak-bi-w3k6h/",
+      "title": "Голосовые роботы для бизнеса: топ-5 российских решений — Информация в ...",
+      "from_query": "робот для звонков новости 2026"
+    },
+    {
+      "url": "https://github.com/bulksmswrl/ai-sales-call-bot",
+      "title": "GitHub - bulksmswrl/ai-sales-call-bot: AI-робот для звонков ...",
+      "from_query": "site:github.com робот для звонков 2026"
+    },
+    {
+      "url": "https://github.com/bulksmswrl/ai-sales-call-bot/blob/main/ai-calls.md",
+      "title": "ai-sales-call-bot/ai-calls.md at main · bulksmswrl/ai-sales ... - GitHub",
+      "from_query": "site:github.com робот для звонков 2026"
+    },
+    {
+      "url": "https://gist.github.com/khusamov/4c0b945a9f5156c8539276ee29d1205f",
+      "title": "GSM-модуль SIM800L: самый полный мануал (на примерах с Arduino Uno ...",
+      "from_query": "site:github.com робот для звонков 2026"
+    },
+    {
+      "url": "https://github.com/bulksmswrl/top-ai-sales-agents-2026",
+      "title": "Топ‑10 ИИ‑агентов для продаж в 2026 - GitHub",
+      "from_query": "site:github.com робот для звонков 2026"
+    },
+    {
+      "url": "https://github.com/Samsushkacvc/Grobovsheke-SmsBomber",
+      "title": "GitHub - Samsushkacvc/Grobovsheke-SmsBomber: Мощный, кроссплатформенный ...",
+      "from_query": "site:github.com робот для звонков 2026"
+    },
+    {
+      "url": "https://github.com/bol-van/zapret/discussions/1668",
+      "title": "Замедление звонков Telegram · bol-van zapret - GitHub",
+      "from_query": "site:github.com робот для звонков 2026"
+    },
+    {
+      "url": "https://neuro.net/ru/zapusk-golosovogo-robota-v-2025-2026-godu-kljuchevye-trebovaniya-riski-i-zakony/",
+      "title": "Запуск голосового робота в 2025-2026 году: ключевые требования, риски и ...",
+      "from_query": "робот для звонков official docs documentation 2026"
+    },
+    {
+      "url": "https://voicelabs.ru/docs/",
+      "title": "Документация — ВойсЛайнс",
+      "from_query": "робот для звонков official docs documentation 2026"
+    },
+    {
+      "url": "https://oparinseo.ru/blog/article/avtomaticheskiy-obzvon-klientov-golosovym-robotom-polnoe-rukovodstvo-po-zapusku-ot-a-do-ya-v-2026-go/",
+      "title": "Автоматический обзвон клиентов голосовым роботом: как запустить и не ...",
+      "from_query": "робот для звонков official docs documentation 2026"
+    },
+    {
+      "url": "https://www.mango-office.ru/products/contact-center/ai/voice-robot/",
+      "title": "Голосовой робот - бизнес помощник для автоматизации обработки звонков",
+      "from_query": "робот для звонков official docs documentation 2026"
+    },
+    {
+      "url": "https://docs.n8n.io/",
+      "title": "n8n Docs",
+      "from_query": "робот для звонков official docs documentation 2026"
+    },
+    {
+      "url": "https://zvonobot.ru/",
+      "title": "Сервис звонков с ИИ для бизнеса — Zvonobot™",
+      "from_query": "робот для звонков official docs documentation 2026"
+    },
+    {
+      "url": "https://vakas.ru/articles/zvonobot-obzor/",
+      "title": "Zvonobot: обзор автообзвона, тарифы 2026 · Vakas",
+      "from_query": "робот для звонков forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://vk.com/wall-231837799_8",
+      "title": "Салют! За годы работы Звонка у нас накопилось много вопросов от ...",
+      "from_query": "робот для звонков forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://rechka.ai/blog/golosovye-ii-agenty-zvonki-prodazhi/",
+      "title": "Голосовые ИИ-агенты для звонков: обзор Grok Voice 2026",
+      "from_query": "робот для звонков forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://a2is.ru/catalog/avtomaticheskie-zvonki/golosovoj-robot/reviews-golosovoj-robot",
+      "title": "Все отзывы о Голосовой робот - Реальный опыт. Плюсы, минусы.",
+      "from_query": "робот для звонков forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon/umnye-ai-golosovye-roboty",
+      "title": "Умный голосовой робот на AI: ТОП-18 сервисов 2026 | ToolFox",
+      "from_query": "голосовой робот для звонков 2026"
+    },
+    {
+      "url": "https://toolfox.ru/services/golosovye-roboty-avtoobzvon/golosovye-roboty-obzvon",
+      "title": "Голосовой робот для обзвона: ТОП-11 сервисов 2026 | ToolFox",
+      "from_query": "голосовой робот для обзвона 2026"
+    },
+    {
+      "url": "https://www.sostav.ru/blogs/292670/99749",
+      "title": "15 лучших голосовых ИИ-роботов для бизнеса в 2026/2027 году: рейтинг ...",
+      "from_query": "голосовой робот для обзвона 2026"
+    },
+    {
+      "url": "https://bot-craft.ru/blog/voice-bot-2026/",
+      "title": "Голосовые боты для бизнеса 2026: технологии, платформы, цены - честный ...",
+      "from_query": "голосовой бот для записи 2026"
+    },
+    {
+      "url": "https://dtf.ru/top-smm/3022936-20-luchshih-ii-servisov-dlya-zapisi-golosa-v-2026-godu",
+      "title": "20 лучших ИИ-сервисов для записи голоса в 2026 году",
+      "from_query": "голосовой бот для записи 2026"
+    },
+    {
+      "url": "https://flow-masters.ru/blog/ai-voice-calls-business-2026/",
+      "title": "Ии-звонки И Голосовые Боты Для Бизнеса В 2026: Технологии, Кейсы, Roi",
+      "from_query": "голосовой бот для записи 2026"
+    },
+    {
+      "url": "https://ai-spark.ru/blog/golosovoy-bot-dlya-biznesa-kak-vybrat",
+      "title": "Голосовой бот для бизнеса — как выбрать, сколько стоит, обзор 2026",
+      "from_query": "голосовой бот для записи 2026"
+    },
+    {
+      "url": "https://deplox.ru/blog/golosovoy-bot-dlya-biznesa-2025",
+      "title": "Голосовой бот для бизнеса в 2026: что это, как работает и стоит ли ...",
+      "from_query": "голосовой бот для записи 2026"
+    },
+    {
+      "url": "https://audiocleaner.ai/ru/ai-text-to-speech",
+      "title": "Бесплатный генератор голоса ИИ для озвучки текста онлайн",
+      "from_query": "голосовой бот для записи 2026"
+    },
+    {
+      "url": "https://envybox.io/blog/top-10-ai-robotov-dlja-biznesa/",
+      "title": "Ai-роботы Для Бизнеса 2026: Топ-10 Голосовых Ассистентов Для Обзвонов",
+      "from_query": "робот для входящих звонков 2026"
+    },
+    {
+      "url": "https://skorozvon.ru/",
+      "title": "Облачный сервис для автоматизации исходящих и входящих звонков",
+      "from_query": "робот для входящих звонков 2026"
+    },
+    {
+      "url": "https://soware.ru/products/zvonobot",
+      "title": "Звонобот: Описание, Функции и Интерфейс - 2026",
+      "from_query": "звонобот для бизнеса 2026"
+    },
+    {
+      "url": "https://zvonobot.ru/service/",
+      "title": "Голосовые продукты и решения для бизнеса — Звонобот",
+      "from_query": "звонобот для бизнеса 2026"
+    },
+    {
+      "url": "https://toolfox.ru/services/s/zvonobot",
+      "title": "Звонобот — автообзвон и голосовой ИИ-робот | Обзор, цены",
+      "from_query": "звонобот для бизнеса 2026"
+    },
+    {
+      "url": "https://aimarketcap.ru/ai-tools/zvonobot/",
+      "title": "Звонобот (Zvonobot): обзор ИИ-сервиса автоматического обзвона клиентов ...",
+      "from_query": "звонобот для бизнеса 2026"
+    },
+    {
+      "url": "https://sevinfo24.ru/poshagovyy-chek-list-dlya-nastroyki-golosovogo-robota-pod-biznes-zadachu-s-gotovymi-skriptami-i-fayl/",
+      "title": "Пошаговый чек-лист для настройки голосового робота под бизнес‑задачу с ...",
+      "from_query": "Как настроить голосового робота для подтверждения записей и квалификации: пошаговый гайд для бизнеса 2026"
+    },
+    {
+      "url": "https://www.mtt.ru/support/blog/etapy-vnedrenija-golosovogo-bota/",
+      "title": "Этапы внедрения голосового робота - как создать и настроить голосового ...",
+      "from_query": "Как настроить голосового робота для подтверждения записей и квалификации: пошаговый гайд для бизнеса 2026"
+    },
+    {
+      "url": "https://neuromate.ru/nastrojka-golosovogo-ai-agenta-guide/",
+      "title": "Настройка Голосового Ai-агента: Ключевые Этапы И Выгоды Для Бизнеса",
+      "from_query": "Как настроить голосового робота для подтверждения записей и квалификации: пошаговый гайд для бизнеса 2026"
+    },
+    {
+      "url": "https://blog.raisovich.ru/blog/gpt-live-1-golosovoj-ai-agent-nastrojka-2026/",
+      "title": "GPT-Live-1: пошаговое руководство по настройке голосового AI-агента для ...",
+      "from_query": "Как настроить голосового робота для подтверждения записей и квалификации: пошаговый гайд для бизнеса 2026"
+    },
+    {
+      "url": "https://legno-board.ru/poshagovyy-praktikum-po-nastroyke-golosovogo-robota-dlya-obrabotki-telefonnyh-zayavok-s-gotovymi-sts/",
+      "title": "Пошаговый практикум по настройке голосового робота для обработки ...",
+      "from_query": "Как настроить голосового робота для подтверждения записей и квалификации: пошаговый гайд для бизнеса 2026"
+    },
+    {
+      "url": "https://www.1cbit.ru/blog/kak-nastroit-golosovogo-bota-dlya-koll-tsentra/",
+      "title": "Как настроить голосового бота для колл центра",
+      "from_query": "Как настроить голосового робота для подтверждения записей и квалификации: пошаговый гайд для бизнеса 2026"
+    }
+  ]
+}

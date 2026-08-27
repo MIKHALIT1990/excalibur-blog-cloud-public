@@ -1,0 +1,46 @@
+{
+  "source": "memory/blog/articles/B11-golosovoj-robot-dlya-zvonkov-podtverzhdenie-zapisi/article.html",
+  "total_links": 4,
+  "failed_count": 0,
+  "verdict": "pass",
+  "links": [
+    {
+      "url": "https://ai-brother.ru/article-amocrm-leads-autofill-setup",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_relative",
+      "skipped": false,
+      "checked_url": "https://ai-brother.ru/article-amocrm-leads-autofill-setup"
+    },
+    {
+      "url": "https://ai-brother.ru/article-ai-agents-business-guide",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_relative",
+      "skipped": false,
+      "checked_url": "https://ai-brother.ru/article-ai-agents-business-guide"
+    },
+    {
+      "url": "https://ai-brother.ru",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "internal_absolute",
+      "skipped": false
+    },
+    {
+      "url": "https://t.me/ai_brother_ru",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "external",
+      "skipped": false
+    }
+  ]
+}
