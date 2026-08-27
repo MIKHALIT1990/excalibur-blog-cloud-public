@@ -3,8 +3,8 @@
 ![Excalibur Blog Cloud cover](assets/excalibur-blog-cover.png)
 
 <p align="center">
-  <a href="https://t.me/maya_pro">
-    <img src="https://img.shields.io/badge/Telegram-Maya%20Pro-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Maya Pro">
+  <a href="https://t.me/ai_brother_ru">
+    <img src="https://img.shields.io/badge/Telegram-AI%20Brother-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram AI Brother">
   </a>
 </p>
 

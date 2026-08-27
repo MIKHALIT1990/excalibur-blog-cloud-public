@@ -94,7 +94,7 @@ python scripts/excalibur_blog_quad_manifest.py --article-dir "$ARTICLE" --merge
 # 4. Промпт + batch (1 job)
 python scripts/excalibur_blog_cover_quad_prompt.py --article-dir "$ARTICLE" --write-batch
 #    Always regenerate batch in the current run. Do not reuse a pre-existing quad-mcp-batch.json.
-#    Hard checks before image API: prompt_chars <= 3500, reference_url_hosted contains mayai.ru, resolution == 2K.
+#    Hard checks before image API: prompt_chars <= 3500, reference_url_hosted contains ai-brother.ru, resolution == 2K.
 
 # 5. Kie async image API (primary Cloud path):
 #    Требует KIE_API_KEY из Cloud Secrets/env; не писать ключ в файлы/логи.

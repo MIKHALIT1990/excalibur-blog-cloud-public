@@ -127,7 +127,7 @@ Hard checks перед MCP:
 
 - batch всегда пересобран в текущем run; не использовать старый `quad-mcp-batch.json`
 - `validation.prompt_chars <= 3500`
-- `reference_url_hosted` содержит `mayai.ru`, не `files.catbox.moe`
+- `reference_url_hosted` содержит `ai-brother.ru`, не `files.catbox.moe`
 - `jobs[0].mcp_args.resolution === "2K"`
 
 ### Шаг 4 — Kie image API

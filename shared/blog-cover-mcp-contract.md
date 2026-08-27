@@ -10,7 +10,7 @@
 - **Одна** генерация на статью → `cover/canvas-quad.png`
 - **Обязательно:** `input_urls: [blog-hero.json → reference_url_hosted]`
 - Перед API всегда пересобрать `quad-mcp-batch.json`; не использовать старый article artifact
-- Hard gate: `mayai.ru` reference, prompt <= 3500 chars, `resolution: 2K`
+- Hard gate: `ai-brother.ru` reference, prompt <= 3500 chars, `resolution: 2K`
 - Result URL: `cover/quad-mcp-result.json` (legacy filename, используется `quad_apply`)
 - Split → `cover/cover.png` + `inline-01..03.png`
 - Registry: `cover/cover-registry.json`

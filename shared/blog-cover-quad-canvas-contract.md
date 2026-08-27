@@ -12,7 +12,7 @@ Hard gate перед image API:
 
 - `quad-mcp-batch.json` пересобран текущим run, а не взят из старого article artifact
 - `validation.prompt_chars <= 3500`
-- `reference_url_hosted` содержит `mayai.ru`; `files.catbox.moe` запрещён для reference
+- `reference_url_hosted` содержит `ai-brother.ru`; `files.catbox.moe` запрещён для reference
 - `jobs[0].mcp_args.resolution == "2K"`
 
 | Панель | Роль | Герой |
@@ -97,7 +97,7 @@ Split-скрипт **не режет механически 50/50**: ищет б
 - визуальные meme reaction cutouts (не один Drake на весь холст): facepalm, кот-реакция, rough-edge visual cutout; без принудительных сленговых надписей
 - 16:9 widescreen, **не** vertical carousel
 
-Inline panels: полезный UI + обязательный human layer той же серии Excalibur на белой базе (рваная бумага, scotch tape, pink sticky note, marker annotation, pasted screenshot/card layer, маленький visual meme reaction cutout). Plain whiteboard / минималистичная SaaS-схема без этих признаков или цветной/beige/grunge фон = **COVER STYLE BLOCKER**, требуется перегенерация.
+Inline panels: полезный UI + обязательный human layer той же серии Excalibur на белой базе (рваная бумага, scotch tape, sticky note, marker annotation, pasted screenshot/card layer, маленький visual meme reaction cutout). Plain whiteboard / минималистичная SaaS-схема без этих признаков или цветной/beige/grunge фон = **COVER STYLE BLOCKER**, требуется перегенерация.
 
 См. `memory/cover/inline-visual-types.json`. Выбор по keywords H2 в `excalibur_blog_quad_manifest.py`.
 
