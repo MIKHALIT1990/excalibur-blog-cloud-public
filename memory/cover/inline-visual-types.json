@@ -10,14 +10,14 @@
     "comparison_table_ui": {
       "label_ru": "Сравнительная таблица / UI-мокап",
       "keywords": ["seo и geo", "сравнен", " vs ", "разниц", "критери", "таблиц"],
-      "prompt_prefix": "Professional Russian blog editorial UI mockup pasted on pure white #FFFFFF background, clean useful dashboard card aesthetic, accent #E85D4C, readable Cyrillic labels, 16:9 widescreen screenshot style,",
-      "prompt_suffix": "looks like a helpful pasted screenshot with pink sticky note corner and scotch tape, human-made Notion/Google Sheets vibe, subtle shadow, high detail Cyrillic UI, no host face, no colored full-panel background",
+      "prompt_prefix": "Professional Russian blog editorial UI mockup pasted on pure white #FFFFFF background, clean useful dashboard card aesthetic, accent #2563EB, readable Cyrillic labels, 16:9 widescreen screenshot style,",
+      "prompt_suffix": "looks like a helpful pasted screenshot with sticky note corner and scotch tape, human-made Notion/Google Sheets vibe, subtle shadow, high detail Cyrillic UI, no host face, no colored full-panel background",
       "negative": "beige background, gray background, gradient, meme impact font, cartoon mascot, watermark, English UI labels, blurry text"
     },
     "workflow_diagram": {
       "label_ru": "Схема workflow / шаги",
       "keywords": ["структур", "longread", "семантик", "outline", "шаг", "как писать", "workflow", "процесс"],
-      "prompt_prefix": "Clean Russian infographic workflow diagram on pure white #FFFFFF background, numbered steps connected by arrows, editorial blog style, colors #FFFFFF #1A1A2E #E85D4C #FFD93D, 16:9,",
+      "prompt_prefix": "Clean Russian infographic workflow diagram on pure white #FFFFFF background, numbered steps connected by arrows, editorial blog style, colors #FFFFFF #0A0A0A #2563EB #FFD93D, 16:9,",
       "prompt_suffix": "readable Cyrillic step titles on torn-paper workflow strip over white base, marker arrows, taped checklist scrap, practical how-to, no meme faces",
       "negative": "beige background, gray background, gradient, meme, face closeup, watermark, chaotic collage, English text"
     },
@@ -45,7 +45,7 @@
     "infographic_card": {
       "label_ru": "Карточка-инфографика",
       "keywords": ["сколько", "символ", "объём", "статистик", "цифр", "e-e-a-t", "факт"],
-      "prompt_prefix": "Minimal Russian infographic card for blog article on pure white #FFFFFF background, 3-4 bullet facts with icons, editorial palette #FFFFFF #E85D4C, 16:9,",
+      "prompt_prefix": "Minimal Russian infographic card for blog article on pure white #FFFFFF background, 3-4 bullet facts with icons, editorial palette #FFFFFF #2563EB, 16:9,",
       "prompt_suffix": "readable Cyrillic facts, professional not meme, useful takeaway visual, no colored full-panel background",
       "negative": "beige background, gray background, gradient, meme, joke caption, watermark, English text"
     }

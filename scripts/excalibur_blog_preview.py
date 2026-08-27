@@ -75,11 +75,12 @@ def build_preview(article_dir: Path, root: Path) -> Path:
   <style>
     :root {{
       color-scheme: light;
-      --bg: #FAFAF7;
-      --text: #1A1A2E;
-      --muted: #5c5c72;
-      --accent: #E85D4C;
-      --line: #e8e8e0;
+      --bg: #FFFFFF;
+      --text: #0A0A0A;
+      --muted: #52525B;
+      --accent: #2563EB;
+      --line: #E4E4E7;
+      --card: #F4F4F5;
     }}
     * {{ box-sizing: border-box; }}
     body {{

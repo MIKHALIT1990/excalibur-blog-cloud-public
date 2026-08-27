@@ -79,7 +79,7 @@ def build_prompt(manifest: dict, style: dict, hero: dict, types_catalog: dict, d
     i1, i2, i3 = slot("inline_1"), slot("inline_2"), slot("inline_3")
 
     lines = [
-        "Russian human-made Excalibur BLOG hook collage on PURE WHITE #FFFFFF. Zine/trash-design: torn paper, scotch tape, pink notes, marker arrows, fake RU UI screenshots, meme cutouts. DESIGN.md-inspired bold readable Cyrillic; rotate hot accents (hot pink/purple/blue/orange); keep stickers/memes/collage; no price badges. Not corporate, not stock.",
+        "Russian human-made Excalibur BLOG hook collage on PURE WHITE #FFFFFF. Zine/trash-design: torn paper, scotch tape, sticky notes, marker arrows, fake RU UI screenshots, meme cutouts. DESIGN.md-inspired bold readable Cyrillic; primary blue #2563EB and AI Brother brand accents; keep stickers/memes/collage; no price badges. Not corporate, not stock.",
         "Single 2048x1152 canvas, exact 2x2 grid, four equal 16:9 panels (1024x576 each). Thin center gutters only; no bleed across quadrants.",
         "",
         "ALL panels keep a clean pure white #FFFFFF base; scraps/cards may cast light shadows but no beige, gray, gradient, grunge, paper-tint, or colored full-panel background.",

@@ -78,5 +78,5 @@ Excalibur BLOG читает этот файл для получения ключ
 ## Обложки
 
 - **preferred_cover_family:** brand_collage
-- **brand_colors:** #FFFFFF, #1A1A2E, #E85D4C, #2563EB
-- **visual_notes:** 16:9, чистый белый фон для обложки и inline; типографика обложки в стиле жирного condensed Cyrillic с hot-акцентами, sticker labels/brush bubbles/notes, без price badges; на коллажах — **русские подписи**, тема CRM, потерянных заявок и ИИ-автоматизации
+- **brand_colors:** #FFFFFF (background), #FAFAFA (site bg), #0A0A0A (text), #52525B (muted), #2563EB (accent primary / hook highlight), #1D4ED8 (accent deep / bitrix), #F4F4F5 (card), #16A34A (success), #DC2626 (danger), #FFD93D (optional marker highlight)
+- **visual_notes:** 16:9, чистый белый фон для обложки и inline; типографика обложки в стиле жирного condensed Cyrillic, акцент primary blue #2563EB, sticker labels/brush bubbles/handwritten notes, без price badges; на meme-коллажах — **русские подписи**, тема CRM, потерянных заявок и ИИ-автоматизации
