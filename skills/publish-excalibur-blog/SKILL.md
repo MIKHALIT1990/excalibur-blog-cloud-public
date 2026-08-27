@@ -33,7 +33,7 @@ description: Excalibur BLOG Publish — WP post, featured image, inline images, 
 python scripts/excalibur_blog_link_verify.py \
   memory/blog/articles/<topic_id>-<slug>/article.html \
   -o memory/blog/articles/<topic_id>-<slug>/link-verify.json \
-  --site-base https://mayai.ru
+  --site-base https://ai-brother.ru
 ```
 
 Gate: `link-verify.json` → pass. Иначе FIX (writer/QA) или BLOCKER.
@@ -96,7 +96,7 @@ python3 scripts/excalibur_blog_wp_publish.py \
 ```bash
 python3 scripts/excalibur_blog_interlinker.py --apply \
   --article-dir memory/blog/articles/<topic_id>-<slug> \
-  --site-base https://mayai.ru
+  --site-base https://ai-brother.ru
 ```
 
 Inbound-ссылки из старых статей на новую.

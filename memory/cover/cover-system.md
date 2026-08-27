@@ -4,7 +4,7 @@
 
 ## Pipeline
 
-`quad_canvas_1x_image_api` — **1** Kie GPT Image 2 i2i API task → canvas 2048×1152 → split 4×16:9 (1200×675 outputs). Prompt compact: one shared style lock + four short panel briefs. Hard gate: fresh batch, `mayai.ru` reference, prompt <= 3500 chars, resolution 2K.
+`quad_canvas_1x_image_api` — **1** Kie GPT Image 2 i2i API task → canvas 2048×1152 → split 4×16:9 (1200×675 outputs). Prompt compact: one shared style lock + four short panel briefs. Hard gate: fresh batch, `ai-brother.ru` reference, prompt <= 3500 chars, resolution 2K.
 
 ## Техника
 

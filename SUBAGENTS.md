@@ -2,7 +2,7 @@
 
 SEO/GEO статьи: **оркестратор + субагенты**, параллель **cover || schema**.
 
-## Cloud (как kovcheg-office-cloud)
+## Cloud (Cursor Cloud Worker)
 
 | Файл | Назначение |
 |------|------------|

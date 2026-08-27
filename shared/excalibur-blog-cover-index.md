@@ -41,7 +41,7 @@
 python scripts/excalibur_blog_hero_reference_url.py
 python scripts/excalibur_blog_quad_manifest.py --article-dir ... --merge
 python scripts/excalibur_blog_cover_quad_prompt.py --article-dir ... --write-batch
-# Hard gate: fresh batch only; reference_url_hosted contains mayai.ru; validation.prompt_chars <= 3500; resolution == 2K.
+# Hard gate: fresh batch only; reference_url_hosted contains ai-brother.ru; validation.prompt_chars <= 3500; resolution == 2K.
 # If the batch has files.catbox.moe, 1K, or a long prompt, regenerate/fail before image API.
 # Primary Cloud image call: KIE_API_KEY env -> createTask -> recordInfo polling -> quad-mcp-result.json.
 python scripts/excalibur_blog_kie_gpt_image2_api.py --article-dir ...
