@@ -1,0 +1,171 @@
+{
+  "article": "memory/blog/articles/B11-golosovoj-robot-dlya-zvonkov-podtverzhdenie-zapisi/article.html",
+  "fact_bank_source": "memory/brief/fact-bank.md",
+  "verdict": "warning",
+  "total_extracted_facts": 23,
+  "verified_facts_count": 3,
+  "unverified_facts_count": 20,
+  "facts": [
+    {
+      "fact": "150 000 рублей",
+      "kind": "price_or_currency",
+      "context": "е доходят до визита (no-show), и бизнес теряет от 150 000 рублей в месяц. Ручной обзвон срывается из-за запары на",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "1 000 000 рублей",
+      "kind": "price_or_currency",
+      "context": "аркированные вызовы. Штрафы ФАС за спам достигают 1 000 000 рублей. Звонок с брендированием (\"Этикетка\" или МАВ) пок",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "3 000 рублей",
+      "kind": "price_or_currency",
+      "context": "записи, мастер простаивает. Одно сорванное окно в 3 000 рублей дает 60 000 рублей потерь в месяц на мастера. На",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "60 000 рублей",
+      "kind": "price_or_currency",
+      "context": "стаивает. Одно сорванное окно в 3 000 рублей дает 60 000 рублей потерь в месяц на мастера. На практике администра",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "5 рублей",
+      "kind": "price_or_currency",
+      "context": "исей? Минута синтеза и распознавания речи стоит 3–5 рублей. Звонок длится 20–30 секунд, поэтому подтверждени",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "1 500 рублей",
+      "kind": "price_or_currency",
+      "context": "00 записях в месяц расходы составят около 1 000 – 1 500 рублей, что окупается спасением одного сорванного визита",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "зу открывает слот в расписании. Главное условие в 2026 году – официальная маркировка (\"Этикетка\" по 41-ФЗ",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2025 года",
+      "kind": "date_or_year",
+      "context": "фильтров и повышающая дозвон на 25%. С 1 сентября 2025 года в РФ действует 41-ФЗ: операторы (\"МегаФон\", МТС,",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "2026 года",
+      "kind": "date_or_year",
+      "context": "стотность запросов – по Яндекс Вордстат на август 2026 года. Частые вопросы Сколько стоит минута разговора го",
+      "verified": true,
+      "reason": "Numerical value '2026' matched in fact-bank context"
+    },
+    {
+      "fact": "30 минут",
+      "kind": "metric_or_duration",
+      "context": "сный голосовой робот для звонков решает задачу за 30 минут. Он звонит за 24 часа до визита, понимает речь и",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "2 мин",
+      "kind": "metric_or_duration",
+      "context": "ровкой. Скорость (50 звонков). 2–3 часа работы. 1–2 мин (сброс). 3–5 мин в фоне. Риск по 41-ФЗ. Отсутству",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "5 мин",
+      "kind": "metric_or_duration",
+      "context": "(50 звонков). 2–3 часа работы. 1–2 мин (сброс). 3–5 мин в фоне. Риск по 41-ФЗ. Отсутствует. Штраф до 1 мл",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "24 ч",
+      "kind": "metric_or_duration",
+      "context": "хитектура подтверждения визита: Триггер в CRM (за 24 ч) → Исходящий вызов (\"Этикетка\") → Распознавание р",
+      "verified": true,
+      "reason": "Numerical value '24' matched in fact-bank context"
+    },
+    {
+      "fact": "10 минут",
+      "kind": "metric_or_duration",
+      "context": "дминистратор тратит на утренний контроль не более 10 минут, неявки сокращаются в 1,5–2 раза, а расписание ма",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "60 минут",
+      "kind": "metric_or_duration",
+      "context": "ку или сбросит вызов? Система делает повтор через 60 минут (не более 2–3 звонков в день). Если дозвониться н",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "150 000",
+      "kind": "large_number",
+      "context": "е доходят до визита (no-show), и бизнес теряет от 150 000 рублей в месяц. Ручной обзвон срывается из-за запа",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "2025",
+      "kind": "large_number",
+      "context": "фильтров и повышающая дозвон на 25%. С 1 сентября 2025 года в РФ действует 41-ФЗ: операторы (\"МегаФон\", М",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "1 000 000",
+      "kind": "large_number",
+      "context": "аркированные вызовы. Штрафы ФАС за спам достигают 1 000 000 рублей. Звонок с брендированием (\"Этикетка\" или МА",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "3 000",
+      "kind": "large_number",
+      "context": "записи, мастер простаивает. Одно сорванное окно в 3 000 рублей дает 60 000 рублей потерь в месяц на мастер",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "60 000",
+      "kind": "large_number",
+      "context": "стаивает. Одно сорванное окно в 3 000 рублей дает 60 000 рублей потерь в месяц на мастера. На практике адми",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "500",
+      "kind": "large_number",
+      "context": "тому подтверждение обходится в 1,5–2,5 рубля. При 500 записях в месяц расходы составят около 1 000 – 1 5",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "1 000",
+      "kind": "large_number",
+      "context": "я. При 500 записях в месяц расходы составят около 1 000 – 1 500 рублей, что окупается спасением одного со",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "1 500",
+      "kind": "large_number",
+      "context": "00 записях в месяц расходы составят около 1 000 – 1 500 рублей, что окупается спасением одного сорванного",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    }
+  ]
+}

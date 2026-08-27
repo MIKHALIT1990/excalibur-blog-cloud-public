@@ -1,0 +1,130 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B11-golosovoj-robot-dlya-zvonkov-podtverzhdenie-zapisi/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      986,
+      576
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 576,
+        "end": 583
+      },
+      "v_gutter_px": {
+        "start": 986,
+        "end": 1022
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 10,
+          "right": 986,
+          "bottom": 565
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 986,
+          "bottom": 576
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Как настроить голосового робота для подтверждения записей и квалификации",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1022,
+          "top": 0,
+          "right": 2048,
+          "bottom": 576
+        },
+        "raw_box_px": {
+          "left": 1022,
+          "top": 0,
+          "right": 2048,
+          "bottom": 576
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица эффективности: ручной обзвон vs спам-автодозвон vs умный робот с маркировкой",
+        "h2_anchor": "Зачем бизнесу робот для звонков: как сократить неявки на 40% и разгрузить администраторов"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 0,
+          "top": 590,
+          "right": 986,
+          "bottom": 1145
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 583,
+          "right": 986,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема трех сценариев голосового робота: подтверждение визита, квалификация лида и прием входящих",
+        "h2_anchor": "Выберите сценарий: подтверждение визита, квалификация лида или входящая линия"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1029,
+          "top": 583,
+          "right": 2041,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1022,
+          "top": 583,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист структуры диалога голосового робота: приветствие, ветки согласия, отмены и перевод на человека",
+        "h2_anchor": "Соберите сценарий диалога: приветствие, ветки ответов и fallback на человека"
+      }
+    }
+  },
+  "html_inject": [
+    "injected inline_1 after H2 — Зачем бизнесу робот для звонков: как сократить неявки на 40% и разгрузить администраторов",
+    "injected inline_2 after H2 — Выберите сценарий: подтверждение визита, квалификация лида или входящая линия",
+    "injected inline_3 after H2 — Соберите сценарий диалога: приветствие, ветки ответов и fallback на человека"
+  ]
+}
