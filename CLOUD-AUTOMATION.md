@@ -1,6 +1,6 @@
 # Excalibur BLOG — Cloud Automation Setup
 
-Настройка запуска в **Cursor Cloud Agents / Automations** по образцу [kovcheg-office-cloud](https://github.com/Horosheff/kovcheg-office-cloud).
+Настройка запуска в **Cursor Cloud Agents / Automations**.
 
 ## Что запускаем
 
@@ -10,7 +10,7 @@
 doctor + today + research_start → research → writer → geo-qa → cover||schema → indexer → publish (auto; skip только publish:no)
 ```
 
-## Структура репозитория (как у Kovcheg Cloud)
+## Структура репозитория (Cursor Cloud)
 
 ```text
 <PROJECT_ROOT>/
@@ -117,7 +117,7 @@ Cursor Automation → Schedule, пример:
 9. Task(excalibur-blog-geo-qa) → PASS + все QA JSON, включая human-voice-report.json.
 10. ПАРАЛЛЕЛЬНО Task(excalibur-blog-cover) + Task(excalibur-blog-schema).
    Cover/schema пишут во fragments; перенеси в handoff.
-   Cover: перед MCP обязательно пересобрать `quad-mcp-batch.json`; hard gate: `validation.prompt_chars <= 3500`, `reference_url_hosted` содержит `mayai.ru` (не `files.catbox.moe`), `jobs[0].mcp_args.resolution == "2K"`. Если gate не проходит — не вызывать MCP, исправить batch. Image MCP должен быть client-timeout-safe. Если Available Tools содержит async image create/start + status/result — использовать async flow: create once → task_id → status/result → url. Если доступен только sync `gpt-image-2` — вызвать один раз с JSON arguments из `jobs[0].mcp_args`. Если sync call вернул `HTTP MCP -32001 Request timed out`, не retry вслепую и не искать URL в `cover/*`; проверить expanded tool response / Cursor MCP Logs. URL → записать `cover/quad-mcp-result.json`; task_id → использовать status/result tool. Если нет URL/task_id/status tool — `COVER MCP ASYNC BLOCKER`: backend должен дать async retrieval для позднего URL.
+   Cover: перед MCP обязательно пересобрать `quad-mcp-batch.json`; hard gate: `validation.prompt_chars <= 3500`, `reference_url_hosted` содержит `ai-brother.ru` (не `files.catbox.moe`), `jobs[0].mcp_args.resolution == "2K"`. Если gate не проходит — не вызывать MCP, исправить batch. Image MCP должен быть client-timeout-safe. Если Available Tools содержит async image create/start + status/result — использовать async flow: create once → task_id → status/result → url. Если доступен только sync `gpt-image-2` — вызвать один раз с JSON arguments из `jobs[0].mcp_args`. Если sync call вернул `HTTP MCP -32001 Request timed out`, не retry вслепую и не искать URL в `cover/*`; проверить expanded tool response / Cursor MCP Logs. URL → записать `cover/quad-mcp-result.json`; task_id → использовать status/result tool. Если нет URL/task_id/status tool — `COVER MCP ASYNC BLOCKER`: backend должен дать async retrieval для позднего URL.
 11. Task(excalibur-blog-indexer).
 12. Task(excalibur-blog-publish) — **автоматически** после Indexer (skip только publish:no). Skill: publish-excalibur-blog. Обнови shared/published-articles.md.
 

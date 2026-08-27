@@ -30,15 +30,15 @@
 Минимум для dry-run:
 
 ```text
-PUBLIC_SITE_URL=https://mayai.ru
+PUBLIC_SITE_URL=https://ai-brother.ru
 EXCALIBUR_BLOG_ALLOW_PUBLISH=no
 ```
 
 Для боевой публикации:
 
 ```text
-PUBLIC_SITE_URL=https://mayai.ru
-WP_SITE_URL=https://mayai.ru
+PUBLIC_SITE_URL=https://ai-brother.ru
+WP_SITE_URL=https://ai-brother.ru
 SSH_HOST=<host>
 SSH_USER=<user>
 SSH_PASS=<password>

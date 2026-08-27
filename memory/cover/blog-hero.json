@@ -1,27 +1,25 @@
 {
-  "hero_id": "blog-host",
-  "name_ru": "Артур Хорошев",
+  "hero_id": "brand-hero",
+  "name_ru": "AI Brother",
   "reference_image": "memory/cover/assets/blog-hero-reference.png",
-  "reference_notes": "Reference = только лицо (очки, quiff, борода). Мемный образ человека оставлять как в старом промпте; одежду агент меняет свободно под крючок и тему статьи — не копировать костюм с фото.",
+  "reference_notes": "Placeholder brand reference. Внимание: blog-hero-reference является плейсхолдером. Герой обложки — бренд-композиция (brand-only), без зафиксированного лица до добавления реального референса Михаила Литвинова.",
   "visual_lock": {
-    "face": "овальное лицо, дружелюбная улыбка",
-    "glasses": "круглые чёрные очки",
-    "hair": "густая светло-русый/пепельный quiff, зачёс вверх и вправо",
-    "beard": "аккуратная короткая борода с сединой",
-    "energy": "харизматичный ведущий, ироничный, не клоун"
+    "face": "brand-only, no locked face until real photo reference is provided",
+    "glasses": "none",
+    "hair": "none",
+    "beard": "none",
+    "energy": "экспертный, технологичный, практичный бизнес-подход"
   },
-  "outfit_rule": "Основной outfit героя на обложке: белое плотное худи heavyweight fabric. Поза, жест, ракурс, выражение, реквизит и композиция должны заметно меняться от обложки к обложке, но одежда не должна превращаться в наушники/headset-образ. Reference photo outfit is NOT mandatory.",
-  "reference_outfit_hint": "На эталонном фото — красный пиджак и бабочка; это лишь один из вариантов, не lock.",
-  "prompt_fragment": "Blog host on COVER ONLY: preserve EXACT face likeness from reference — round black glasses, ash-blonde quiff, salt-and-pepper beard; keep the old meme-person vibe. Outfit lock: thick heavyweight white hoodie. Vary pose, gesture, angle, expression, props and composition for every cover. No headphones, no headset, no earbuds. Do NOT copy reference photo clothing unless scene_hint asks.",
+  "outfit_rule": "Бренд-визуал: акцент на UI CRM (amoCRM, Битрикс24), связки воронки продаж, чек-листы и скриншоты реальных бизнес-процессов. Не генерировать фейковые лица и не копировать чужие портреты.",
+  "reference_outfit_hint": "Плейсхолдер reference. Лицо не фиксируется до предоставления реальной фотографии Михаила Литвинова.",
+  "prompt_fragment": "AI Brother brand collage on COVER: clean modern tech business aesthetic, CRM UI elements (amoCRM / Bitrix24), lead funnel diagrams, Russian meme/reaction stickers and bold readable Cyrillic headlines. No invented portraits, no headphones, no stock corporate models.",
   "cover_hook_rules": [
-    "Обложка = крючок: провокация, узнаваемая боль SEOшника, желание кликнуть",
-    "Крупный русский meme-caption на обложке (2–6 слов), читаемый",
-    "Герой смотрит в камеру или жестом указывает на текст",
-    "Не спойлерить весь гайд — намекнуть на конфликт SEO vs GEO / «текст не читают»",
-    "Одежда героя — белое плотное худи из плотной ткани; поза, жест, ракурс, выражение и реквизит должны заметно отличаться от прошлых обложек. Наушники/headset/earbuds запрещены. Лицо с reference обязательно",
-    "Design code: fake скрины (Wordstat, отзывы, Telegram), рваная бумага, скотч, розовый маркер, разные мем-реакции — «сделал человек», 16:9"
+    "Обложка = крючок: узнаваемая боль бизнеса (потерянные заявки, медленный первый ответ, хаос в CRM), желание кликнуть",
+    "Крупный русский meme-caption на обложке (2–6 слов), легко читаемый",
+    "Визуальный акцент на проблему скорости первого ответа и фиксации лида в CRM",
+    "Design code: fake скрины (CRM, Telegram-чат с клиентом, Wordstat, отзывы), рваная бумага, скотч, маркер, 16:9 widescreen"
   ],
-  "reference_url_hosted": "https://mayai.ru/wp-content/uploads/2026/06/ava.jpg",
-  "reference_url_source": "wordpress-media",
-  "reference_url_updated_at": "2026-06-16T06:17:00+03:00"
+  "reference_url_hosted": "https://ai-brother.ru/wp-content/uploads/2026/08/brand-cover-placeholder.jpg",
+  "reference_url_source": "placeholder",
+  "reference_url_updated_at": "2026-08-27T00:00:00+00:00"
 }

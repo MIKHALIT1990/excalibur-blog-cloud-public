@@ -223,7 +223,7 @@ Design Guardian / Excalibur run log проверяет:
 
 ---
 
-## Примеры (Kovcheg Kids)
+## Примеры (Brand Collage)
 
 **Family:** `brand_collage` + элементы `mascot_series`
 

@@ -12,11 +12,11 @@ description: Excalibur BLOG Indexer — interlink между статьями + 
 ```bash
 python3 scripts/excalibur_blog_interlinker.py --apply \
   --article-dir memory/blog/articles/<topic_id>-<slug> \
-  --site-base https://mayai.ru
+  --site-base https://ai-brother.ru
 
 python3 scripts/excalibur_blog_llms_generator.py \
   --blog-dir memory/blog/articles \
-  --site-base https://mayai.ru \
+  --site-base https://ai-brother.ru \
   --blog-path / \
   --out-dir memory/blog
 ```
