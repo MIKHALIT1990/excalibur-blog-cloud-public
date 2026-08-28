@@ -1,0 +1,22 @@
+{
+  "gate": "research-notes",
+  "status": "PASS",
+  "article_dir": "memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda",
+  "notes": "memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda/research-notes.md",
+  "context": "memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda/research-context.json",
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "today_iso": "2026-08-28",
+    "prefer_sources_after": "2026-05-30",
+    "source_urls": 27,
+    "source_domains": 9,
+    "source_table_rows": 23,
+    "accessed_at": 15,
+    "github_urls": 13,
+    "official_doc_urls": 11,
+    "action_outline_items": 7,
+    "pain_solution_rows": 7,
+    "technical_topic": true
+  }
+}

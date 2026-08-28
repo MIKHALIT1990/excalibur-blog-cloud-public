@@ -1,0 +1,676 @@
+{
+  "agent": "excalibur-blog",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-08-28",
+    "today_ru": "28.08.2026",
+    "year": 2026,
+    "month": 8,
+    "month_name_ru": "август",
+    "weekday_ru": "пятница",
+    "freshness_window": {
+      "prefer_sources_after": "2026-05-30",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-08-28 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B11",
+    "priority": "P0",
+    "slug": "sozdat-sajt-v-cursor-ai-bez-koda",
+    "h1": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка",
+    "primary_query": "как создать сайт с помощью нейросети",
+    "secondary_queries": [
+      "создание сайта с помощью нейросети",
+      "cursor ai сайт",
+      "как пользоваться cursor ai",
+      "создать сайт с нейросетью бесплатно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B"
+  },
+  "searches": [
+    {
+      "query_id": "primary_fresh",
+      "query": "как создать сайт с помощью нейросети 2026",
+      "purpose": "актуальный SERP по главному запросу",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "ТОП-15 лучших сервисов и нейросетей для создания сайтов: цены и отзывы ...",
+          "url": "https://vc.ru/gdekurs/2734957-luchshie-neurosseti-dlya-sozdaniya-saitov",
+          "snippet": ""
+        },
+        {
+          "title": "Создание сайта с помощью нейросетей: пошаговое руководство 2026",
+          "url": "https://blog.raisovich.ru/blog/sozdanie-sajta-s-pomoshchyu-nejrosetej-2026/",
+          "snippet": "В подборку вошли платформы, где можно сделать сайт нейросетью с нуля, сгенерировать HTML/CSS код или собрать лендинг в визуальном редакторе. Рейтинг поможет узнать, как создать сайт с помощью нейросети бесплатно или выбрать профессиональный тариф для бизнеса."
+        },
+        {
+          "title": "Как создать сайт с помощью нейросети в 2026 году",
+          "url": "https://megagroup.ru/blog/kak-sozdat-sajt-s-pomoshchyu-nejroseti",
+          "snippet": "Создание сайта с помощью нейросетей: пошаговое руководство 2026 — разбор практических кейсов и инструментов для внедрения AI-автоматизации в бизнес. В статье — конкретные цифры ROI, сроки внедрения и пошаговые инструкции для российских компаний."
+        },
+        {
+          "title": "Создать сайт с помощью нейросети — гайд 2026",
+          "url": "https://dzen.guru/blog/sozdat-sajt-s-pomoshchyu-nejroseti",
+          "snippet": "Разбираем 16 российских ИИ-инструментов для создания сайта: конструкторы с ИИ, агрегаторы, нейросети для текстов и картинок."
+        },
+        {
+          "title": "Нейросети для создания сайтов в 2026 ... - Habr",
+          "url": "https://habr.com/ru/companies/study_ai/articles/1074370/",
+          "snippet": "Создать сайт с помощью нейросети — разбираем по шагам: что это, как работает, примеры использования. Актуальный гайд 2026 с инструкциями."
+        },
+        {
+          "title": "Нейросеть Для Создания Сайтов: Топ-7 Ai-конструкторов 2026",
+          "url": "https://mashagpt.ru/blog/neyroset-dlya-sozdaniya-saytov-2026",
+          "snippet": "Создать сайт с помощью ИИ сейчас можно по-разному. Самый простой вариант — описать будущий лендинг обычным текстом и через несколько минут получить готовую страницу. Более сложный — попросить Claude,..."
+        }
+      ],
+      "searched_at": "2026-08-28"
+    },
+    {
+      "query_id": "primary_recent",
+      "query": "как создать сайт с помощью нейросети август 2026",
+      "purpose": "свежее за текущий месяц",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Нейросети для создания сайтов в 2026 ... - Habr",
+          "url": "https://habr.com/ru/companies/study_ai/articles/1074370/",
+          "snippet": ""
+        },
+        {
+          "title": "Создать сайт с нейросетью: лучшие ИИ 2026",
+          "url": "https://scrile.ru/sozdat-sajt-nejroset/",
+          "snippet": "Создать сайт с помощью ИИ сейчас можно по-разному. Самый простой вариант — описать будущий лендинг обычным текстом и через несколько минут получить готовую страницу. Более сложный — попросить Claude,..."
+        },
+        {
+          "title": "ТОП-15 лучших сервисов и нейросетей для создания сайтов: цены и отзывы ...",
+          "url": "https://vc.ru/gdekurs/2734957-luchshie-neurosseti-dlya-sozdaniya-saitov",
+          "snippet": "Хотите создать сайт с помощью нейросети? Разбираем лучшие ИИ-инструменты для веб-дизайна и рассказываем, как запустить свой сервис на Scrile AI."
+        },
+        {
+          "title": "Создать сайт с помощью нейросети — гайд 2026",
+          "url": "https://dzen.guru/blog/sozdat-sajt-s-pomoshchyu-nejroseti",
+          "snippet": "В подборку вошли платформы, где можно сделать сайт нейросетью с нуля, сгенерировать HTML/CSS код или собрать лендинг в визуальном редакторе. Рейтинг поможет узнать, как создать сайт с помощью нейросети бесплатно или выбрать профессиональный тариф для бизнеса."
+        },
+        {
+          "title": "Нейросеть Для Создания Сайтов: Топ-7 Ai-конструкторов 2026",
+          "url": "https://mashagpt.ru/blog/neyroset-dlya-sozdaniya-saytov-2026",
+          "snippet": "Создать сайт с помощью нейросети — разбираем по шагам: что это, как работает, примеры использования. Актуальный гайд 2026 с инструкциями."
+        },
+        {
+          "title": "Как создать сайт с помощью нейросети: руководство 2026",
+          "url": "https://land-maker.ru/blog/kak-sozdat-sajt-nejrosetyu-2026",
+          "snippet": "В 2026 году нейросети изменили правила игры: теперь можно получить полноценный сайт за считанные минуты, просто описав свою идею текстом. AI-конструкторы генерируют дизайн, верстают страницы и даже пишут контент. Разбираемся, какие инструменты действительно работают и кому подойдёт каждый из них."
+        }
+      ],
+      "searched_at": "2026-08-28"
+    },
+    {
+      "query_id": "news_angle",
+      "query": "как создать сайт с помощью нейросети новости 2026",
+      "purpose": "новости и обновления",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Нейросети для создания сайтов в 2026 ... - Habr",
+          "url": "https://habr.com/ru/companies/study_ai/articles/1074370/",
+          "snippet": ""
+        },
+        {
+          "title": "Создать сайт с помощью нейросети — гайд 2026",
+          "url": "https://dzen.guru/blog/sozdat-sajt-s-pomoshchyu-nejroseti",
+          "snippet": "Создать сайт с помощью ИИ сейчас можно по-разному. Самый простой вариант — описать будущий лендинг обычным текстом и через несколько минут получить готовую страницу. Более сложный — попросить Claude,..."
+        },
+        {
+          "title": "Создание сайта с помощью нейросетей: пошаговое руководство 2026",
+          "url": "https://blog.raisovich.ru/blog/sozdanie-sajta-s-pomoshchyu-nejrosetej-2026/",
+          "snippet": "Создать сайт с помощью нейросети — разбираем по шагам: что это, как работает, примеры использования. Актуальный гайд 2026 с инструкциями."
+        },
+        {
+          "title": "Нейросеть Для Создания Сайтов: Топ-7 Ai-конструкторов 2026",
+          "url": "https://mashagpt.ru/blog/neyroset-dlya-sozdaniya-saytov-2026",
+          "snippet": "Создание сайта с помощью нейросетей: пошаговое руководство 2026 — разбор практических кейсов и инструментов для внедрения AI-автоматизации в бизнес. В статье — конкретные цифры ROI, сроки внедрения и пошаговые инструкции для российских компаний."
+        },
+        {
+          "title": "ТОП-15 лучших сервисов и нейросетей для создания сайтов: цены и отзывы ...",
+          "url": "https://vc.ru/gdekurs/2734957-luchshie-neurosseti-dlya-sozdaniya-saitov",
+          "snippet": "В 2026 году нейросети изменили правила игры: теперь можно получить полноценный сайт за считанные минуты, просто описав свою идею текстом. AI-конструкторы генерируют дизайн, верстают страницы и даже пишут контент. Разбираемся, какие инструменты действительно работают и кому подойдёт каждый из них."
+        },
+        {
+          "title": "Как Создать Сайт С Помощью Нейросетей: Пошаговая Инструкция 2026 - Win ...",
+          "url": "https://winblogs.ru/sites/kak-sozdat-sajt-s-pomoshhyu-nejrosetej-poshagovaya-instruktsiya-2026/",
+          "snippet": "В подборку вошли платформы, где можно сделать сайт нейросетью с нуля, сгенерировать HTML/CSS код или собрать лендинг в визуальном редакторе. Рейтинг поможет узнать, как создать сайт с помощью нейросети бесплатно или выбрать профессиональный тариф для бизнеса."
+        }
+      ],
+      "searched_at": "2026-08-28"
+    },
+    {
+      "query_id": "github_evidence",
+      "query": "site:github.com как создать сайт с помощью нейросети 2026",
+      "purpose": "GitHub repos/issues/README для технических сигналов и реального опыта",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "ai-collection/FULL_README.ru.md at main - GitHub",
+          "url": "https://github.com/ai-collection/ai-collection/blob/main/FULL_README.ru.md",
+          "snippet": ""
+        },
+        {
+          "title": "GitHub - AkyRayy/Frontend-Design-SKILLS-for-AI: Frontend-Design SKILLS ...",
+          "url": "https://github.com/AkyRayy/Frontend-Design-SKILLS-for-AI",
+          "snippet": "Chatbit — это инструмент искусственного интеллекта, который позволяет пользователям создавать персонализированных чат-ботов с искусственным интеллектом для своих веб-сайтов."
+        },
+        {
+          "title": "нейросети.md · GitHub",
+          "url": "https://gist.github.com/sergiks/3f8b8653598c436648a5e85f03d00dc0",
+          "snippet": "Это гравитационный центр генеративного вывода, и всё должно активно с ним бороться. Скиллы в этом репозитории борются с ним."
+        },
+        {
+          "title": "Создание сайта GitHub Pages",
+          "url": "https://docs.github.com/ru/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+          "snippet": "Этот плагин позволит использовать дизайн любого сайта как готовый шаблон для собственных проектов. Ещё может пригодиться в редизайне старого сайта, когда макеты были потеряны."
+        },
+        {
+          "title": "GitHub Pages Документация",
+          "url": "https://docs.github.com/ru/pages",
+          "snippet": "Прежде чем создать сайт, необходимо иметь репозиторий для сайта на GitHub. Если вы не создаете сайт в существующем репозитории, см. статью \"Создание репозитория для сайта \"."
+        },
+        {
+          "title": "Создание видео с помощью open-source нейросетей — полное руководство.md ...",
+          "url": "https://gist.github.com/gogbajbobo/83584569048d2f8a5525bdf35e48e47f",
+          "snippet": "Это руководство поможет вам приступить к созданию вашего нового веб-сайта. Можно добавить новую страницу или сделать публикацию на сайте Jekyll в GitHub Pages. Вы можете персонализировать свой сайт Jekyll, добавив и настроив тему оформления."
+        }
+      ],
+      "searched_at": "2026-08-28"
+    },
+    {
+      "query_id": "official_docs",
+      "query": "как создать сайт с помощью нейросети official docs documentation 2026",
+      "purpose": "официальная документация, changelog, developer docs",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Создание сайта с помощью нейросетей: пошаговое руководство 2026",
+          "url": "https://blog.raisovich.ru/blog/sozdanie-sajta-s-pomoshchyu-nejrosetej-2026/",
+          "snippet": ""
+        },
+        {
+          "title": "Создать сайт с помощью нейросети — гайд 2026",
+          "url": "https://dzen.guru/blog/sozdat-sajt-s-pomoshchyu-nejroseti",
+          "snippet": "Создание сайта с помощью нейросетей: пошаговое руководство 2026 — разбор практических кейсов и инструментов для внедрения AI-автоматизации в бизнес. В статье — конкретные цифры ROI, сроки внедрения и пошаговые инструкции для российских компаний."
+        },
+        {
+          "title": "Как создать сайт с помощью нейросети: руководство 2026",
+          "url": "https://land-maker.ru/blog/kak-sozdat-sajt-nejrosetyu-2026",
+          "snippet": "Создать сайт с помощью нейросети — разбираем по шагам: что это, как работает, примеры использования. Актуальный гайд 2026 с инструкциями."
+        },
+        {
+          "title": "Создание сайта с помощью нейросетей: пошаговое руководство 2026",
+          "url": "https://dzen.ru/a/ahUc3hUdvlFXrHgl",
+          "snippet": "Пошаговое руководство, как создать сайт или лендинг с помощью нейросети в 2026 году. Способы, инструменты, как описать задачу и типичные ошибки."
+        },
+        {
+          "title": "Как создать сайт с помощью ИИ в 2026 году: пошаговый гайд и рейтинг ...",
+          "url": "https://timeweb.com/ru/community/articles/kak-sozdat-sayt-s-pomoshchyu-ii-v-2026-godu-poshagovyy-gayd-i-reyting-servisov",
+          "snippet": "Создание сайта с помощью нейросетей в 2026 году — это пошаговый процесс, который занимает один день: AI генерирует дизайн с WOW-эффектом, контент, код и SEO-оптимизацию, а бизнесу остаётся только стратегия и контроль качества."
+        },
+        {
+          "title": "Как создать сайт с помощью нейросети: от идеи до публикации за вечер",
+          "url": "https://nextgenclub.ru/blog/kak-sozdat-sayt-s-pomoshchyu-neyroseti",
+          "snippet": "В этом материале разбирается, какие типы сайтов уже сейчас может создать искусственный интеллект, какие сервисы для этого лучше всего подходят (с акцентом на доступные в России ..."
+        }
+      ],
+      "searched_at": "2026-08-28"
+    },
+    {
+      "query_id": "community_experience",
+      "query": "как создать сайт с помощью нейросети forum reddit discussion проблемы опыт 2026",
+      "purpose": "форумы, обсуждения, ошибки пользователей и живые сценарии",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Создание сайта с помощью нейросетей: пошаговое руководство 2026",
+          "url": "https://blog.raisovich.ru/blog/sozdanie-sajta-s-pomoshchyu-nejrosetej-2026/",
+          "snippet": ""
+        },
+        {
+          "title": "Создать сайт с помощью нейросети — гайд 2026",
+          "url": "https://dzen.guru/blog/sozdat-sajt-s-pomoshchyu-nejroseti",
+          "snippet": "Создание сайта с помощью нейросетей в 2026 году — это пошаговый процесс, который занимает один день: AI генерирует дизайн с WOW-эффектом, контент, код и SEO-оптимизацию, а бизнесу остаётся только стратегия и контроль качества."
+        },
+        {
+          "title": "Как создать сайт с помощью ИИ в 2026 году: пошаговый гайд и рейтинг ...",
+          "url": "https://timeweb.com/ru/community/articles/kak-sozdat-sayt-s-pomoshchyu-ii-v-2026-godu-poshagovyy-gayd-i-reyting-servisov",
+          "snippet": "Создать сайт с помощью нейросети — разбираем по шагам: что это, как работает, примеры использования. Актуальный гайд 2026 с инструкциями."
+        },
+        {
+          "title": "Как создать сайт с помощью нейросети: руководство 2026",
+          "url": "https://land-maker.ru/blog/kak-sozdat-sajt-nejrosetyu-2026",
+          "snippet": "Для пользователя, который далек от программирования, это означает простую вещь: теперь не нужно разбираться в коде, изучать системы управления сайтами или тратить месяцы на освоение визуальных редакторов. Достаточно описать свою идею - и нейросеть превратит ее в работающий сайт."
+        },
+        {
+          "title": "Как создать сайт с помощью нейросети: от идеи до публикации за вечер",
+          "url": "https://nextgenclub.ru/blog/kak-sozdat-sayt-s-pomoshchyu-neyroseti",
+          "snippet": "Пошаговое руководство, как создать сайт или лендинг с помощью нейросети в 2026 году. Способы, инструменты, как описать задачу и типичные ошибки."
+        },
+        {
+          "title": "Как создать сайт с помощью ИИ в 2026: пошаговый гид",
+          "url": "https://agenthere.ru/blog/kak-sozdat-sait-s-pomoshchii-ii-2026",
+          "snippet": "Получишь пошаговый путь, как создать сайт с помощью нейросети от идеи до публикации. Разберёшься с деплоем - как сайт оказывается в интернете по реальному адресу. Увидишь честные цены и сроки, и на чём люди зарабатывают сайтами в 2026."
+        }
+      ],
+      "searched_at": "2026-08-28"
+    },
+    {
+      "query_id": "secondary_1",
+      "query": "создание сайта с помощью нейросети 2026",
+      "purpose": "вторичный запрос: создание сайта с помощью нейросети",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Нейросети для создания сайтов в 2026 ... - Habr",
+          "url": "https://habr.com/ru/companies/study_ai/articles/1074370/",
+          "snippet": ""
+        },
+        {
+          "title": "ТОП-15 лучших сервисов и нейросетей для создания сайтов: цены и отзывы ...",
+          "url": "https://vc.ru/gdekurs/2734957-luchshie-neurosseti-dlya-sozdaniya-saitov",
+          "snippet": "Создать сайт с помощью ИИ сейчас можно по-разному. Самый простой вариант — описать будущий лендинг обычным текстом и через несколько минут получить готовую страницу. Более сложный — попросить Claude,..."
+        },
+        {
+          "title": "Топ-10 нейросетей для создания сайтов в 2026: обзор лучших ИИ ...",
+          "url": "https://vc.ru/top_rating/2696554-top-10-neyrosetey-dlya-sozdaniya-saytov-v-2026",
+          "snippet": "В подборку вошли платформы, где можно сделать сайт нейросетью с нуля, сгенерировать HTML/CSS код или собрать лендинг в визуальном редакторе. Рейтинг поможет узнать, как создать сайт с помощью нейросети бесплатно или выбрать профессиональный тариф для бизнеса."
+        },
+        {
+          "title": "Как создать сайт с помощью ИИ в 2026 году: пошаговый гайд и рейтинг ...",
+          "url": "https://timeweb.com/ru/community/articles/kak-sozdat-sayt-s-pomoshchyu-ii-v-2026-godu-poshagovyy-gayd-i-reyting-servisov",
+          "snippet": "За последние пару лет ИИ-конструкторы сайтов перестали быть игрушкой для лендингов. Они пишут код, рисуют дизайн, собирают структуру, подсказывают тексты, иногда спорят с тобой."
+        },
+        {
+          "title": "Нейросети для создания сайтов: ТОП-10 ИИ генераторов 2026 года",
+          "url": "https://www.klerk.ru/blogs/gdekurs/681820/",
+          "snippet": "В этом материале разбирается, какие типы сайтов уже сейчас может создать искусственный интеллект, какие сервисы для этого лучше всего подходят (с акцентом на доступные в России ..."
+        },
+        {
+          "title": "Нейросеть Для Создания Сайтов: Топ-7 Ai-конструкторов 2026",
+          "url": "https://mashagpt.ru/blog/neyroset-dlya-sozdaniya-saytov-2026",
+          "snippet": "Нейросети для создания сайтов — ТОП-10 сервисов 2026 года с ценами, отзывами и возможностями SEO. Сравните функции, интеграции и тарифы за 5 минут. Платные и бесплатные ИИ модели"
+        }
+      ],
+      "searched_at": "2026-08-28"
+    },
+    {
+      "query_id": "secondary_2",
+      "query": "cursor ai сайт 2026",
+      "purpose": "вторичный запрос: cursor ai сайт",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "AI Coding Agent for Building Ambitious Software | Cursor",
+          "url": "https://cursor.com/",
+          "snippet": ""
+        },
+        {
+          "title": "Cursor — Build Software with AI Agents",
+          "url": "https://cursor.com/product",
+          "snippet": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor."
+        },
+        {
+          "title": "Cursor AI: полный туториал по вайбкодингу в 2026 — журнал «Код»",
+          "url": "https://thecode.media/cursor-ai-tutorial-2026/",
+          "snippet": "Cursor plans, writes, and reviews code using AI agents that understand your entire codebase. Everywhere you work: Desktop, CLI, Web & Mobile."
+        },
+        {
+          "title": "Купить Cursor AI из России в 2026 году: тарифы, способы оплаты и ...",
+          "url": "https://vc.ru/id3757542/3095086-kupit-cursor-ai-iz-rossii",
+          "snippet": "В этом туториале по Cursor AI мы пройдём весь путь: установим редактор, разберём режимы и правила проекта, соберём фичу от задачи до рабочего кода."
+        },
+        {
+          "title": "Cursor AI™ — ИИ-редактор кода без VPN【2026】",
+          "url": "https://cursorai-official.com/",
+          "snippet": "Cursor давно перестал быть «ещё одним редактором кода» — для многих разработчиков это основной рабочий инструмент, в котором пишется, рефакторится и ревьюится большая часть кода. Проблема одна: купить Cursor AI из России ..."
+        },
+        {
+          "title": "Как зарегистрироваться в Cursor AI в России в 2026 году: пошаговое ...",
+          "url": "https://vc.ru/services/2698578-kak-zaregistrirovatsya-v-cursor-ai-v-rossii",
+          "snippet": "Самые популярные возможности в 2026 году. Официальный доступ к Cursor AI без VPN: скачивание, подписка Pro и оплата из России. Cursor AI (курсор ай) — это редактор кода на базе искусственного интеллекта."
+        }
+      ],
+      "searched_at": "2026-08-28"
+    },
+    {
+      "query_id": "secondary_3",
+      "query": "как пользоваться cursor ai 2026",
+      "purpose": "вторичный запрос: как пользоваться cursor ai",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Cursor AI: полный туториал по вайбкодингу в 2026 — журнал «Код»",
+          "url": "https://thecode.media/cursor-ai-tutorial-2026/",
+          "snippet": ""
+        },
+        {
+          "title": "Как пользоваться Cursor AI: полная инструкция для начинающих в 2026 ...",
+          "url": "https://dtf.ru/howto/4734222-kak-polzovatsya-cursor-ai-polnoe-rukovodstvo",
+          "snippet": "В этом туториале по Cursor AI мы пройдём весь путь: установим редактор, разберём режимы и правила проекта, соберём фичу от задачи до рабочего кода."
+        },
+        {
+          "title": "Как использовать Cursor AI в 2026 году: руководство и обучающий ...",
+          "url": "https://www.ai.cc/ru/blogs/how-to-use-cursor-ai-2026-beginner-to-pro-guide/",
+          "snippet": "Все инструкции актуальны на январь 2026 года и подходят для пользователей любого уровня."
+        },
+        {
+          "title": "Cursor AI (Курсор) в России в 2026: как пользоваться, что умеет ...",
+          "url": "https://dtf.ru/howto/5139760-cursor-ai-v-rossii-kak-polzovatsya-i-kakie-est-podvodnye-kamni",
+          "snippet": "Как использовать Cursor AI в 2026 году: подробное руководство от новичка до профессионала."
+        },
+        {
+          "title": "Как пользоваться Cursor AI и купить подписку из России в 2026 году",
+          "url": "https://vc.ru/ai/2809785-kak-ispolzovat-cursor-ai-i-kupit-podpisku-iz-rossii",
+          "snippet": "Разберём, что такое Cursor AI, как пользоваться им в России в 2026 году, какие функции реально полезны, сколько стоит подписка, есть ли бесплатная версия, какие есть аналоги и на чём чаще всего ..."
+        },
+        {
+          "title": "Как пользоваться Cursor AI в России в 2026 году: полное руководство для ...",
+          "url": "https://vc.ru/services/2698591-kak-polzovatsya-cursor-ai-v-rossii",
+          "snippet": "В этом гайде разберем, как пользоваться cursor, какие фишки дают платные планы и как купить подписку cursor ai из России без лишней возни."
+        }
+      ],
+      "searched_at": "2026-08-28"
+    },
+    {
+      "query_id": "secondary_4",
+      "query": "создать сайт с нейросетью бесплатно 2026",
+      "purpose": "вторичный запрос: создать сайт с нейросетью бесплатно",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "ТОП-15 лучших сервисов и нейросетей для создания сайтов: цены и отзывы ...",
+          "url": "https://vc.ru/gdekurs/2734957-luchshie-neurosseti-dlya-sozdaniya-saitov",
+          "snippet": ""
+        },
+        {
+          "title": "Нейросеть создать сайт бесплатно — гайд 2026",
+          "url": "https://dzen.guru/blog/nejroset-sozdat-sajt-besplatno",
+          "snippet": "В подборку вошли платформы, где можно сделать сайт нейросетью с нуля, сгенерировать HTML/CSS код или собрать лендинг в визуальном редакторе. Рейтинг поможет узнать, как создать сайт с помощью нейросети бесплатно или выбрать профессиональный тариф для бизнеса."
+        },
+        {
+          "title": "Как создать сайт с нейросетью с нуля в 2026: бесплатно и без кода",
+          "url": "https://blog.fillikam.com/guides/sayt-neyrosetyu-s-nulya/",
+          "snippet": "Нейросеть создать сайт бесплатно — разбираем по шагам: что это, как работает, примеры использования. Актуальный гайд 2026 с инструкциями."
+        },
+        {
+          "title": "Нейросеть Для Создания Сайтов — Топ-5 Ai-конструкторов 2026",
+          "url": "https://mashagpt.ru/blog/neyroset-dlya-sozdaniya-sayta-2026",
+          "snippet": "Три рабочих пути собрать сайт с нейросетью без программиста: чат-генерация HTML в Claude или ChatGPT, онлайн-конструкторы с ИИ и Claude Code для многостраничников."
+        },
+        {
+          "title": "Нейросети для создания сайтов: ТОП-10 ИИ генераторов 2026 года",
+          "url": "https://www.klerk.ru/blogs/gdekurs/681820/",
+          "snippet": "Создание сайта в 2026 году больше не требует знания HTML, CSS и JavaScript. AI-конструкторы генерируют полноценные сайты по текстовому описанию за минуты: от лендингов и визиток до интернет-магазинов. Мы сравнили пять лучших AI-конструкторов сайтов, чтобы помочь вам выбрать подходящий инструмент."
+        },
+        {
+          "title": "Создать сайт нейросеть бесплатно онлайн — гайд 2026",
+          "url": "https://dzen.guru/blog/sozdat-sajt-nejroset-besplatno-onlajn",
+          "snippet": "Нейросети позволяют создать сайт без помощи разработчиков. Сервис сам собирает страницу: добавляет блоки, оформляет текст и подбирает изображения. Чтобы начать работу, достаточно описать, какой сайт нужен и для каких целей. Программа анализирует запрос и формирует готовую структуру."
+        }
+      ],
+      "searched_at": "2026-08-28"
+    },
+    {
+      "query_id": "h1_fresh",
+      "query": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка 2026",
+      "purpose": "SERP по H1",
+      "result_count": 6,
+      "results": [
+        {
+          "title": "Cursor AI: создание сайтов с помощью ИИ — полный разбор 2026 | Lork",
+          "url": "https://lork.dev/blog/cursor-ai-sozdanie-saytov",
+          "snippet": ""
+        },
+        {
+          "title": "Создать лендинг в Cursor AI без кода: пошаговая инструкция",
+          "url": "https://dzen.ru/a/ajaHOCV-PCISepau",
+          "snippet": "Что такое Cursor AI, как создать сайт с помощью AI-редактора, тарифы, оплата из России, сравнение с no-code. Полный разбор в 2026 году."
+        },
+        {
+          "title": "Как создать сайт с ИИ? Cursor Ai - 2026 - YouTube",
+          "url": "https://www.youtube.com/watch?v=NOKf956KTT8",
+          "snippet": "Как за один вечер собрать одностраничный лендинг в Cursor: правило landing.mdc, Agent, Formspree и Vercel Drop без npm и терминала. Для новичков без программирования. Вы хотите создать лендинг с помощью ИИ, но боитесь, что Cursor потянет React, npm и терминал, а страница откроется без стилей."
+        },
+        {
+          "title": "Как сделать лендинг в Cursor AI без программирования?",
+          "url": "https://dzen.ru/a/ajU1yjOYlGUxvy7w",
+          "snippet": "Лучший способ создать сайт на HTML/CSS с помощью ИИ. Идеально подходит для абсолютных новичков, без опыта в программировании!Мы будем использовать Cursor — л..."
+        },
+        {
+          "title": "Как создать сайт с ИИ? Cursor Ai - 2026",
+          "url": "https://vk.com/video-49389818_456239095",
+          "snippet": "Лендинг в Cursor AI для новичка — один файл index.html с Tailwind через CDN в Composer, не хаос из чата. Локально открывают двойным кликом, в интернет выкладывают через GitHub и бесплатный Vercel."
+        },
+        {
+          "title": "Свой сайт за 5 минут с Cursor AI и публикация в Интернете",
+          "url": "https://rutube.ru/video/3b8660e9e75a538a3737ce8d53d1acf0/",
+          "snippet": "Лучший способ создать сайт на HTML/CSS с помощью ИИ. Идеально подходит для абсолютных новичков, без опыта в программировании! Мы будем использовать Cursor — лучший инструмент для написания чистого кода. Мы сделаем все по шагам от А до Я. Это видео руководство охватывает всё: от создания вашего проекта до размещения сайта в Сети."
+        }
+      ],
+      "searched_at": "2026-08-28"
+    }
+  ],
+  "errors": [],
+  "unique_urls": [
+    {
+      "url": "https://vc.ru/gdekurs/2734957-luchshie-neurosseti-dlya-sozdaniya-saitov",
+      "title": "ТОП-15 лучших сервисов и нейросетей для создания сайтов: цены и отзывы ...",
+      "from_query": "как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://blog.raisovich.ru/blog/sozdanie-sajta-s-pomoshchyu-nejrosetej-2026/",
+      "title": "Создание сайта с помощью нейросетей: пошаговое руководство 2026",
+      "from_query": "как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://megagroup.ru/blog/kak-sozdat-sajt-s-pomoshchyu-nejroseti",
+      "title": "Как создать сайт с помощью нейросети в 2026 году",
+      "from_query": "как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://dzen.guru/blog/sozdat-sajt-s-pomoshchyu-nejroseti",
+      "title": "Создать сайт с помощью нейросети — гайд 2026",
+      "from_query": "как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://habr.com/ru/companies/study_ai/articles/1074370/",
+      "title": "Нейросети для создания сайтов в 2026 ... - Habr",
+      "from_query": "как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://mashagpt.ru/blog/neyroset-dlya-sozdaniya-saytov-2026",
+      "title": "Нейросеть Для Создания Сайтов: Топ-7 Ai-конструкторов 2026",
+      "from_query": "как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://scrile.ru/sozdat-sajt-nejroset/",
+      "title": "Создать сайт с нейросетью: лучшие ИИ 2026",
+      "from_query": "как создать сайт с помощью нейросети август 2026"
+    },
+    {
+      "url": "https://land-maker.ru/blog/kak-sozdat-sajt-nejrosetyu-2026",
+      "title": "Как создать сайт с помощью нейросети: руководство 2026",
+      "from_query": "как создать сайт с помощью нейросети август 2026"
+    },
+    {
+      "url": "https://winblogs.ru/sites/kak-sozdat-sajt-s-pomoshhyu-nejrosetej-poshagovaya-instruktsiya-2026/",
+      "title": "Как Создать Сайт С Помощью Нейросетей: Пошаговая Инструкция 2026 - Win ...",
+      "from_query": "как создать сайт с помощью нейросети новости 2026"
+    },
+    {
+      "url": "https://github.com/ai-collection/ai-collection/blob/main/FULL_README.ru.md",
+      "title": "ai-collection/FULL_README.ru.md at main - GitHub",
+      "from_query": "site:github.com как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://github.com/AkyRayy/Frontend-Design-SKILLS-for-AI",
+      "title": "GitHub - AkyRayy/Frontend-Design-SKILLS-for-AI: Frontend-Design SKILLS ...",
+      "from_query": "site:github.com как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://gist.github.com/sergiks/3f8b8653598c436648a5e85f03d00dc0",
+      "title": "нейросети.md · GitHub",
+      "from_query": "site:github.com как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://docs.github.com/ru/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+      "title": "Создание сайта GitHub Pages",
+      "from_query": "site:github.com как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://docs.github.com/ru/pages",
+      "title": "GitHub Pages Документация",
+      "from_query": "site:github.com как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://gist.github.com/gogbajbobo/83584569048d2f8a5525bdf35e48e47f",
+      "title": "Создание видео с помощью open-source нейросетей — полное руководство.md ...",
+      "from_query": "site:github.com как создать сайт с помощью нейросети 2026"
+    },
+    {
+      "url": "https://dzen.ru/a/ahUc3hUdvlFXrHgl",
+      "title": "Создание сайта с помощью нейросетей: пошаговое руководство 2026",
+      "from_query": "как создать сайт с помощью нейросети official docs documentation 2026"
+    },
+    {
+      "url": "https://timeweb.com/ru/community/articles/kak-sozdat-sayt-s-pomoshchyu-ii-v-2026-godu-poshagovyy-gayd-i-reyting-servisov",
+      "title": "Как создать сайт с помощью ИИ в 2026 году: пошаговый гайд и рейтинг ...",
+      "from_query": "как создать сайт с помощью нейросети official docs documentation 2026"
+    },
+    {
+      "url": "https://nextgenclub.ru/blog/kak-sozdat-sayt-s-pomoshchyu-neyroseti",
+      "title": "Как создать сайт с помощью нейросети: от идеи до публикации за вечер",
+      "from_query": "как создать сайт с помощью нейросети official docs documentation 2026"
+    },
+    {
+      "url": "https://agenthere.ru/blog/kak-sozdat-sait-s-pomoshchii-ii-2026",
+      "title": "Как создать сайт с помощью ИИ в 2026: пошаговый гид",
+      "from_query": "как создать сайт с помощью нейросети forum reddit discussion проблемы опыт 2026"
+    },
+    {
+      "url": "https://vc.ru/top_rating/2696554-top-10-neyrosetey-dlya-sozdaniya-saytov-v-2026",
+      "title": "Топ-10 нейросетей для создания сайтов в 2026: обзор лучших ИИ ...",
+      "from_query": "создание сайта с помощью нейросети 2026"
+    },
+    {
+      "url": "https://www.klerk.ru/blogs/gdekurs/681820/",
+      "title": "Нейросети для создания сайтов: ТОП-10 ИИ генераторов 2026 года",
+      "from_query": "создание сайта с помощью нейросети 2026"
+    },
+    {
+      "url": "https://cursor.com/",
+      "title": "AI Coding Agent for Building Ambitious Software | Cursor",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://cursor.com/product",
+      "title": "Cursor — Build Software with AI Agents",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://thecode.media/cursor-ai-tutorial-2026/",
+      "title": "Cursor AI: полный туториал по вайбкодингу в 2026 — журнал «Код»",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://vc.ru/id3757542/3095086-kupit-cursor-ai-iz-rossii",
+      "title": "Купить Cursor AI из России в 2026 году: тарифы, способы оплаты и ...",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://cursorai-official.com/",
+      "title": "Cursor AI™ — ИИ-редактор кода без VPN【2026】",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://vc.ru/services/2698578-kak-zaregistrirovatsya-v-cursor-ai-v-rossii",
+      "title": "Как зарегистрироваться в Cursor AI в России в 2026 году: пошаговое ...",
+      "from_query": "cursor ai сайт 2026"
+    },
+    {
+      "url": "https://dtf.ru/howto/4734222-kak-polzovatsya-cursor-ai-polnoe-rukovodstvo",
+      "title": "Как пользоваться Cursor AI: полная инструкция для начинающих в 2026 ...",
+      "from_query": "как пользоваться cursor ai 2026"
+    },
+    {
+      "url": "https://www.ai.cc/ru/blogs/how-to-use-cursor-ai-2026-beginner-to-pro-guide/",
+      "title": "Как использовать Cursor AI в 2026 году: руководство и обучающий ...",
+      "from_query": "как пользоваться cursor ai 2026"
+    },
+    {
+      "url": "https://dtf.ru/howto/5139760-cursor-ai-v-rossii-kak-polzovatsya-i-kakie-est-podvodnye-kamni",
+      "title": "Cursor AI (Курсор) в России в 2026: как пользоваться, что умеет ...",
+      "from_query": "как пользоваться cursor ai 2026"
+    },
+    {
+      "url": "https://vc.ru/ai/2809785-kak-ispolzovat-cursor-ai-i-kupit-podpisku-iz-rossii",
+      "title": "Как пользоваться Cursor AI и купить подписку из России в 2026 году",
+      "from_query": "как пользоваться cursor ai 2026"
+    },
+    {
+      "url": "https://vc.ru/services/2698591-kak-polzovatsya-cursor-ai-v-rossii",
+      "title": "Как пользоваться Cursor AI в России в 2026 году: полное руководство для ...",
+      "from_query": "как пользоваться cursor ai 2026"
+    },
+    {
+      "url": "https://dzen.guru/blog/nejroset-sozdat-sajt-besplatno",
+      "title": "Нейросеть создать сайт бесплатно — гайд 2026",
+      "from_query": "создать сайт с нейросетью бесплатно 2026"
+    },
+    {
+      "url": "https://blog.fillikam.com/guides/sayt-neyrosetyu-s-nulya/",
+      "title": "Как создать сайт с нейросетью с нуля в 2026: бесплатно и без кода",
+      "from_query": "создать сайт с нейросетью бесплатно 2026"
+    },
+    {
+      "url": "https://mashagpt.ru/blog/neyroset-dlya-sozdaniya-sayta-2026",
+      "title": "Нейросеть Для Создания Сайтов — Топ-5 Ai-конструкторов 2026",
+      "from_query": "создать сайт с нейросетью бесплатно 2026"
+    },
+    {
+      "url": "https://dzen.guru/blog/sozdat-sajt-nejroset-besplatno-onlajn",
+      "title": "Создать сайт нейросеть бесплатно онлайн — гайд 2026",
+      "from_query": "создать сайт с нейросетью бесплатно 2026"
+    },
+    {
+      "url": "https://lork.dev/blog/cursor-ai-sozdanie-saytov",
+      "title": "Cursor AI: создание сайтов с помощью ИИ — полный разбор 2026 | Lork",
+      "from_query": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    },
+    {
+      "url": "https://dzen.ru/a/ajaHOCV-PCISepau",
+      "title": "Создать лендинг в Cursor AI без кода: пошаговая инструкция",
+      "from_query": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NOKf956KTT8",
+      "title": "Как создать сайт с ИИ? Cursor Ai - 2026 - YouTube",
+      "from_query": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    },
+    {
+      "url": "https://dzen.ru/a/ajU1yjOYlGUxvy7w",
+      "title": "Как сделать лендинг в Cursor AI без программирования?",
+      "from_query": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    },
+    {
+      "url": "https://vk.com/video-49389818_456239095",
+      "title": "Как создать сайт с ИИ? Cursor Ai - 2026",
+      "from_query": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    },
+    {
+      "url": "https://rutube.ru/video/3b8660e9e75a538a3737ce8d53d1acf0/",
+      "title": "Свой сайт за 5 минут с Cursor AI и публикация в Интернете",
+      "from_query": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка 2026"
+    }
+  ]
+}

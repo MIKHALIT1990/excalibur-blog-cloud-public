@@ -1,0 +1,50 @@
+{
+  "topic_id": "B11",
+  "slug": "sozdat-sajt-v-cursor-ai-bez-koda",
+  "cover_family": "brand_collage",
+  "style_preset": "digital_meme_collage_ru",
+  "pipeline": "quad_canvas_1x_mcp",
+  "file": "cover/cover.png",
+  "alt": "Обложка: Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка",
+  "aspect_ratio": "16:9",
+  "canvas_source": "cover/canvas-quad.png",
+  "generated_at": "2026-08-28T08:31:27+00:00",
+  "assets": [
+    {
+      "role": "cover",
+      "slot": "cover",
+      "file": "cover/cover.png",
+      "alt": "Обложка: Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка",
+      "h2_anchor": null,
+      "visual_type": "cover_meme_hero",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_1",
+      "file": "cover/inline-01.png",
+      "alt": "Сравнительная таблица / UI-мокап: Single-file HTML против сложных фреймворков в Cursor AI",
+      "h2_anchor": "Зафиксируйте правило landing.mdc и заблокируйте сложные фреймворки",
+      "visual_type": "comparison_table_ui",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_2",
+      "file": "cover/inline-02.png",
+      "alt": "Схема workflow / шаги: Подготовка брифа на русском языке и сборка каркаса в Agent Mode",
+      "h2_anchor": "Подготовьте бриф на русском языке и соберите каркас в Agent Mode",
+      "visual_type": "workflow_diagram",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "role": "inline",
+      "slot": "inline_3",
+      "file": "cover/inline-03.png",
+      "alt": "Чеклист / printable board: Настройка ключевых блоков сайта — главный экран, тарифы и отзывы",
+      "h2_anchor": "Настройте ключевые блоки: главный экран, сетку тарифов и отзывы",
+      "visual_type": "checklist_board",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

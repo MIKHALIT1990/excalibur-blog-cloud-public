@@ -242,3 +242,27 @@ python scripts/excalibur_blog_utility_gate.py --topic-id <ID>
 - **internal_links:** /avtomatizaciya-n8n-ai-agents/, /podklyuchenie-mcp-cursor/, /postroenie-rag-sistemy-vektornaya-baza/
 - **cover_scene_hint:** мини-сервер или ПК с логотипом Ollama, из корпуса — стрелки к qwen/llama-стикерам, кабель API к n8n и Cursor, замок «данные локально», чек-лист RAM/GPU, тёплый неоновый diy-коллаж
 
+---
+
+## B11 — Создание сайта в Cursor AI без кода
+
+- **priority:** P0
+- **slug:** sozdat-sajt-v-cursor-ai-bez-koda
+- **h1:** Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка
+- **primary_query:** как создать сайт с помощью нейросети
+- **secondary_queries:** создание сайта с помощью нейросети, cursor ai сайт, как пользоваться cursor ai, создать сайт с нейросетью бесплатно
+- **search_intent:** how_to
+- **article_mode:** B
+- **beginner_angle:** новичок без опыта программирования и без терминала создаст адаптивный одностраничный сайт в одном файле index.html через Agent Mode в Cursor AI, подключит форму сбора заявок через Formspree и опубликует проект бесплатно через Vercel Drop за один вечер.
+- **h2_outline:**
+  1. Установить Cursor AI и зафиксировать правило .cursor/rules/landing.mdc с запретом React и npm
+  2. Подготовить текстовый бриф и сгенерировать каркас сайта через Agent Mode (Ctrl+I)
+  3. Добавить визуальные блоки: Hero, УТП, тарифы, отзывы и адаптивное мобильное меню
+  4. Подключить бесплатную форму сбора заявок без бэкенда через Formspree
+  5. Опубликовать готовый сайт в один клик через Vercel Drop или GitHub Pages
+  6. Чек-лист проверки перед запуском: адаптивность, скорость загрузки, отправка лидов и базовые SEO-теги
+- **faq_hints:** как создать сайт с помощью нейросети бесплатно; нужен ли опыт программирования для cursor ai; как опубликовать сайт из cursor ai без хостинга; почему cursor предлагает react и как это отключить
+- **internal_links:** /podklyuchenie-mcp-cursor/, /geo-optimizaciya-sajta-2026/, /sozdat-llms-txt-dlya-sajta/
+- **cover_scene_hint:** ноутбук с открытым интерфейсом Cursor AI, на экране собирается яркий одностраничный сайт из цветных блоков, стикеры "Tailwind CDN", "Formspree", "Vercel Drop", яркая плашка "No Code / 1 вечер", тёплый неоновый diy-коллаж
+
+
