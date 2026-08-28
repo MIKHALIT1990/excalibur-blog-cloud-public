@@ -1,0 +1,29 @@
+{
+  "topic_id": "B11",
+  "slug": "sozdat-sajt-v-cursor-ai-bez-koda",
+  "h1": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка",
+  "primary_query": "как создать сайт с помощью нейросети",
+  "secondary_queries": [
+    "создание сайта с помощью нейросети",
+    "cursor ai сайт",
+    "как пользоваться cursor ai",
+    "создать сайт с нейросетью бесплатно"
+  ],
+  "char_count": 8945,
+  "article_mode": "B",
+  "author_id": "mikhail-litvinov",
+  "anchor_variants": [
+    "как создать сайт в cursor ai без кода",
+    "создание сайта с помощью нейросети пошагово",
+    "одностраничный сайт html tailwind в cursor ai"
+  ],
+  "meta_ab": {
+    "title_seo": "Как создать сайт с помощью нейросети в Cursor AI без кода",
+    "title_ctr": "Сайт за 30 минут в Cursor AI: как собрать лендинг без знания кода?",
+    "title_aeo": "Как создать сайт с помощью нейросети в Cursor AI без кода?",
+    "description_seo": "Пошаговое руководство по созданию сайта в Cursor AI без кода. Сборка single-file HTML на Tailwind CDN, прием заявок через Formspree и хостинг на Vercel Drop.",
+    "description_ctr": "Забудьте про дорогие конструкторы! Узнайте, как собрать сайт в Cursor AI за вечер без единой строчки кода и опубликовать его бесплатно за 60 секунд.",
+    "description_aeo": "Создание сайта с помощью нейросети в Cursor AI: пошаговая инструкция по сборке одностраничника в index.html с Tailwind CDN, формой Formspree и публикацией на Vercel."
+  },
+  "cover_family": "brand_collage"
+}

@@ -1,0 +1,130 @@
+{
+  "agent": "excalibur-blog-cover-quad-split",
+  "status": "PASS",
+  "manifest": "cover/quad-manifest.json",
+  "split": {
+    "source_canvas": "memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda/cover/canvas-quad.png",
+    "source_size_px": [
+      2048,
+      1152
+    ],
+    "panel_size_px": [
+      1025,
+      577
+    ],
+    "split_meta": {
+      "split_mode": "gutter_detect",
+      "h_gutter_px": {
+        "start": 577,
+        "end": 609
+      },
+      "v_gutter_px": {
+        "start": 1025,
+        "end": 1045
+      }
+    },
+    "output_size_px": [
+      1200,
+      675
+    ],
+    "outputs": {
+      "cover": {
+        "file": "cover/cover.png",
+        "quadrant": "top_left",
+        "box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1025,
+          "bottom": 577
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1025,
+          "bottom": 577
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Обложка: Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка",
+        "h2_anchor": null
+      },
+      "inline_1": {
+        "file": "cover/inline-01.png",
+        "quadrant": "top_right",
+        "box_px": {
+          "left": 1045,
+          "top": 6,
+          "right": 2048,
+          "bottom": 570
+        },
+        "raw_box_px": {
+          "left": 1045,
+          "top": 0,
+          "right": 2048,
+          "bottom": 577
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Сравнительная таблица / UI-мокап: Single-file HTML против сложных фреймворков в Cursor AI",
+        "h2_anchor": "Зафиксируйте правило landing.mdc и заблокируйте сложные фреймворки"
+      },
+      "inline_2": {
+        "file": "cover/inline-02.png",
+        "quadrant": "bottom_left",
+        "box_px": {
+          "left": 30,
+          "top": 609,
+          "right": 995,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 0,
+          "top": 609,
+          "right": 1025,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Схема workflow / шаги: Подготовка брифа на русском языке и сборка каркаса в Agent Mode",
+        "h2_anchor": "Подготовьте бриф на русском языке и соберите каркас в Agent Mode"
+      },
+      "inline_3": {
+        "file": "cover/inline-03.png",
+        "quadrant": "bottom_right",
+        "box_px": {
+          "left": 1064,
+          "top": 609,
+          "right": 2029,
+          "bottom": 1152
+        },
+        "raw_box_px": {
+          "left": 1045,
+          "top": 609,
+          "right": 2048,
+          "bottom": 1152
+        },
+        "size_px": [
+          1200,
+          675
+        ],
+        "aspect_ratio": "16:9",
+        "alt": "Чеклист / printable board: Настройка ключевых блоков сайта — главный экран, тарифы и отзывы",
+        "h2_anchor": "Настройте ключевые блоки: главный экран, сетку тарифов и отзывы"
+      }
+    }
+  },
+  "html_inject": [
+    "injected inline_1 after H2 — Зафиксируйте правило landing.mdc и заблокируйте сложные фреймворки",
+    "injected inline_2 after H2 — Подготовьте бриф на русском языке и соберите каркас в Agent Mode",
+    "injected inline_3 after H2 — Настройте ключевые блоки: главный экран, сетку тарифов и отзывы"
+  ]
+}

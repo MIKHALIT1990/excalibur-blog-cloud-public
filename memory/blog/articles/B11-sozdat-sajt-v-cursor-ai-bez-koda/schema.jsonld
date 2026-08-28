@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ai-brother.ru/#organization",
+      "name": "AI Brother — блог",
+      "url": "https://ai-brother.ru/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://ai-brother.ru/#logo",
+        "url": "https://ai-brother.ru/logo.png",
+        "caption": "AI Brother"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ai-brother.ru/#author-mikhail-litvinov",
+      "name": "Михаил Литвинов",
+      "jobTitle": "Основатель AI Brother, практик внедрения ИИ-систем и CRM-автоматизации",
+      "description": "Основатель AI Brother. Специализируется на внедрении ИИ-агентов, голосовых роботов и CRM-интеграций (amoCRM, Битрикс24) для исключения потери заявок в бизнесе.",
+      "image": "https://ai-brother.ru",
+      "worksFor": {
+        "@id": "https://ai-brother.ru/#organization"
+      },
+      "sameAs": [
+        "https://ai-brother.ru",
+        "https://t.me/ai_brother_ru"
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://ai-brother.ru/article-sozdat-sajt-v-cursor-ai-bez-koda/#article",
+      "headline": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка",
+      "description": "Пошаговое руководство по созданию сайта в Cursor AI без кода. Сборка single-file HTML на Tailwind CDN, прием заявок через Formspree и хостинг на Vercel Drop.",
+      "datePublished": "2026-08-28",
+      "dateModified": "2026-08-28",
+      "inLanguage": "ru",
+      "url": "https://ai-brother.ru/article-sozdat-sajt-v-cursor-ai-bez-koda",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://ai-brother.ru/article-sozdat-sajt-v-cursor-ai-bez-koda"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://ai-brother.ru/wp-content/uploads/blog/sozdat-sajt-v-cursor-ai-bez-koda-cover.png",
+        "width": 1200,
+        "height": 675
+      },
+      "author": {
+        "@id": "https://ai-brother.ru/#author-mikhail-litvinov"
+      },
+      "publisher": {
+        "@id": "https://ai-brother.ru/#organization"
+      },
+      "keywords": "как создать сайт с помощью нейросети, создание сайта с помощью нейросети, cursor ai сайт, как пользоваться cursor ai, создать сайт с нейросетью бесплатно",
+      "wordCount": 980,
+      "articleSection": "AI-агенты",
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "AI Brother — блог",
+        "url": "https://ai-brother.ru/articles"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ai-brother.ru/article-sozdat-sajt-v-cursor-ai-bez-koda/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Как создать сайт с помощью нейросети бесплатно?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Установите редактор Cursor AI на бесплатном тарифе, создайте пустую папку с файлом правил landing.mdc и через Agent Mode сгенерируйте одностраничный сайт в файле index.html с библиотекой Tailwind CSS. Для сбора заявок подключите бесплатный тариф Formspree, а опубликуйте проект без абонентской платы через Vercel Drop или GitHub Pages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Нужен ли опыт программирования для работы в Cursor AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Нет, для создания одностраничных сайтов знание кода не требуется. Вы описываете структуру страницы и пожелания по дизайну обычным русским языком, а нейросеть самостоятельно создает чистый HTML-код, настраивает стили и подключает шрифты."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Почему Cursor AI предлагает установить React и как это отключить?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "По умолчанию искусственный интеллект ориентируется на шаблоны сложной веб-разработки. Чтобы запретить генерацию лишних файлов, создайте файл .cursor/rules/landing.mdc с требованием собирать проект строго в одном файле index.html без Node.js и npm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Как выложить сайт из Cursor AI в интернет без хостинга?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Используйте сервис Vercel Drop: откройте страницу сервиса в браузере и перетащите папку с файлом index.html в окно загрузки. Сервис опубликует сайт за 30–60 секунд и выдаст постоянный защищенный адрес HTTPS."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Куда приходят заявки с формы на сайте?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "При использовании сервиса Formspree контакты клиентов (имя, телефон, комментарий) мгновенно пересылаются на ваш email или в Telegram без необходимости настраивать серверную часть и базы данных."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Можно ли привязать свой домен к бесплатному сайту?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, в настройках проектов Vercel или GitHub Pages в разделе Custom Domains можно бесплатно подключить любой собственный домен в зоне .ru или международной зоне, добавив DNS-записи у регистратора."
+          }
+        }
+      ]
+    }
+  ]
+}

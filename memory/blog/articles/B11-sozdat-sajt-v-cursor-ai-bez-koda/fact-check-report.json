@@ -1,0 +1,115 @@
+{
+  "article": "memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda/article.html",
+  "fact_bank_source": "memory/brief/fact-bank.md",
+  "verdict": "warning",
+  "total_extracted_facts": 15,
+  "verified_facts_count": 2,
+  "unverified_facts_count": 13,
+  "facts": [
+    {
+      "fact": "0 рублей",
+      "kind": "price_or_currency",
+      "context": ", Framer) Веб-студия на заказ Ежемесячные затраты 0 рублей (полностью бесплатно) От 1 500 до 3 000 рублей в",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "3 000 рублей",
+      "kind": "price_or_currency",
+      "context": "атраты 0 рублей (полностью бесплатно) От 1 500 до 3 000 рублей в месяц 0 руб. после сдачи (хостинг от 300 руб.)",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "0 руб",
+      "kind": "price_or_currency",
+      "context": "остью бесплатно) От 1 500 до 3 000 рублей в месяц 0 руб. после сдачи (хостинг от 300 руб.) Срок запуска п",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "300 руб",
+      "kind": "price_or_currency",
+      "context": "000 рублей в месяц 0 руб. после сдачи (хостинг от 300 руб.) Срок запуска проекта 30–60 минут за один вечер",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "а 60 секунд. Создание сайта с помощью нейросети в 2026 году перестало требовать навыков программирования",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2026 года",
+      "kind": "date_or_year",
+      "context": "ю. По данным статистики Яндекс Вордстат на август 2026 года, поисковый интерес к фразам \"cursor ai\" (11 852 п",
+      "verified": true,
+      "reason": "Numerical value '2026' matched in fact-bank context"
+    },
+    {
+      "fact": "30 минут",
+      "kind": "metric_or_duration",
+      "context": "форму сбора заявок и опубликуете проект в сети за 30 минут. Суть методики простыми словами: мы настраиваем C",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "60 минут",
+      "kind": "metric_or_duration",
+      "context": "ачи (хостинг от 300 руб.) Срок запуска проекта 30–60 минут за один вечер 1–3 дня ручной сборки блоков От 2 д",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "6 недель",
+      "kind": "metric_or_duration",
+      "context": "а один вечер 1–3 дня ручной сборки блоков От 2 до 6 недель согласований Владение исходным кодом 100% ваши фа",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "15 минут",
+      "kind": "metric_or_duration",
+      "context": "продаж, если перезвонить клиенту позже чем через 15 минут, вероятность успешной сделки падает в несколько р",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "11 852",
+      "kind": "large_number",
+      "context": "026 года, поисковый интерес к фразам \"cursor ai\" (11 852 показа в месяц) и \"создать сайт с помощью нейросет",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "3 000",
+      "kind": "large_number",
+      "context": "есяц) и \"создать сайт с помощью нейросети\" (свыше 3 000 целевых запросов) растет быстрее классических плат",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "1 500",
+      "kind": "large_number",
+      "context": "есячные затраты 0 рублей (полностью бесплатно) От 1 500 до 3 000 рублей в месяц 0 руб. после сдачи (хостин",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "300",
+      "kind": "large_number",
+      "context": "000 рублей в месяц 0 руб. после сдачи (хостинг от 300 руб.) Срок запуска проекта 30–60 минут за один веч",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "200",
+      "kind": "large_number",
+      "context": "крытия: страница без тяжелых скриптов весит менее 200 килобайт и загружается быстрее 1 секунды даже при",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    }
+  ]
+}

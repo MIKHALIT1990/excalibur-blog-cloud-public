@@ -476,3 +476,47 @@ permalink=[REDACTED]/ollama-lokalnaya-llm-dlya-biznesa/
 ### Note
 
 SSH configured remote root returned ENOENT; script auto-fallback to `.` succeeded on first attempt. Recommend updating `SSH_ROOT` to `.` in Cloud Secrets.
+
+---
+
+## 2026-08-28 — B11 sozdat-sajt-v-cursor-ai-bez-koda — **BLOCKER**
+
+| Field | Value |
+|-------|-------|
+| topic_id | B11 |
+| slug | sozdat-sajt-v-cursor-ai-bez-koda |
+| verdict | **BLOCKER** |
+| post_id | — |
+| permalink | — |
+| target_permalink | https://ai-brother.ru/article-sozdat-sajt-v-cursor-ai-bez-koda |
+
+### Preconditions (local)
+
+- article-qa.md: PASS (92/100)
+- link-verify.json: pass (4/4, re-run preflight 2026-08-28)
+- schema.jsonld: present
+- cover/cover.png + cover-registry.json alt: present
+- dry-run: OK (slug, title, image, content length: 16959)
+
+### Blocker
+
+`EXCALIBUR_BLOG_ALLOW_PUBLISH != yes` — Cursor Cloud Secrets / env vars не инжектированы в VM:
+
+- `memory/site.env.local` отсутствует
+- `python3 scripts/excalibur_blog_ab_queue_publish.py --env-check` → FAIL (`allow_publish: false`, missing: `AB_API_KEY`, `SSH_HOST`, `SSH_USER`, `SSH_PASS/SSH_PASSWORD`)
+
+### Attempt
+
+```bash
+python3 scripts/excalibur_blog_link_verify.py memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda/article.html -o memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda/link-verify.json --site-base https://ai-brother.ru  # pass (4 links)
+python3 scripts/excalibur_blog_ab_queue_publish.py --env-check  # exit 1 (missing secrets)
+python3 scripts/excalibur_blog_ab_queue_publish.py --article-dir memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda --dry-run  # OK
+python3 scripts/excalibur_blog_ab_queue_publish.py --article-dir memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda  # BLOCKER: EXCALIBUR_BLOG_ALLOW_PUBLISH != yes
+```
+
+### Next steps (оператор)
+
+1. Добавить в Cursor Dashboard → Cloud Agents → Secrets: `AB_API_KEY`, `SSH_HOST`, `SSH_USER`, `SSH_PASS`/`SSH_PASSWORD`, `SSH_PORT`, `AB_QUEUE_ROOT`, `PUBLIC_SITE_URL`, `EXCALIBUR_BLOG_ALLOW_PUBLISH=yes`.
+2. Перезапустить публикацию: `python3 scripts/excalibur_blog_ab_queue_publish.py --article-dir memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda`.
+3. Либо создать `memory/site.env.local` локально и выполнить публикацию с локальной машины.
+
