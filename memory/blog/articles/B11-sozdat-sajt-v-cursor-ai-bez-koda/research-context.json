@@ -1,0 +1,101 @@
+{
+  "agent": "excalibur-blog",
+  "step": "research_start",
+  "date_context": {
+    "timezone": "Europe/Moscow",
+    "today_iso": "2026-08-28",
+    "today_ru": "28.08.2026",
+    "year": 2026,
+    "month": 8,
+    "month_name_ru": "август",
+    "weekday_ru": "пятница",
+    "freshness_window": {
+      "prefer_sources_after": "2026-05-30",
+      "note": "Предпочитай источники не старше ~90 дней; версии продуктов — актуальные на today_iso."
+    },
+    "research_disclaimer": "Все даты, версии и статистика в статье должны быть проверены на 2026-08-28 (2026 год)."
+  },
+  "topic": {
+    "topic_id": "B11",
+    "priority": "P0",
+    "slug": "sozdat-sajt-v-cursor-ai-bez-koda",
+    "h1": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка",
+    "primary_query": "как создать сайт с помощью нейросети",
+    "secondary_queries": [
+      "создание сайта с помощью нейросети",
+      "cursor ai сайт",
+      "как пользоваться cursor ai",
+      "создать сайт с нейросетью бесплатно"
+    ],
+    "search_intent": "how_to",
+    "article_mode": "B"
+  },
+  "utility_gate": {
+    "gate": "topic",
+    "topic_id": "B11",
+    "status": "PASS",
+    "search_intent": "how_to",
+    "article_mode": "B",
+    "errors": [],
+    "warnings": []
+  },
+  "search_queries": [
+    {
+      "id": "primary_fresh",
+      "query": "как создать сайт с помощью нейросети 2026",
+      "purpose": "актуальный SERP по главному запросу"
+    },
+    {
+      "id": "primary_recent",
+      "query": "как создать сайт с помощью нейросети август 2026",
+      "purpose": "свежее за текущий месяц"
+    },
+    {
+      "id": "news_angle",
+      "query": "как создать сайт с помощью нейросети новости 2026",
+      "purpose": "новости и обновления"
+    },
+    {
+      "id": "github_evidence",
+      "query": "site:github.com как создать сайт с помощью нейросети 2026",
+      "purpose": "GitHub repos/issues/README для технических сигналов и реального опыта"
+    },
+    {
+      "id": "official_docs",
+      "query": "как создать сайт с помощью нейросети official docs documentation 2026",
+      "purpose": "официальная документация, changelog, developer docs"
+    },
+    {
+      "id": "community_experience",
+      "query": "как создать сайт с помощью нейросети forum reddit discussion проблемы опыт 2026",
+      "purpose": "форумы, обсуждения, ошибки пользователей и живые сценарии"
+    },
+    {
+      "id": "secondary_1",
+      "query": "создание сайта с помощью нейросети 2026",
+      "purpose": "вторичный запрос: создание сайта с помощью нейросети"
+    },
+    {
+      "id": "secondary_2",
+      "query": "cursor ai сайт 2026",
+      "purpose": "вторичный запрос: cursor ai сайт"
+    },
+    {
+      "id": "secondary_3",
+      "query": "как пользоваться cursor ai 2026",
+      "purpose": "вторичный запрос: как пользоваться cursor ai"
+    },
+    {
+      "id": "secondary_4",
+      "query": "создать сайт с нейросетью бесплатно 2026",
+      "purpose": "вторичный запрос: создать сайт с нейросетью бесплатно"
+    },
+    {
+      "id": "h1_fresh",
+      "query": "Как создать сайт в Cursor AI без кода: пошаговая инструкция для новичка 2026",
+      "purpose": "SERP по H1"
+    }
+  ],
+  "output_dir": "memory/blog/articles/B11-sozdat-sajt-v-cursor-ai-bez-koda",
+  "next_step": "Прочитай research-serp.json, дополни web research, напиши research-notes.md"
+}
